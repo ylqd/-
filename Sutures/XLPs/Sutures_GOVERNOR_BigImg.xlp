@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Sutures_GOVERNOR_BigImg"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesPatriot_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesPatriot_PortraitSelected"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesHappySis_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesHappySis_PortraitSelected"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesHappySis_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesHappySis_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesPatriot_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesPatriot_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesWolfWarrior_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesWolfWarrior_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesWolfWarrior_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesWolfWarrior_PortraitSelected"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesRegulators_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesRegulators_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesRegulators_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesRegulators_PortraitSelected"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesAntiFraudsters_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesAntiFraudsters_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesAntiFraudsters_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesAntiFraudsters_PortraitSelected"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesRational_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesRational_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesRational_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesRational_PortraitSelected"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesWinner_Portrait"/>
+			<m_ObjectName text="GOVERNOR_SuturesWinner_Portrait"/>
+		</Element>
+		<Element>
+			<m_EntryID text="GOVERNOR_SuturesWinner_PortraitSelected"/>
+			<m_ObjectName text="GOVERNOR_SuturesWinner_PortraitSelected"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

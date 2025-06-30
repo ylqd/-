@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_Sutures_MOD_TITLE">
+			<Text>永赢者文明</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_AUTHORS">
+			<Text>爱疯超人</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_THANKS">
+			<Text>特别感谢 B 站的 Hemmelfort 老师，mod 制作技术都是从他的教程学的，感谢老师的无私奉献。</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_HOMEPAGE">
+			<Text>暂无</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_TEASER">
+			<Text>永赢者文明和它的 1 个 领袖</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_DESCRIPTION">
+			<Text>
+				新人练手作品，主要根据已有的文明缝合了一个文明出来，强度一般，勉强能和天神难度碰一下，主打特性广度，各种类型的特性基本都有（除了宗教）。[NEWLINE][NEWLINE]
+				该模组从全 dlc 的文明和领袖中摘要了约 24 个特性加成，按照功能分类，封装到了不同的特色总督的技能中（部分技能被适度强化），可以按需启用。[NEWLINE][NEWLINE]
+				该模组强依赖于 dlc 兴衰迭起、风云变幻。此外，由于该模组中的大部分特色总督用的都是秘密结社总督的外壳，因此最好有埃塞俄比亚包的 dlc，否则总督部分的显示可能会缺少背景，稍微影响感官。[NEWLINE][NEWLINE]
+				该模组仅支持风云变幻 dlc 游戏版本。
+			</Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

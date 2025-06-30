@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_CIVILIZATION_Sutures_NAME">
+			<Text>永赢者</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_StitchingMonster_NAME">
+			<Text>反诈先锋</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SuturesAbility_NAME">
+			<Text>偷回了永乐大典</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_CIVILIZATION_SuturesAbility_DESCRIPTION">
+			<Text>新增多个特色总督。开局自动解锁制陶术、畜牧业、采矿业三项科技。</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_StitchingMonsterAbility_NAME">
+			<Text>这是俺拾嘞</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LEADER_StitchingMonsterAbility_DESCRIPTION">
+			<Text>开局获得大量的总督头衔。</Text>
+		</Replace>
+		
+		<!--区域-->
+		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_NAME">
+			<Text>知识荒漠</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION">
+			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），+2 基础相邻 [ICON_Science]科技值，额外产出 1 点 [ICON_GreatScientist]大科学家点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME">
+			<Text>大 A 赌场</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TypeAcasino_DESCRIPTION">
+			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_NAME">
+			<Text>烂尾楼</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION">
+			<Text>工业时代特色区域，代替社区。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。</Text>
+		</Replace>
+		<!--建筑-->
+		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME">
+			<Text>赝品博物馆</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_DESCRIPTION">
+			<Text>中世纪特色建筑，由市政行政部门解锁，代替历史博物馆（文艺复兴时代）。建造费用更低（-50%），第一次建造此建筑后，所有的三槽位博物馆都会自动获得主题效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_NAME">
+			<Text>工业大棚</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION">
+			<Text>工业时代特色建筑，代替工厂。建造费用更低（-50%），提供的基础和供电 [ICON_PRODUCTION]生产力加成翻倍。建成此建筑后，立即解锁内燃机科技（现代）。第一次建造此建筑及之后每修建一个工业区及其内建筑时，都会获得 1 个免资源维护的 “大棚的坦克”。</Text>
+		</Replace>
+		<!--单位-->
+		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME">
+			<Text>仪仗队</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_GuardOfHonour_DESCRIPTION">
+			<Text>远古时代特色侦察单位，代替侦察兵。建造费用更低（-50%），+10 基础 [ICON_Strength]战斗力 ，初始就有 1 次免费升级。该单位生产时会额外获得 1 个相同的单位。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_TheTownIsTheProblemSolver_NAME">
+			<Text>小镇做题家</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TheTownIsTheProblemSolver_DESCRIPTION">
+			<Text>远古时代特色近战单位，代替勇士。+4 基础 [ICON_Strength]战斗力。与拥有更高基础战斗力的单位作战时+10 [ICON_Strength] 战斗力。与区域作战时+5 [ICON_Strength] 战斗力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_Whistleblower_NAME">
+			<Text>吹哨人</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_Whistleblower_DESCRIPTION">
+			<Text>远古时代特色远程单位，代替弓箭手。+1 [ICON_Movement]移动力，+10 [ICON_Strength]近战战斗力，+5 [ICON_Strength]远程战斗力。视野可以穿过树林和雨林，穿行雨林和树林时没有移动减益。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_UNIT_UnfinishedHomeowners_NAME">
+			<Text>烂尾房主</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_UnfinishedHomeowners_DESCRIPTION">
+			<Text>中世纪特色近战单位，代替披甲战士。进攻时 +7 [ICON_Strength]战斗力，防御时 +10 [ICON_Strength]战斗力，防御远程射击时额外 +5 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WhiteMAMLUK_NAME">
+			<Text>白衣战神</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_WhiteMAMLUK_DESCRIPTION">
+			<Text>中世纪特色重骑兵单位，代替骑士。每回合结束时自动回复血量。与至少 1 个烂尾房主相邻时 +10 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_Sutures_NAME">
+			<Text>米卫兵</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_Sutures_DESCRIPTION">
+			<Text>文艺复兴时代特色重骑兵单位，由科技天文学解锁，代替胸甲骑兵（工业时代）。+2 [ICON_Movement]移动力，如果战斗后有剩余移动力，可以移动。如果输出伤害高于敌方单位，会将敌方单位弹到后方的单元格中，如果防守的单位无法后退，会受到更高的伤害。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANK_Sutures_NAME">
+			<Text>大棚的坦克</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_TANK_Sutures_DESCRIPTION">
+			<Text>现代特色重骑兵单位，代替坦克，可由特色建筑工业大棚提前解锁。受伤后 [ICON_Strength]战斗力无减益。+3 [ICON_Movement]移动力，每点未使用的移动力 +3 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DIGGER_Sutures_NAME">
+			<Text>契约奴隶</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_DIGGER_Sutures_DESCRIPTION">
+			<Text>现代特色近战单位，代替步兵。生产和维护不需要战略资源石油，维护费用减半，生产费用 -35%，-5 基础 [ICON_Strength]战斗力。非本土作战时 +10 [ICON_Strength]战斗力。</Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

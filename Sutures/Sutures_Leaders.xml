@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="LEADER_StitchingMonster" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_StitchingMonsterAbility" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_StitchingMonster" Name="LOC_LEADER_StitchingMonster_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_StitchingMonsterAbility" Name="LOC_TRAIT_LEADER_StitchingMonsterAbility_NAME"  Description="LOC_TRAIT_LEADER_StitchingMonsterAbility_DESCRIPTION"/>
+	</Traits>
+
+	<LeaderTraits>
+		<Row LeaderType="LEADER_StitchingMonster" TraitType="TRAIT_LEADER_StitchingMonsterAbility"/>
+	</LeaderTraits>
+
+	<LoadingInfo>
+		<Row LeaderType="LEADER_StitchingMonster" ForegroundImage="LEADER_StitchingMonster" BackgroundImage="LEADER_StitchingMonster_background" PlayDawnOfManAudio="1"/>
+	</LoadingInfo>
+
+	<DiplomacyInfo>
+		<Row Type="LEADER_StitchingMonster" BackgroundImage="LEADER_StitchingMonster_background"/>
+	</DiplomacyInfo>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_StitchingMonsterAbility" ModifierId="LEADER_StitchingMonster_COMMANDANTE_GOVERNOR_TITLE"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_COMMANDANTE_GOVERNOR_TITLE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_COMMANDANTE_GOVERNOR_TITLE</ModifierId>
+			<Name>Delta</Name>
+			<Value>25</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

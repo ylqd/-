@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="22" Filename="ICONS_CIVILIZATION_Sutures_22"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="30" Filename="ICONS_CIVILIZATION_Sutures_30"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="32" Filename="ICONS_CIVILIZATION_Sutures_32"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="36" Filename="ICONS_CIVILIZATION_Sutures_36"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="44" Filename="ICONS_CIVILIZATION_Sutures_44"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="45" Filename="ICONS_CIVILIZATION_Sutures_45"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="48" Filename="ICONS_CIVILIZATION_Sutures_48"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="50" Filename="ICONS_CIVILIZATION_Sutures_50"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="64" Filename="ICONS_CIVILIZATION_Sutures_64"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="80" Filename="ICONS_CIVILIZATION_Sutures_80"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="128" Filename="ICONS_CIVILIZATION_Sutures_128"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="200" Filename="ICONS_CIVILIZATION_Sutures_200"/>
+		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="256" Filename="ICONS_CIVILIZATION_Sutures_256"/>
+
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="22" Filename="ICON_LEADER_StitchingMonster_22"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="30" Filename="ICON_LEADER_StitchingMonster_30"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="32" Filename="ICON_LEADER_StitchingMonster_32"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="36" Filename="ICON_LEADER_StitchingMonster_36"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="44" Filename="ICON_LEADER_StitchingMonster_44"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="45" Filename="ICON_LEADER_StitchingMonster_45"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="48" Filename="ICON_LEADER_StitchingMonster_48"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="50" Filename="ICON_LEADER_StitchingMonster_50"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="64" Filename="ICON_LEADER_StitchingMonster_64"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="80" Filename="ICON_LEADER_StitchingMonster_80"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="128" Filename="ICON_LEADER_StitchingMonster_128"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="200" Filename="ICON_LEADER_StitchingMonster_200"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="256" Filename="ICON_LEADER_StitchingMonster_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_Sutures" Atlas="ATLAS_ICONS_CIVILIZATION_Sutures" Index="0"/>
+		<Row Name="ICON_LEADER_StitchingMonster" Atlas="ATLAS_ICON_LEADER_StitchingMonster" Index="0"/>
+	</IconDefinitions>
+</GameData>

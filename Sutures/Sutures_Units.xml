@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="UNIT_GuardOfHonour" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TheTownIsTheProblemSolver" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_Whistleblower" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_UnfinishedHomeowners" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_WhiteMAMLUK" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_POLISH_HUSSAR_Sutures" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TANK_Sutures" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_DIGGER_Sutures" Kind="KIND_UNIT"/>
+
+		<Row Type="ABILITY_GAESATAE_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_SEE_THROUGH_FEATURES_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_UnfinishedHomeowners_DEFENDER_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WhiteMAMLUK_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_HUSSAR_FORCE_RETREAT_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_TANK_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_DIGGER_Sutures" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<Tags>
+		<Row Tag="CLASS_GAESATAE_Sutures" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_SEE_THROUGH_FEATURES_Suturess" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_UnfinishedHomeowners_DEFENDER_Sutures" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_WhiteMAMLUK_Sutures" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_HUSSAR_FORCE_RETREAT_Sutures" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_TANK_Sutures" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_DIGGER_Sutures" Vocabulary="ABILITY_CLASS"/>
+	</Tags>
+	
+	<TypeTags>
+		<Row Type="ABILITY_GAESATAE_Sutures" Tag="CLASS_GAESATAE_Sutures"/>
+		<Row Type="ABILITY_SEE_THROUGH_FEATURES_Sutures" Tag="CLASS_SEE_THROUGH_FEATURES_Suturess"/>
+		<Row Type="ABILITY_UnfinishedHomeowners_DEFENDER_Sutures" Tag="CLASS_UnfinishedHomeowners_DEFENDER_Sutures"/>
+		<Row Type="ABILITY_WhiteMAMLUK_Sutures" Tag="CLASS_WhiteMAMLUK_Sutures"/>
+		<Row Type="ABILITY_HUSSAR_FORCE_RETREAT_Sutures" Tag="CLASS_HUSSAR_FORCE_RETREAT_Sutures"/>
+		<Row Type="ABILITY_TANK_Sutures" Tag="CLASS_TANK_Sutures"/>
+		<Row Type="ABILITY_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
+		
+		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_CREE_OKIHTCITAW"/>
+		
+		<Row Type="UNIT_TheTownIsTheProblemSolver" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_TheTownIsTheProblemSolver" Tag="CLASS_GAESATAE_Sutures"/>
+
+		<Row Type="UNIT_Whistleblower" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_Whistleblower" Tag="CLASS_SEE_THROUGH_FEATURES_Suturess"/>
+
+		<Row Type="UNIT_UnfinishedHomeowners" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_UnfinishedHomeowners" Tag="CLASS_UnfinishedHomeowners_DEFENDER_Sutures"/>
+
+		<Row Type="UNIT_WhiteMAMLUK" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_WhiteMAMLUK" Tag="CLASS_WhiteMAMLUK_Sutures"/>
+
+		<Row Type="UNIT_POLISH_HUSSAR_Sutures" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_POLISH_HUSSAR_Sutures" Tag="CLASS_HUSSAR_FORCE_RETREAT_Sutures"/>
+
+		<Row Type="UNIT_TANK_Sutures" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_TANK_Sutures" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_TANK_Sutures" Tag="CLASS_TANK_Sutures"/>
+
+		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
+	</TypeTags>
+	<UnitAiInfos>
+		<Row UnitType="UNIT_GuardOfHonour" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_GuardOfHonour" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_TheTownIsTheProblemSolver" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TheTownIsTheProblemSolver" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_TheTownIsTheProblemSolver" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TheTownIsTheProblemSolver" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_Whistleblower" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_Whistleblower" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_Whistleblower" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_UnfinishedHomeowners" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_UnfinishedHomeowners" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_UnfinishedHomeowners" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_UnfinishedHomeowners" AiType="UNITAI_EXPLORE"/>
+
+		<Row UnitType="UNIT_WhiteMAMLUK" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_WhiteMAMLUK" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_WhiteMAMLUK" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_WhiteMAMLUK" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_GAESATAE_Sutures" Name="LOC_ABILITY_GAESATAE_Sutures_NAME" Description="LOC_ABILITYGAESATAE_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_SEE_THROUGH_FEATURES_Sutures" Name="LOC_ABILITY_SEE_THROUGH_FEATURES_Sutures_NAME" Description="LOC_ABILITY_SEE_THROUGH_FEATURES_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_UnfinishedHomeowners_DEFENDER_Sutures" Name="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_NAME" Description="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WhiteMAMLUK_Sutures" Name="LOC_ABILITY_WhiteMAMLUK_Sutures_NAME" Description="LOC_ABILITY_WhiteMAMLUK_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_HUSSAR_FORCE_RETREAT_Sutures" Name="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_NAME" Description="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_TANK_Sutures" Name="LOC_ABILITY_TANK_Sutures_NAME" Description="LOC_ABILITY_TANK_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_DIGGER_Sutures" Name="LOC_ABILITY_DIGGER_Sutures_NAME" Description="LOC_ABILITY_DIGGER_Sutures_DESCRIPTION"/>
+	</UnitAbilities>
+	
+	<Units>
+		<Row
+			UnitType="UNIT_GuardOfHonour"
+			Cost="15"
+			BaseMoves="3"
+			BaseSightRange="2"
+			ZoneOfControl="true"
+			Domain="DOMAIN_LAND"
+			Combat="20"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			PromotionClass="PROMOTION_CLASS_RECON"
+			AdvisorType="ADVISOR_GENERIC"
+			Name="LOC_UNIT_GuardOfHonour_NAME"
+			Description="LOC_UNIT_GuardOfHonour_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD"
+			PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER"
+            TraitType="TRAIT_CIVILIZATION_UNIT_GuardOfHonour"
+			/>
+		<Row 
+			UnitType="UNIT_TheTownIsTheProblemSolver" 
+			BaseMoves="2" 
+			Cost="40" 
+			BaseSightRange="2" 
+			ZoneOfControl="true" 
+			Domain="DOMAIN_LAND" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			Name="LOC_UNIT_TheTownIsTheProblemSolver_NAME" 
+			Description="LOC_UNIT_TheTownIsTheProblemSolver_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD" 
+			PromotionClass="PROMOTION_CLASS_MELEE" 
+			Combat="24" 
+			TraitType="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver" 
+			MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row 
+			UnitType="UNIT_Whistleblower" 
+			Cost="60" 
+			Maintenance="1" 
+			BaseMoves="3"
+			BaseSightRange="2" 
+			ZoneOfControl="false" 
+			Domain="DOMAIN_LAND" 
+			Combat="25" 
+			RangedCombat="30" 
+			Range="2" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			PromotionClass="PROMOTION_CLASS_RANGED"
+			AdvisorType="ADVISOR_CONQUEST" 
+			Name="LOC_UNIT_Whistleblower_NAME" 
+			Description="LOC_UNIT_Whistleblower_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD" 
+			MandatoryObsoleteTech="TECH_BALLISTICS" 
+			PrereqTech="TECH_ARCHERY"
+			TraitType="TRAIT_CIVILIZATION_UNIT_Whistleblower" 
+			/>
+		<Row 
+			UnitType="UNIT_UnfinishedHomeowners" 
+			BaseMoves="2" 
+			Cost="160" 
+			AdvisorType="ADVISOR_CONQUEST" 
+			BaseSightRange="2" 
+			ZoneOfControl="true" 
+			Domain="DOMAIN_LAND" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			Name="LOC_UNIT_UnfinishedHomeowners_NAME" 
+			Description="LOC_UNIT_UnfinishedHomeowners_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD" 
+			PrereqTech="TECH_APPRENTICESHIP" 
+			PromotionClass="PROMOTION_CLASS_MELEE" 
+			Maintenance="3" 
+			Combat="45"
+			StrategicResource="RESOURCE_IRON"
+			TraitType="TRAIT_CIVILIZATION_UNIT_UnfinishedHomeowners" 
+			MandatoryObsoleteTech="TECH_REPLACEABLE_PARTS"/>
+		<Row 
+			UnitType="UNIT_WhiteMAMLUK" 
+			Cost="220" 
+			Maintenance="4" 
+			BaseMoves="4" 
+			BaseSightRange="2" 
+			ZoneOfControl="true" 
+			Domain="DOMAIN_LAND" 
+			Combat="50" 
+			StrategicResource="RESOURCE_IRON" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_WhiteMAMLUK_NAME" 
+			Description="LOC_UNIT_WhiteMAMLUK_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD" 
+			MandatoryObsoleteTech="TECH_COMPOSITES" 
+			PrereqTech="TECH_STIRRUPS"
+			TraitType="TRAIT_CIVILIZATION_UNIT_WhiteMAMLUK" 
+			/>
+		<Row 
+			UnitType="UNIT_POLISH_HUSSAR_Sutures" 
+			BaseMoves="6" 
+			Cost="330" 
+			AdvisorType="ADVISOR_CONQUEST" 
+			BaseSightRange="2" 
+			ZoneOfControl="true" 
+			Domain="DOMAIN_LAND" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			Name="LOC_UNIT_POLISH_HUSSAR_Sutures_NAME" 
+			Description="LOC_UNIT_POLISH_HUSSAR_Sutures_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD"
+			PrereqTech="TECH_ASTRONOMY" 
+			PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" 
+			Maintenance="5" 
+			StrategicResource="RESOURCE_IRON"
+			Combat="64" 
+			TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR_Sutures" 
+			MandatoryObsoleteTech="TECH_COMBUSTION"/>
+		<Row 
+			UnitType="UNIT_TANK_Sutures" 
+			Cost="480"
+			Maintenance="6" 
+			BaseMoves="7" 
+			BaseSightRange="2" 
+			ZoneOfControl="true" 
+			Domain="DOMAIN_LAND" 
+			Combat="85" 
+			StrategicResource="RESOURCE_OIL" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			AdvisorType="ADVISOR_CONQUEST"
+			Name="LOC_UNIT_TANK_Sutures_NAME"
+			Description="LOC_UNIT_TANK_Sutures_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD" 
+			PrereqTech="TECH_COMBUSTION"
+			TraitType="TRAIT_CIVILIZATION_UNIT_TANK_Sutures" 
+			/>
+		<Row 
+			UnitType="UNIT_DIGGER_Sutures" 
+			BaseMoves="2" 
+			Cost="280" 
+			AdvisorType="ADVISOR_CONQUEST" 
+			BaseSightRange="2" 
+			ZoneOfControl="true" 
+			Domain="DOMAIN_LAND" 
+			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+			Name="LOC_UNIT_DIGGER_Sutures_NAME" 
+			Description="LOC_UNIT_DIGGER_Sutures_DESCRIPTION"
+			PurchaseYield="YIELD_GOLD" 
+			PromotionClass="PROMOTION_CLASS_MELEE" 
+			Maintenance="3" 
+			Combat="70" 
+			PrereqTech="TECH_REPLACEABLE_PARTS" 
+			TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures"/>
+	</Units>
+	<UnitUpgrades>
+		<Row Unit="UNIT_GuardOfHonour" UpgradeUnit="UNIT_SKIRMISHER"/>
+		<Row Unit="UNIT_TheTownIsTheProblemSolver" UpgradeUnit="UNIT_SWORDSMAN"/>
+		<Row Unit="UNIT_Whistleblower" UpgradeUnit="UNIT_CROSSBOWMAN"/>
+		<Row Unit="UNIT_UnfinishedHomeowners" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_WhiteMAMLUK" UpgradeUnit="UNIT_CUIRASSIER"/>
+		<Row Unit="UNIT_POLISH_HUSSAR_Sutures" UpgradeUnit="UNIT_TANK"/>
+		<Row Unit="UNIT_TANK_Sutures" UpgradeUnit="UNIT_MODERN_ARMOR"/>
+		<Row Unit="UNIT_DIGGER_Sutures" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+	</UnitUpgrades>
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_GuardOfHonour" ReplacesUnitType="UNIT_SCOUT"/>
+		<Row CivUniqueUnitType="UNIT_TheTownIsTheProblemSolver" ReplacesUnitType="UNIT_WARRIOR"/>
+		<Row CivUniqueUnitType="UNIT_Whistleblower" ReplacesUnitType="UNIT_ARCHER"/>
+		<Row CivUniqueUnitType="UNIT_UnfinishedHomeowners" ReplacesUnitType="UNIT_MAN_AT_ARMS"/>
+		<Row CivUniqueUnitType="UNIT_WhiteMAMLUK" ReplacesUnitType="UNIT_KNIGHT"/>
+		<Row CivUniqueUnitType="UNIT_POLISH_HUSSAR_Sutures" ReplacesUnitType="UNIT_CUIRASSIER"/>
+		<Row CivUniqueUnitType="UNIT_TANK_Sutures" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_DIGGER_Sutures" ReplacesUnitType="UNIT_INFANTRY"/>
+	</UnitReplaces>
+	<Units_XP2>
+		<Row UnitType="UNIT_UnfinishedHomeowners" ResourceCost="20"/>
+		<Row UnitType="UNIT_WhiteMAMLUK" ResourceCost="20"/>
+		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" ResourceCost="20"/>
+		<Row UnitType="UNIT_TANK_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+	</Units_XP2>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_GAESATAE_Sutures</UnitAbilityType>
+			<ModifierId>GAESATAE_STRONG_AGAINST_STRONGER_UNITS_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_GAESATAE_Sutures</UnitAbilityType>
+			<ModifierId>GAESATAE_STRONG_AGAINST_DISTRICTS_Sutures</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_SEE_THROUGH_FEATURES_Sutures</UnitAbilityType>
+			<ModifierId>NAGAO_FOREST_SIGHT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SEE_THROUGH_FEATURES_Sutures</UnitAbilityType>
+			<ModifierId>NAGAO_FOREST_MOVEMENT</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_UnfinishedHomeowners_DEFENDER_Sutures</UnitAbilityType>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UnfinishedHomeowners_DEFENDER_Sutures</UnitAbilityType>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Range_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_UnfinishedHomeowners_DEFENDER_Sutures</UnitAbilityType>
+			<ModifierId>UnfinishedHomeowners_Attack_Sutures</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_WhiteMAMLUK_Sutures</UnitAbilityType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_WhiteMAMLUK_Sutures</UnitAbilityType>
+			<ModifierId>HOPLITE_NEIGHBOR_COMBAT_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HUSSAR_FORCE_RETREAT_Sutures</UnitAbilityType>
+			<ModifierId>HUSSAR_FORCE_RETREAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_HUSSAR_FORCE_RETREAT_Sutures</UnitAbilityType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TANK_Sutures</UnitAbilityType>
+			<ModifierId>CAROLEAN_UNUSED_MOVEMENT_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_TANK_Sutures</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_DIGGER_Sutures</UnitAbilityType>
+			<ModifierId>Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_UNIT_GuardOfHonour</TraitType>
+			<ModifierId>TRAIT_UNIT_GuardOfHonour_Ext</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_UNIT_GuardOfHonour_Ext</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>GAESATAE_STRONG_AGAINST_STRONGER_UNITS_Sutures</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>COMBAT_AGAINST_STRONGER_UNIT_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>GAESATAE_STRONG_AGAINST_DISTRICTS_Sutures</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>SHELLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		
+		<Row>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Sutures</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>DEFENDER_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Range_Sutures</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>NAGAO_RANGED_DEFENSE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>UnfinishedHomeowners_Attack_Sutures</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>UNIT_STRONG_WHEN_ATTACKING_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>HOPLITE_NEIGHBOR_COMBAT_Sutures</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_UNIT_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>HOPLITE_PLOT_IS_HOPLITE_Sutures_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HOPLITE_NEIGHBOR_COMBAT_MODIFIER_Sutures</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_UNIT_GuardOfHonour_Ext</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_GuardOfHonour</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_UNIT_GuardOfHonour_Ext</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>GAESATAE_STRONG_AGAINST_STRONGER_UNITS_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>GAESATAE_STRONG_AGAINST_DISTRICTS_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Range_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>UnfinishedHomeowners_Attack_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>7</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>HOPLITE_NEIGHBOR_COMBAT_Sutures</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HOPLITE_NEIGHBOR_COMBAT_MODIFIER_Sutures</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>HOPLITE_NEIGHBOR_COMBAT_MODIFIER_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>COMBAT_AGAINST_STRONGER_UNIT_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>DEFENDER_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HOPLITE_PLOT_IS_HOPLITE_Sutures_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>COMBAT_AGAINST_STRONGER_UNIT_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_COMBAT_AGAINST_STRONGER_UNIT_Sutures</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DEFENDER_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>PLAYER_IS_DEFENDER_REQUIREMENTS</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>HOPLITE_PLOT_IS_HOPLITE_Sutures_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_HOPLITE_Sutures</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_COMBAT_AGAINST_STRONGER_UNIT_Sutures</RequirementId>
+			<RequirementType>REQUIREMENT_OPPONENT_IS_STRONGER</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_HOPLITE_Sutures</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_UNIT_NEXT_TO_HOPLITE_Sutures</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_UnfinishedHomeowners</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+		<Row ModifierId="GAESATAE_STRONG_AGAINST_STRONGER_UNITS_Sutures" Context="Preview" Text="LOC_GAESATAE_STRONG_AGAINST_STRONGER_UNITS_Sutures_DESCRIPTION"/>
+		<Row ModifierId="GAESATAE_STRONG_AGAINST_DISTRICTS_Sutures" Context="Preview" Text="LOC_GAESATAE_STRONG_AGAINST_DISTRICTS_Sutures_DESCRIPTION"/>
+		<Row ModifierId="UnfinishedHomeowners_DEFENDER_Sutures" Context="Preview" Text="LOC_UnfinishedHomeowners_DEFENDER_Sutures_DESCRIPTION"/>
+		<Row ModifierId="UnfinishedHomeowners_DEFENDER_Range_Sutures" Context="Preview" Text="LOC_UnfinishedHomeowners_DEFENDER_Range_Sutures_DESCRIPTION"/>
+		<Row ModifierId="UnfinishedHomeowners_Attack_Sutures" Context="Preview" Text="LOC_UnfinishedHomeowners_Attack_Sutures_DESCRIPTION"/>
+		<Row ModifierId="HOPLITE_NEIGHBOR_COMBAT_MODIFIER_Sutures" Context="Preview" Text="LOC_HOPLITE_NEIGHBOR_COMBAT_MODIFIER_Sutures_DESCRIPTION"/>
+		<Row ModifierId="Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add" Context="Preview" Text="LOC_Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add_DESCRIPTION"/>
+	</ModifierStrings>
+</GameData>

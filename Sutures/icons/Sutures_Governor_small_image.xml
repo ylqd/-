@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ICON_ATLAS_EXPANSION_2_GOVERNORS_Sutures" IconSize="32" IconsPerRow="8" IconsPerColumn="1" Filename="Sutures_XP2_Governors32.dds"/>
+		<Row Name="ICON_ATLAS_EXPANSION_2_GOVERNORS_Sutures" IconSize="64" IconsPerRow="8" IconsPerColumn="1" Filename="Sutures_XP2_Governors64.dds"/>
+
+		<!-- Atlasses bellow are used in CityBanner governor meters -->
+		<Row Name="ICON_ATLAS_EXPANSION_2_GOVERNORS_FILL_Sutures" IconSize="32" IconsPerRow="8" IconsPerColumn="2" Filename="Sutures_XP2_Governors32.dds"/>
+		<Row Name="ICON_ATLAS_EXPANSION_2_GOVERNORS_SLOT_Sutures" IconSize="32" IconsPerRow="8" IconsPerColumn="2" Filename="Sutures_XP2_Governors32.dds"/>
+
+		<Row Name="ICON_ATLAS_EXPANSION_2_GOVERNORS_FILL_Sutures" Baseline="6" IconSize="22" IconsPerRow="8" IconsPerColumn="2" Filename="Sutures_XP2_GovernorsCityBannerFill22.dds"/>
+		<Row Name="ICON_ATLAS_EXPANSION_2_GOVERNORS_SLOT_Sutures" Baseline="6" IconSize="22" IconsPerRow="8" IconsPerColumn="2" Filename="Sutures_XP2_GovernorsCityBannerFill22.dds"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_GOVERNOR_SuturesAntiFraudsters"          Atlas="ICON_ATLAS_EXPANSION_2_GOVERNORS_Sutures" Index="0"/>
+
+		<!-- Icons bellow are used in CityBanner governor meters -->
+		<Row Name="ICON_GOVERNOR_SuturesAntiFraudsters_FILL"          Atlas="ICON_ATLAS_EXPANSION_2_GOVERNORS_FILL_Sutures" Index="0"/>
+
+		<Row Name="ICON_GOVERNOR_SuturesAntiFraudsters_SLOT"          Atlas="ICON_ATLAS_EXPANSION_2_GOVERNORS_SLOT_Sutures" Index="0"/>
+	</IconDefinitions>
+	<IconAliases>
+		<Row Name="GOVERNOR_SuturesAntiFraudsters_SLOT"         OtherName="ICON_GOVERNOR_SuturesAntiFraudsters_SLOT"         />
+
+		<Row Name="GOVERNOR_SuturesAntiFraudsters_FILL"         OtherName="ICON_GOVERNOR_SuturesAntiFraudsters_FILL"         />
+	</IconAliases>
+</GameData>

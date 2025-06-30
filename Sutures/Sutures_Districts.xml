@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_WastelandOfKnowledge" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_TypeAcasino" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_UnfinishedBuilding" Kind="KIND_DISTRICT"/>
+	</Types>
+
+	<Districts>
+		<Row
+			 DistrictType="DISTRICT_WastelandOfKnowledge"
+			 Name="LOC_DISTRICT_WastelandOfKnowledge_NAME"
+			 Description="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION"
+			 PrereqTech="TECH_WRITING"
+			 PlunderType="PLUNDER_SCIENCE"
+			 PlunderAmount="25"
+			 AdvisorType="ADVISOR_TECHNOLOGY"
+			 Cost="27"
+			 CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH"
+			 CostProgressionParam1="40"
+			 Maintenance="1"
+			 RequiresPlacement="true"
+			 RequiresPopulation="true"
+			 Aqueduct="false"
+			 NoAdjacentCity="false"
+			 InternalOnly="false"
+			 ZOC="false"
+			 CaptureRemovesBuildings="false"
+			 CaptureRemovesCityDefenses="false"
+			 MilitaryDomain="NO_DOMAIN"
+			 CityStrengthModifier="2"
+			 TraitType="TRAIT_CIVILIZATION_DISTRICT_WastelandOfKnowledge"/>
+		<Row 
+			DistrictType="DISTRICT_TypeAcasino" 
+			Name="LOC_DISTRICT_TypeAcasino_NAME" 
+			Description="LOC_DISTRICT_TypeAcasino_DESCRIPTION" 
+			PrereqTech="TECH_CURRENCY" 
+			PlunderType="PLUNDER_GOLD" 
+			PlunderAmount="50" 
+			AdvisorType="ADVISOR_GENERIC" 
+			Cost="27" 
+			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			CostProgressionParam1="40" 
+			RequiresPlacement="true" 
+			RequiresPopulation="true" 
+			Aqueduct="false" 
+			NoAdjacentCity="false" 
+			InternalOnly="false" 
+			ZOC="false" 
+			CaptureRemovesBuildings="false" 
+			CaptureRemovesCityDefenses="false" 
+			MilitaryDomain="NO_DOMAIN" 
+			TravelTime="3" 
+			CityStrengthModifier="2"
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino"
+	/>
+		<Row 
+			DistrictType="DISTRICT_UnfinishedBuilding" 
+			Name="LOC_DISTRICT_UnfinishedBuilding_NAME" 
+			Description="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION" 
+			PrereqCivic="CIVIC_URBANIZATION" 
+			PlunderType="PLUNDER_GOLD" 
+			PlunderAmount="50" 
+			AdvisorType="ADVISOR_GENERIC" 
+			Cost="27" 
+			CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" 
+			CostProgressionParam1="1000" 
+			RequiresPlacement="true" 
+			RequiresPopulation="false" 
+			OnePerCity="false" 
+			Aqueduct="false" 
+			NoAdjacentCity="false" 
+			InternalOnly="false" 
+			ZOC="true" 
+			CaptureRemovesBuildings="false" 
+			CaptureRemovesCityDefenses="false" 
+			MilitaryDomain="NO_DOMAIN" 
+			Housing="6" 
+			CityStrengthModifier="2"
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding"
+			/>
+	</Districts>
+	
+	<District_Adjacencies>
+		<!--学院区域加成-->
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Mountains_Science1"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Mountains_Science2"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Mountains_Science3"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Mountains_Science4"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Mountains_Science5"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Jungle_Science"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="District_Science"/>
+		<!--迭起兴衰-->
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Government_Science"/>
+		<!--风云变幻-->
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Geothermal_Science"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Reef_Science"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Pamukkale_Science"/>
+		<!--书院区域加成-->
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="BaseDistrict_Science_WastelandOfKnowledge"/>
+
+
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="River_Gold"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="RoyalDock_Gold"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="District_Gold"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Government_Gold"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Harbor_Gold"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Cothon_Gold"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Pamukkale_Gold"/>
+		
+	</District_Adjacencies>
+	
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldType="YIELD_SCIENCE" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+	</District_TradeRouteYields>
+
+	<District_GreatPersonPoints>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+	</District_GreatPersonPoints>
+
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldType="YIELD_SCIENCE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_GOLD" YieldChange="4"/>
+	</District_CitizenYieldChanges>
+
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_WastelandOfKnowledge" ReplacesDistrictType="DISTRICT_CAMPUS"/>
+		<Row CivUniqueDistrictType="DISTRICT_TypeAcasino" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
+		<Row CivUniqueDistrictType="DISTRICT_UnfinishedBuilding" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+	</DistrictReplaces>
+	
+	<Adjacency_YieldChanges>
+		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="2" Self="true"/>
+	</Adjacency_YieldChanges>
+	
+	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_DISTRICT_PURCHASE"/>
+		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_UNIT_PURCHASE"/>
+
+		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_UnfinishedBuilding_GOLD"/>
+		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_UnfinishedBuilding_Food"/>
+	</DistrictModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>Sutures_UnfinishedBuilding_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_UnfinishedBuilding_Food</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>Sutures_UnfinishedBuilding_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_UnfinishedBuilding_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_UnfinishedBuilding_Food</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_UnfinishedBuilding_Food</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

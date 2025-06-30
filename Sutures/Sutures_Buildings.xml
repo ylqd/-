@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="BUILDING_MUSEUM_FAKES_Sutures" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_Greenhouses_Sutures" Kind="KIND_BUILDING"/>
+
+		<Row Type="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures" Kind="KIND_MODIFIER"/>
+
+		<Row Type="ABILITY_Sutures_Unit_Free_Resource" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<TypeTags>
+		<Row Type="ABILITY_Sutures_Unit_Free_Resource" Tag="CLASS_HEAVY_CAVALRY"/>
+	</TypeTags>
+
+	<UnitAbilities>
+		<Row
+			UnitAbilityType="ABILITY_Sutures_Unit_Free_Resource"
+			Name="LOC_ABILITY_Sutures_Unit_Free_Resource_NAME"
+			Description="LOC_ABILITY_Sutures_Unit_Free_Resource_DESCRIPTION"
+			Inactive="true"/>
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_Unit_Free_Resource</UnitAbilityType>
+			<ModifierId>HIPPODROME_RESOURCE_FREE_Sutures</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<BuildingReplaces>
+		<Row CivUniqueBuildingType="BUILDING_MUSEUM_FAKES_Sutures" ReplacesBuildingType="BUILDING_MUSEUM_ART"/>
+		<Row CivUniqueBuildingType="BUILDING_Greenhouses_Sutures" ReplacesBuildingType="BUILDING_FACTORY"/>
+	</BuildingReplaces>
+	<Buildings>
+		<Row 
+			BuildingType="BUILDING_MUSEUM_FAKES_Sutures" 
+			Name="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME" 
+			Description="LOC_BUILDING_MUSEUM_FAKES_Sutures_DESCRIPTION" 
+			PrereqCivic="CIVIC_CIVIL_SERVICE" 
+			PrereqDistrict="DISTRICT_THEATER" 
+			PurchaseYield="YIELD_GOLD" Cost="145" 
+			AdvisorType="ADVISOR_CULTURE" 
+			Maintenance="2" 
+			CitizenSlots="1"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures"
+			/>
+		<Row 
+			BuildingType="BUILDING_Greenhouses_Sutures" 
+			Name="LOC_BUILDING_Greenhouses_Sutures_NAME" 
+			Description="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION" 
+			PrereqTech="TECH_INDUSTRIALIZATION" 
+			PrereqDistrict="DISTRICT_INDUSTRIAL_ZONE" 
+			PurchaseYield="YIELD_GOLD" 
+			Cost="115" 
+			AdvisorType="ADVISOR_GENERIC" 
+			Maintenance="2" 
+			CitizenSlots="1" 
+			RegionalRange="6" 
+			TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures"
+			/>
+	</Buildings>
+
+	<BuildingPrereqs>
+		<Row Building="BUILDING_MUSEUM_FAKES_Sutures" PrereqBuilding="BUILDING_AMPHITHEATER"/>
+		<Row Building="BUILDING_Greenhouses_Sutures" PrereqBuilding="BUILDING_WORKSHOP"/>
+	</BuildingPrereqs>
+
+	<MutuallyExclusiveBuildings>
+		<Row Building="BUILDING_MUSEUM_FAKES_Sutures" MutuallyExclusiveBuilding="BUILDING_MUSEUM_ARTIFACT"/>
+	</MutuallyExclusiveBuildings>
+
+	<Building_YieldChanges>
+		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row BuildingType="BUILDING_Greenhouses_Sutures" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+	</Building_YieldChanges>
+
+	<Building_GreatPersonPoints>
+		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
+		<Row BuildingType="BUILDING_Greenhouses_Sutures" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+	</Building_GreatPersonPoints>
+
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3" ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+	</Building_GreatWorks>
+
+	<Buildings_XP2>
+		<Row BuildingType="BUILDING_Greenhouses_Sutures" RequiredPower="2"/>
+	</Buildings_XP2>
+
+	<Building_YieldChangesBonusWithPower>
+		<Row BuildingType="BUILDING_Greenhouses_Sutures" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+	</Building_YieldChangesBonusWithPower>
+	<BuildingModifiers>
+		<Row>
+			<BuildingType>BUILDING_MUSEUM_FAKES_Sutures</BuildingType>
+			<ModifierId>AUTO_THEME_AT_LEAST_3_SLOTS</ModifierId>
+		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_Greenhouses_Sutures</BuildingType>
+			<ModifierId>Greenhouses_Sutures_GRANT_TECH_APPRENTICESHIP</ModifierId>
+		</Row>
+	</BuildingModifiers>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures</TraitType>
+			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
+		</Row>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>Greenhouses_Sutures_GRANT_TECH_APPRENTICESHIP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_TECH_INDUSTRIALIZATION_Sutures</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>HIPPODROME_RESOURCE_FREE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RESOURCE_MAINTENANCE</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>Greenhouses_Sutures_GRANT_TECH_APPRENTICESHIP</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_COMBUSTION</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
+			<Name>UnitPromotionClass</Name>
+			<Value>PROMOTION_CLASS_HEAVY_CAVALRY</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>HIPPODROME_RESOURCE_FREE_Sutures</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
+			<Name>UnitAbilityType</Name>
+			<Value>ABILITY_Sutures_Unit_Free_Resource</Value>
+		</Row>
+	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TECH_INDUSTRIALIZATION_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_TECH_INDUSTRIALIZATION_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_TECH_INDUSTRIALIZATION_Sutures</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>REQUIRES_TECH_INDUSTRIALIZATION_Sutures</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_TECH_INDUSTRIALIZATION_Sutures</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMBUSTION</Value>
+		</Row>
+	</RequirementArguments>
+	
+</GameData>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="CIVILIZATION_Sutures" Kind="KIND_CIVILIZATION"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesAbility" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesPatriot_GOVERNOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesHappySis_GOVERNOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesWolfWarrior_GOVERNOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesRegulators_GOVERNOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesRational_GOVERNOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_SuturesWinner_GOVERNOR" Kind="KIND_TRAIT"/>
+
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_WastelandOfKnowledge" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding" Kind="KIND_TRAIT"/>
+
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures" Kind="KIND_TRAIT"/>
+
+		<Row Type="TRAIT_CIVILIZATION_UNIT_GuardOfHonour" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_Whistleblower" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_UnfinishedHomeowners" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_WhiteMAMLUK" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR_Sutures" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_TANK_Sutures" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures" Kind="KIND_TRAIT"/>
+
+	</Types>
+	<Civilizations>
+		<Row
+			CivilizationType="CIVILIZATION_Sutures"
+			Name="LOC_CIVILIZATION_Sutures_NAME"
+			Description="LOC_CIVILIZATION_Sutures_DESCRIPTION"
+			StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV"
+			RandomCityNameDepth="10"
+            Adjective="LOC_CIVILIZATION_Sutures_ADJECTIVE"
+			Ethnicity="ETHNICITY_ASIAN"/>
+	</Civilizations>
+
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MALE_10"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_9" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_FEMALE_10" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_1" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_2" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_3" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_4" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_5" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_6" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_7" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_8" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_9" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_MALE_10" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_1" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_2" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_3" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_4" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_5" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_6" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_7" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_8" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_9" Female="true" Modern="true"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" CitizenName="LOC_CITIZEN_AMERICA_MODERN_FEMALE_10" Female="true" Modern="true"/>
+	</CivilizationCitizenNames>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_Sutures" LeaderType="LEADER_StitchingMonster" CapitalName="LOC_CITY_NAME_Sutures_DANDONG"/>
+	</CivilizationLeaders>
+
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesAbility" Name="LOC_TRAIT_CIVILIZATION_SuturesAbility_NAME"  Description="LOC_TRAIT_CIVILIZATION_SuturesAbility_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesPatriot_GOVERNOR" Name="LOC_GOVERNOR_SuturesPatriot_TITLE"  Description="LOC_GOVERNOR_SuturesPatriot_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesHappySis_GOVERNOR" Name="LOC_GOVERNOR_SuturesHappySis_TITLE" Description="LOC_GOVERNOR_SuturesHappySis_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesWolfWarrior_GOVERNOR" Name="LOC_GOVERNOR_SuturesWolfWarrior_TITLE" Description="LOC_GOVERNOR_SuturesWolfWarrior_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesRegulators_GOVERNOR" Name="LOC_GOVERNOR_SuturesRegulators_TITLE" Description="LOC_GOVERNOR_SuturesRegulators_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesRational_GOVERNOR" Name="LOC_GOVERNOR_SuturesRational_TITLE" Description="LOC_GOVERNOR_SuturesRational_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesWinner_GOVERNOR" Name="LOC_GOVERNOR_SuturesWinner_TITLE" Description="LOC_GOVERNOR_SuturesWinner_DESCRIPTION"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_WastelandOfKnowledge" Name="LOC_DISTRICT_WastelandOfKnowledge_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino" Name="LOC_DISTRICT_TypeAcasino_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding" Name="LOC_DISTRICT_UnfinishedBuilding_NAME"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures" Name="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures" Name="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION"/>
+
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GuardOfHonour" Name="LOC_UNIT_GuardOfHonour_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver" Name="LOC_UNIT_TheTownIsTheProblemSolver_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_Whistleblower" Name="LOC_UNIT_Whistleblower_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_UnfinishedHomeowners" Name="LOC_UNIT_UnfinishedHomeowners_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_WhiteMAMLUK" Name="LOC_UNIT_WhiteMAMLUK_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR_Sutures" Name="LOC_UNIT_POLISH_HUSSAR_Sutures_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TANK_Sutures" Name="LOC_UNIT_TANK_Sutures_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures" Name="LOC_UNIT_DIGGER_Sutures_NAME"/>
+	</Traits>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesAbility"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesPatriot_GOVERNOR"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesHappySis_GOVERNOR"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesWolfWarrior_GOVERNOR"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesRegulators_GOVERNOR"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesRational_GOVERNOR"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_SuturesWinner_GOVERNOR"/>
+
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_WastelandOfKnowledge"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding"/>
+
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures"/>
+
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_GuardOfHonour"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_Whistleblower"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_UnfinishedHomeowners"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_WhiteMAMLUK"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_POLISH_HUSSAR_Sutures"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_TANK_Sutures"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures"/>
+		
+		<!--other exist-->
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD"/>
+	</CivilizationTraits>
+
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesAbility" ModifierId="LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_POTTERY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesAbility" ModifierId="LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_ANIMAL_HUSBANDRY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_SuturesAbility" ModifierId="LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_TECH_MINING"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_POTTERY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_ANIMAL_HUSBANDRY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_TECH_MINING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_POTTERY</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_POTTERY</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_ANIMAL_HUSBANDRY</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_ANIMAL_HUSBANDRY</Value>
+		</Row>
+		<Row>
+			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_TECH_MINING</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_MINING</Value>
+		</Row>
+	</ModifierArguments>
+</GameData>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Replace Tag="LOC_CIVILIZATION_Sutures_DESCRIPTION">
+			<Text>永赢者帝国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_Sutures_ADJECTIVE">
+			<Text>永赢者的</Text>
+		</Replace>
+
+		<!--city name-->
+		<Replace Tag="LOC_CITY_NAME_Sutures_DANDONG">
+			<Text>丹东</Text>
+		</Replace>
+		<!--CivilizationCitizenNames-->
+
+		<!--总督-->
+		
+		<!--爱国者-->
+		<Replace Tag="LOC_GOVERNOR_SuturesPatriot_NAME">
+			<Text>帕忒奥迪克德斯</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesPatriot_TITLE">
+			<Text>爱国者</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesPatriot_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesPatriot_NAME}拥有卓越的战斗才能，能为战斗单位带来通用的强力加成。</Text>
+		</Replace>
+		<!--幸福怪-->
+		<Replace Tag="LOC_GOVERNOR_SuturesHappySis_NAME">
+			<Text>赛斯特海佩</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesHappySis_TITLE">
+			<Text>幸福怪</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesHappySis_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesHappySis_NAME}拥有外交和贸易的双料才能，带来综合性加成。</Text>
+		</Replace>
+		<!--战犬-->
+		<Replace Tag="LOC_GOVERNOR_SuturesWolfWarrior_NAME">
+			<Text>艾克特</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesWolfWarrior_TITLE">
+			<Text>战犬</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesWolfWarrior_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesWolfWarrior_NAME}拥有加强城市产出的综合性才能。</Text>
+		</Replace>
+		<!--监护人-->
+		<Replace Tag="LOC_GOVERNOR_SuturesRegulators_NAME">
+			<Text>海伯德斯</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesRegulators_TITLE">
+			<Text>监护人</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesRegulators_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesRegulators_NAME}拥有战略性的能力。</Text>
+		</Replace>
+		<!--理中客-->
+		<Replace Tag="LOC_GOVERNOR_SuturesRational_NAME">
+			<Text>莫道纳</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesRational_TITLE">
+			<Text>理中客</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesRational_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesRational_NAME}拥有全面性的综合才能。</Text>
+		</Replace>
+		<!--赢家-->
+		<Replace Tag="LOC_GOVERNOR_SuturesWinner_NAME">
+			<Text>米特忒姆佩特</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesWinner_TITLE">
+			<Text>赢家</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesWinner_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesWinner_NAME}拥有外交和市政的双料才能，带来综合性加成。</Text>
+		</Replace>
+		
+		
+		<!--爱国者-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot1_NAME">
+			<Text>我也可以爱国</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot1_DESCRIPTION">
+			<Text>所有单位 +1 [ICON_Movement]移动力，升级不结束回合。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME">
+			<Text>我怎么没收到补贴</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION">
+			<Text>和受伤单位作战 +5 [ICON_Strength]战斗力，消灭敌人回复 30 血量。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot3_NAME">
+			<Text>打砸式爱国</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot3_DESCRIPTION">
+			<Text>目标为蛮族时，获得 +5 [ICON_Strength]战斗力并且获得正常经验值。每占领 1 个蛮族哨站获得 500 额外 [ICON_GOLD]金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME">
+			<Text>我要洋人死</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot4_DESCRIPTION">
+			<Text>目标为非野蛮人时，+5 [ICON_Strength]战斗力，如果目标处于 [ICON_GLORY_GOLDEN_AGE]黄金时代，额外 +10 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		<!--幸福怪-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis1_NAME">
+			<Text>我家大门常打开</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis1_DESCRIPTION">
+			<Text>所有城市获得贸易站。如果城市位于 [ICON_Capital] 首都的 [ICON_TradeRoute] 贸易路线范围内，该城市自动建立一条通至[ICON_Capital] 首都的路。[ICON_TradeRoute] 贸易路线经过己方贸易站额外 +3 [ICON_Gold]金币。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis2_NAME">
+			<Text>我不姓福我姓曾</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis2_DESCRIPTION">
+			<Text>贸易路线会立即在目标城市创建贸易站。如果和城邦存在活跃的 [ICON_TradeRoute]贸易路线，派遣 [ICON_Envoy]使者时数量将翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis3_NAME">
+			<Text>懂什么叫外交豁免权吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis3_DESCRIPTION">
+			<Text>商人单位无法被掠夺。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis4_NAME">
+			<Text>摸着石头过河</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis4_DESCRIPTION">
+			<Text>如果贸易的目标文明比己方更先进，将为贸易路线提供科技值或者文化值加成（每领先 1 项科技或者市政 +1）。</Text>
+		</Replace>
+		<!--战犬-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior1_NAME">
+			<Text>我去过南方大陆你去过吗？</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior1_DESCRIPTION">
+			<Text>海岸城市额外 +3 [ICON_Housing]住房。牧场、营地、矿山、采石场、种植园、农场、渔船可以触发文化炸弹。拥有迷人魅力的单元格中的学院、圣地、剧院广场、商业中心产出 +1，惊艳魅力的 +3。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior2_NAME">
+			<Text>师夷长技以制夷</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior2_DESCRIPTION">
+			<Text>当区域和区域相邻时，额外获得 1 个标准相邻加成。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior3_NAME">
+			<Text>既要又要还要</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior3_DESCRIPTION">
+			<Text>在黄金或者英雄时代设置着力点时，除了原有加成外还会获得提高时代得分的普通时代着力点效果。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_NAME">
+			<Text>咱妈咱妈咱妈</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_DESCRIPTION">
+			<Text>城市创建时获得双倍数量的初始单元格。境内水域类型单元格 +1 [ICON_FAITH]信仰值，草原类型单元格 +1 [ICON_FOOD]食物。</Text>
+		</Replace>
+		<!--监护人-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_NAME">
+			<Text>双轨式资源分配</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_DESCRIPTION">
+			<Text>[ICON_Capital]首都 15 单元格内的所有己方城市 +10% 全部产出，其他己方城市 -20% 全部产出。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators2_NAME">
+			<Text>岁月静好</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators2_DESCRIPTION">
+			<Text>建造者额外获得 1 次使用次数。建造远古和古典奇观时，可以消耗建造者的使用次数加速奇观建造进程的 20%。解锁“砌砖”科技的同时也解锁“运河”。建造所有时代的奇观时，+35% 生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME">
+			<Text>都不拿怎么进步</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators3_DESCRIPTION">
+			<Text>改良奢侈品资源可以为额外 2 座城市给予 1 点 [ICON_Amenities]宜居度。每种奢侈品资源都会为军事单位 +1 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators4_NAME">
+			<Text>不怕事也不担事</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators4_DESCRIPTION">
+			<Text>征召单位 +2 [ICON_Movement]移动力，+5 [ICON_Strength]战斗力。升级征召单位所花费的金币和资源降低 75%，每次征召城邦军队时都会提供 2 名对应 [ICON_ENVOY]使者。</Text>
+		</Replace>
+		<!--理中客-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational1_NAME">
+			<Text>睁眼看世界</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational1_DESCRIPTION">
+			<Text>所有单位 +1 视野。与 1 个文明相遇便 +1 [ICON_TradeRoute]贸易路线容量。和所有城邦互相开放边界。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational2_NAME">
+			<Text>我又觉醒了</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational2_DESCRIPTION">
+			<Text>对所有文明的外交能见度 +1。外交能见度提供的战斗力加成翻倍。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational3_NAME">
+			<Text>我这一锅值多少钱？</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational3_DESCRIPTION">
+			<Text>[ICON_Amenities] 宜居度为满意的城市，[ICON_GreatScientist] 大科学家、[ICON_GreatMerchant] 大商人、[ICON_GreatEngineer] 大工程师、[ICON_GreatArtist]大艺术家点数额外 +1（前提城市内有对应区域）；高兴状态的城市额外 +3；欣喜若狂的城市额外 +6。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational4_NAME">
+			<Text>对账对不上</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational4_DESCRIPTION">
+			<Text>区域内（仅限于学院、剧院广场、商业中心、工业区）每有一种对应的建筑，该城市对应类型产出 +5%。</Text>
+		</Replace>
+		<!--赢家-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner1_NAME">
+			<Text>咱妈是天神</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner1_DESCRIPTION">
+			<Text>首都和第二个城市建立时，立即获得 1 个开拓者、1 个建造者、1 个近战单位。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner2_NAME">
+			<Text>且听龙吟</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner2_DESCRIPTION">
+			<Text>解锁远古时代市政帝国初期后，获得 1 个军事政策槽位、1 个通配符政策槽位。政体中每有 1 个军事政策，军事单位 +1 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner3_NAME">
+			<Text>这是一种自信</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner3_DESCRIPTION">
+			<Text>解锁古典市政政治哲学后，当前政体中的所有外交政策槽全部转换为通配符政策槽，每个通配符政策槽每回合提供 1 点 [ICON_FAVOR]外交支持点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_NAME">
+			<Text>没什么不能说的</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_DESCRIPTION">
+			<Text>解锁古典市政历史记录后，免费获得 1 个间谍（同时增加 1 个间谍容量），所有间谍初始就可以升级为探员。间谍进攻型的行动 +1 级执行效果。进攻性间谍任务成功时，获得目标城市该回合[ICON_Faith] 信仰值、[ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值的100%。可以使用信仰值购买间谍。</Text>
+		</Replace>
+		
+		<!--ability-->
+		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot1_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot1_DESCRIPTION}（{LOC_GOVERNOR_PROMOTION_SuturesPatriot1_NAME}）</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS_NAME">
+			<Text>没收到补贴</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION}（没收到补贴）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_Kill_others_NAME">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_Kill_others_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_DESCRIPTION}（{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_PLUNDER_IMMUNITY_NAME">
+			<Text>外交豁免权</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_PLUNDER_IMMUNITY_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesHappySis3_DESCRIPTION}（外交豁免权）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_BONUS_PER_LUXURY_NAME">
+			<Text>一起进步</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
+			<Text>每种奢侈品资源都会为军事单位 +1 [ICON_Strength]战斗力。（一起进步）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_LEVY_UNITS_NAME">
+			<Text>不担事</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_LEVY_UNITS_DESCRIPTION">
+			<Text>征召单位 +2 [ICON_Movement]移动力，+5 [ICON_Strength]战斗力。（不担事）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_DO_CERCO_EXTRA_SIGHT_NAME">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesRational1_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_DO_CERCO_EXTRA_SIGHT_DESCRIPTION">
+			<Text>+1 视野。（{LOC_GOVERNOR_PROMOTION_SuturesRational1_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_POLICY_SLOT_COMBAT_BONUS_NAME">
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesWinner2_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_POLICY_SLOT_COMBAT_BONUS_DESCRIPTION">
+			<Text>政体中每有 1 个军事政策，军事单位 +1 战斗力。（{LOC_GOVERNOR_PROMOTION_SuturesWinner2_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_Unit_Free_Resource_NAME">
+			<Text>来自工业大棚的虚空动力</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_Unit_Free_Resource_DESCRIPTION">
+			<Text>免战略资源维护。（{LOC_ABILITY_Sutures_Unit_Free_Resource_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_GAESATAE_Sutures_NAME">
+			<Text>{LOC_UNIT_TheTownIsTheProblemSolver_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITYGAESATAE_Sutures_DESCRIPTION">
+			<Text>与拥有更高基础战斗力的单位作战时 +10 [ICON_Strength] 战斗力。与区域作战时 +5 [ICON_Strength] 战斗力。（{LOC_UNIT_TheTownIsTheProblemSolver_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEE_THROUGH_FEATURES_Sutures_NAME">
+			<Text>{LOC_UNIT_Whistleblower_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SEE_THROUGH_FEATURES_Sutures_DESCRIPTION">
+			<Text>视野可以穿过树林和雨林，穿行雨林和树林时没有移动减益。（{LOC_UNIT_Whistleblower_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_NAME">
+			<Text>{LOC_UNIT_UnfinishedHomeowners_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_DESCRIPTION">
+			<Text>进攻时 +7 [ICON_Strength]战斗力，防御时 +10 [ICON_Strength]战斗力，防御远程射击时额外 +5 [ICON_Strength]战斗力。（{LOC_UNIT_UnfinishedHomeowners_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WhiteMAMLUK_Sutures_NAME">
+			<Text>{LOC_UNIT_WhiteMAMLUK_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_WhiteMAMLUK_Sutures_DESCRIPTION">
+			<Text>每回合结束时自动回复血量。与至少 1 个烂尾房主相邻时 +10 [ICON_Strength]战斗力。（{LOC_UNIT_WhiteMAMLUK_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_NAME">
+			<Text>{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION">
+			<Text>如果输出伤害高于敌方单位，会将敌方单位弹到后方的单元格中，如果防守的单位无法后退，会受到更高的伤害。（{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TANK_Sutures_NAME">
+			<Text>{LOC_UNIT_TANK_Sutures_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_TANK_Sutures_DESCRIPTION">
+			<Text>受伤后 [ICON_Strength]战斗力无减益。每点未使用的移动力 +3 [ICON_Strength]战斗力。（{LOC_UNIT_TANK_Sutures_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIGGER_Sutures_NAME">
+			<Text>{LOC_UNIT_DIGGER_Sutures_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_DIGGER_Sutures_DESCRIPTION">
+			<Text>非本土作战时 +10 [ICON_Strength]战斗力。（{LOC_UNIT_DIGGER_Sutures_NAME}）</Text>
+		</Replace>
+
+		<!--ModifierStrings-->
+		<Replace Tag="LOC_Sutures_BONUS_VS_WOUNDED_UNITS">
+			<Text>对受伤敌人 +5 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_Kill_other_ori">
+			<Text>（{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME}）+5 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_Kill_other_ERA_AGE">
+			<Text>（{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME}黄金时代版）+10 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_RAVEN_LEVY_COMBAT_DESCRIPTION">
+			<Text>+5 [ICON_Strength]战斗力（不担事）</Text>
+		</Replace>
+		<Replace Tag="LOC_GAESATAE_STRONG_AGAINST_STRONGER_UNITS_Sutures_DESCRIPTION">
+			<Text>对更高基础战斗力敌人 +10 [ICON_Strength] 战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_GAESATAE_STRONG_AGAINST_DISTRICTS_Sutures_DESCRIPTION">
+			<Text>进攻区域 +5 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_UnfinishedHomeowners_DEFENDER_Sutures_DESCRIPTION">
+			<Text>防御时 +10 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_UnfinishedHomeowners_DEFENDER_Range_Sutures_DESCRIPTION">
+			<Text>防御远程射击时 +5 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_UnfinishedHomeowners_Attack_Sutures_DESCRIPTION">
+			<Text>进攻时 +7 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_HOPLITE_NEIGHBOR_COMBAT_MODIFIER_Sutures_DESCRIPTION">
+			<Text>和烂尾房主相邻 +10 [ICON_Strength]战斗力</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add_DESCRIPTION">
+			<Text>非本土作战 +10 [ICON_Strength]战斗力</Text>
+		</Replace>
+		
+		<!--other-->
+		<Replace Tag="LOC_VIZSOURCE_SuturesRational_TRAIT">
+			<Text>获取到了{LOC_GOVERNOR_SuturesRational_TITLE}的“{LOC_GOVERNOR_PROMOTION_SuturesRational2_NAME}”升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_SuturesRational_TRAIT">
+			<Text>使用{LOC_GOVERNOR_SuturesRational_TITLE}的“{LOC_GOVERNOR_PROMOTION_SuturesRational2_NAME}”升级。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SuturesRational">
+			<Text>您的秘密情报干员，{1_Name}，窃听到</Text>
+		</Replace>
+		
+		<!--区域-->
+		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures">
+			<Text>+{1_Num} [ICON_Science] 科技值。</Text>
+		</Replace>
+	</BaseGameText>
+</GameData>

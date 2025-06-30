@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>LOC_Sutures_MOD_TITLE</Name>
+    <Guid>339b78b9-7a25-437b-97f2-2d327b58e18c</Guid>
+    <ProjectGuid>9ad5534a-1a30-48d5-8399-e5b4b4fa44f7</ProjectGuid>
+    <ModVersion>12</ModVersion>
+    <Teaser>LOC_Sutures_MOD_TEASER</Teaser>
+    <Description>LOC_Sutures_MOD_DESCRIPTION</Description>
+    <Authors>LOC_Sutures_MOD_AUTHORS</Authors>
+    <SpecialThanks>LOC_Sutures_MOD_THANKS</SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>2.0</CompatibleVersions>
+    <AssemblyName>Sutures</AssemblyName>
+    <RootNamespace>Sutures</RootNamespace>
+    <ModProperties>
+      <CustomProperties xmlns="" />
+    </ModProperties>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Sutures_ud_db"><File>Sutures_Config.xml</File></UpdateDatabase><UpdateText id="Sutures_ud_txt"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <Homepage>LOC_Sutures_MOD_HOMEPAGE</Homepage>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Sutures_ud_art_ingame"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="Sutures_ud_txt_ingame"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File><File>texts/Sutures_BaseText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons_ingame"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Governor_small_image.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons><UpdateDatabase id="Sutures_ud_db_ingame"><Properties><LoadOrder>1000</LoadOrder></Properties><File>Sutures_Leaders.xml</File><File>Sutures_Civilization.xml</File><File>Sutures_Governors.xml</File><File>Sutures_Districts.xml</File><File>Sutures_Buildings.xml</File><File>Sutures_Units.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="Sutures.Art.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="icons" />
+    <Folder Include="Artdefs" />
+    <Folder Include="texts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\Sutures_Governor_small_image.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\Sutures_Icons_civAndLeader.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="icons\Sutures_Icons_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Colors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Governors.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="texts\Sutures_BaseText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="texts\Sutures_ConfigText.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="texts\Sutures_PackageText.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
