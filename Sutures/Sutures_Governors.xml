@@ -804,6 +804,10 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRational1</GovernorPromotionType>
 			<ModifierId>Sutures_MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_TRADER</ModifierId>
 		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRational1</GovernorPromotionType>
+			<ModifierId>Sutures_TRAIT_WATER_TRADE_ROUTE_RANGE</ModifierId>
+		</Row>
 		<!--我又觉醒了-->
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRational2</GovernorPromotionType>
@@ -1272,6 +1276,10 @@
 		<Row>
 			<ModifierId>Sutures_MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_TRADER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_TRAIT_WATER_TRADE_ROUTE_RANGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_WATER_RANGE</ModifierType>
 		</Row>
 		<!--我又觉醒了-->
 		<Row>
@@ -2115,6 +2123,11 @@
 			<ModifierId>Sutures_MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_TRADER</ModifierId>
 			<Name>UnitType</Name>
 			<Value>UNIT_TRADER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_TRAIT_WATER_TRADE_ROUTE_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>30</Value>
 		</Row>
 		<!--我又觉醒了-->
 		<Row>

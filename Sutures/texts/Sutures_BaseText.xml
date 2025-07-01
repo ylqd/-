@@ -183,7 +183,7 @@
 			<Text>睁眼看世界</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational1_DESCRIPTION">
-			<Text>所有单位 +1 视野。与 1 个文明相遇便 +1 [ICON_TradeRoute]贸易路线容量。和所有城邦互相开放边界。商人单位在解锁后可以立即上船。</Text>
+			<Text>所有单位 +1 视野。与 1 个文明相遇便 +1 [ICON_TradeRoute]贸易路线容量。和所有城邦互相开放边界。商人单位在解锁后可以立即上船，在水域中的行动范围 +100%。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational2_NAME">
 			<Text>我又觉醒了</Text>
