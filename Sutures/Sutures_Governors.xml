@@ -68,7 +68,7 @@
              ActionDescription="LOC_VIZSOURCE_ACTION_SuturesRational_TRAIT"
              GossipString="LOC_GOSSIP_SuturesRational"
 			 FromCitizen="true"
-			 TraitType="TRAIT_CIVILIZATION_SuturesRational_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 	</DiplomaticVisibilitySources>
 	
@@ -161,7 +161,7 @@
 			 TransitionStrength="500"
 			 PortraitImage="GOVERNOR_SuturesPatriot_Portrait"
 			 PortraitImageSelected="GOVERNOR_SuturesPatriot_PortraitSelected"
-			 TraitType="TRAIT_CIVILIZATION_SuturesPatriot_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 		<Row
 			 GovernorType="GOVERNOR_SuturesHappySis"
@@ -174,7 +174,7 @@
 			 TransitionStrength="500"
 			 PortraitImage="GOVERNOR_SuturesHappySis_Portrait"
 			 PortraitImageSelected="GOVERNOR_SuturesHappySis_PortraitSelected"
-			 TraitType="TRAIT_CIVILIZATION_SuturesHappySis_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 		<Row
 			 GovernorType="GOVERNOR_SuturesWolfWarrior"
@@ -187,7 +187,7 @@
 			 TransitionStrength="500"
 			 PortraitImage="GOVERNOR_SuturesWolfWarrior_Portrait"
 			 PortraitImageSelected="GOVERNOR_SuturesWolfWarrior_PortraitSelected"
-			 TraitType="TRAIT_CIVILIZATION_SuturesWolfWarrior_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 		<Row
 			 GovernorType="GOVERNOR_SuturesRegulators"
@@ -200,7 +200,7 @@
 			 TransitionStrength="500"
 			 PortraitImage="GOVERNOR_SuturesRegulators_Portrait"
 			 PortraitImageSelected="GOVERNOR_SuturesRegulators_PortraitSelected"
-			 TraitType="TRAIT_CIVILIZATION_SuturesRegulators_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 		<Row
 			 GovernorType="GOVERNOR_SuturesRational"
@@ -213,7 +213,7 @@
 			 TransitionStrength="500"
 			 PortraitImage="GOVERNOR_SuturesRational_Portrait"
 			 PortraitImageSelected="GOVERNOR_SuturesRational_PortraitSelected"
-			 TraitType="TRAIT_CIVILIZATION_SuturesRational_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 		<Row
 			 GovernorType="GOVERNOR_SuturesWinner"
@@ -226,7 +226,7 @@
 			 TransitionStrength="500"
 			 PortraitImage="GOVERNOR_SuturesWinner_Portrait"
 			 PortraitImageSelected="GOVERNOR_SuturesWinner_PortraitSelected"
-			 TraitType="TRAIT_CIVILIZATION_SuturesWinner_GOVERNOR"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
 	</Governors>
 	<GovernorsCannotAssign>
