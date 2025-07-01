@@ -57,7 +57,7 @@
 		<Row Type="MODIFIER_PLAYER_UNITS_ADJUST_UNIT_NO_BARB_XP_LIMIT_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_PLAYER_ADJUST_DUPLICATE_INFLUENCE_TOKEN_WHEN_TRADE_ROUTE_TOT_Suture" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY_ON_MEETING_Suture" Kind="KIND_MODIFIER"/>
-		
+		<Row Type="MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture" Kind="KIND_MODIFIER"/>
 	</Types>
 	
 	<!--外交能见度-->
@@ -92,6 +92,11 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY_ON_MEETING_Suture</ModifierType>
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_PLAYER_TRADE_ROUTE_CAPACITY_ON_MEETING</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_PLAYER_EMBARK_UNIT_PASS</EffectType>
 		</Row>
 	</DynamicModifiers>
 	
@@ -795,6 +800,10 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRational1</GovernorPromotionType>
 			<ModifierId>Sutures_PORTA_DO_CERCO_EXTRA_SIGHT_ForSelf</ModifierId>
 		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRational1</GovernorPromotionType>
+			<ModifierId>Sutures_MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_TRADER</ModifierId>
+		</Row>
 		<!--我又觉醒了-->
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRational2</GovernorPromotionType>
@@ -1259,6 +1268,10 @@
 		<Row>
 			<ModifierId>Sutures_PORTA_DO_CERCO_EXTRA_SIGHT_ForSelf</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_TRADER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture</ModifierType>
 		</Row>
 		<!--我又觉醒了-->
 		<Row>
@@ -2097,6 +2110,11 @@
 			<ModifierId>Sutures_PORTA_DO_CERCO_EXTRA_SIGHT_ForSelf</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_Sutures_DO_CERCO_EXTRA_SIGHT</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_TRADER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_TRADER</Value>
 		</Row>
 		<!--我又觉醒了-->
 		<Row>
