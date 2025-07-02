@@ -76,7 +76,16 @@
 		<Replace Tag="LOC_GOVERNOR_SuturesWinner_DESCRIPTION">
 			<Text>{LOC_GOVERNOR_SuturesWinner_NAME}拥有外交和市政的双料才能，带来综合性加成。</Text>
 		</Replace>
-		
+		<!--反诈先锋-->
+		<Replace Tag="LOC_GOVERNOR_SuturesAntiFraudsters_NAME">
+			<Text>莫斯</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesAntiFraudsters_TITLE">
+			<Text>反诈先锋</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_SuturesAntiFraudsters_DESCRIPTION">
+			<Text>{LOC_GOVERNOR_SuturesAntiFraudsters_NAME}拥有全面性的综合才能。</Text>
+		</Replace>
 		
 		<!--爱国者-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot1_NAME">
@@ -228,6 +237,13 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_DESCRIPTION">
 			<Text>解锁古典市政历史记录后，免费获得 1 个间谍（同时增加 1 个间谍容量），所有间谍初始就可以升级为探员。间谍进攻型的行动 +1 级执行效果。进攻性间谍任务成功时，获得目标城市该回合[ICON_Faith] 信仰值、[ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值的100%。可以使用信仰值购买间谍。</Text>
 		</Replace>
+		<!--反诈先锋-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_NAME">
+			<Text>差不多得了</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION">
+			<Text>可更早组建军团（需雇佣兵市政）和军队（需民族主义市政）。使军团和军队的 [ICON_STRENGTH] 基础战斗力额外+5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
+		</Replace>
 		
 		<!--ability-->
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME">
@@ -371,7 +387,7 @@
 			<Text>使用{LOC_GOVERNOR_SuturesRational_TITLE}的“{LOC_GOVERNOR_PROMOTION_SuturesRational2_NAME}”升级。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOSSIP_SuturesRational">
-			<Text>您的秘密情报干员，{1_Name}，窃听到</Text>
+			<Text>您的公司牛马，{1_Name}，窃听到</Text>
 		</Replace>
 		
 		<!--区域-->

@@ -41,6 +41,9 @@
 		<Row Type="GOVERNOR_PROMOTION_SuturesWinner2" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesWinner3" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesWinner4" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<!--反诈先锋-->
+		<Row Type="GOVERNOR_SuturesAntiFraudsters" Kind="KIND_GOVERNOR"/>
+		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters1" Kind="KIND_GOVERNOR_PROMOTION"/>
 		
 		<!--ability-->
 		<Row Type="ABILITY_Sutures_GetExtraMovement" Kind="KIND_ABILITY"/>
@@ -233,6 +236,19 @@
 			 PortraitImageSelected="GOVERNOR_SuturesWinner_PortraitSelected"
 			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
 			 />
+		<Row
+			 GovernorType="GOVERNOR_SuturesAntiFraudsters"
+			 Image="ICON_GOVERNOR_SuturesAntiFraudsters"
+			 Name="LOC_GOVERNOR_SuturesAntiFraudsters_NAME"
+			 Title="LOC_GOVERNOR_SuturesAntiFraudsters_TITLE"
+			 ShortTitle="LOC_GOVERNOR_SuturesAntiFraudsters_TITLE"
+			 Description="LOC_GOVERNOR_SuturesAntiFraudsters_DESCRIPTION"
+			 IdentityPressure="15"
+			 TransitionStrength="500"
+			 PortraitImage="GOVERNOR_SuturesAntiFraudsters_Portrait"
+			 PortraitImageSelected="GOVERNOR_SuturesAntiFraudsters_PortraitSelected"
+			 TraitType="TRAIT_CIVILIZATION_SuturesAbility"
+			 />
 	</Governors>
 	<GovernorsCannotAssign>
 		<Row GovernorType="GOVERNOR_SuturesPatriot" CannotAssign="true"/>
@@ -241,6 +257,7 @@
 		<Row GovernorType="GOVERNOR_SuturesRegulators" CannotAssign="true"/>
 		<Row GovernorType="GOVERNOR_SuturesRational" CannotAssign="true"/>
 		<Row GovernorType="GOVERNOR_SuturesWinner" CannotAssign="true"/>
+		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" CannotAssign="true"/>
 	</GovernorsCannotAssign>
 	<GovernorPromotionSets>
 		<Row GovernorType="GOVERNOR_SuturesPatriot" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesPatriot1"/>
@@ -272,6 +289,8 @@
 		<Row GovernorType="GOVERNOR_SuturesWinner" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesWinner2"/>
 		<Row GovernorType="GOVERNOR_SuturesWinner" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesWinner3"/>
 		<Row GovernorType="GOVERNOR_SuturesWinner" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesWinner4"/>
+
+		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"/>
 
 	</GovernorPromotionSets>
 	
@@ -450,6 +469,15 @@
 			 Level="3"
 			 Column="1"
 			 BaseAbility="true"/>
+		<!--反诈先锋-->
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"
+			 Name="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_NAME"
+			 Description="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION"
+			 Level="0"
+			 Column="1"
+			 BaseAbility="true"/>
+
 	</GovernorPromotions>
 
 	<GovernorPromotionPrereqs>
@@ -990,6 +1018,27 @@
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWinner4</GovernorPromotionType>
 			<ModifierId>Sutures_PURCHASE_SPY</ModifierId>
+		</Row>
+		<!--反诈先锋-->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
+			<ModifierId>TRAIT_LAND_CORPS_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
+			<ModifierId>TRAIT_LAND_ARMIES_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
+			<ModifierId>TRAIT_LAND_CORPS_EARLY</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
+			<ModifierId>TRAIT_LAND_ARMIES_EARLY</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
+			<ModifierId>TRAIT_ISIBONGO_UPGRADEMILITARYFORMATIONONCITYCONQUEST</ModifierId>
 		</Row>
 	</GovernorPromotionModifiers>
 
