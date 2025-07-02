@@ -242,7 +242,7 @@
 			<Text>差不多得了</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION">
-			<Text>可更早组建军团（需雇佣兵市政）和军队（需民族主义市政）。使军团和军队的 [ICON_STRENGTH] 基础战斗力额外+5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
+			<Text>可更早组建军团（需雇佣兵市政）和军队（需民族主义市政）。使军团和军队的 [ICON_STRENGTH] 基础战斗力额外 +5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
 		</Replace>
 		
 		<!--ability-->

@@ -48,7 +48,15 @@
 			 Name="LOC_DISTRICT_UnfinishedBuilding_NAME"
 			 Description="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION"
 			 SortIndex="23"/>
-
+		<Row
+			 Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_Sutures"
+			 LeaderType="LEADER_StitchingMonster"
+			 Type="DISTRICT_EastPointMilitaryAcademy"
+			 Icon="ICON_DISTRICT_EastPointMilitaryAcademy"
+			 Name="LOC_DISTRICT_EastPointMilitaryAcademy_NAME"
+			 Description="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION"
+			 SortIndex="24"/>
 		
 		
 		<Row

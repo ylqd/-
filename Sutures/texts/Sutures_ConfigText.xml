@@ -39,6 +39,12 @@
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION">
 			<Text>工业时代特色区域，代替社区。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_NAME">
+			<Text>东点军校</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION">
+			<Text>远古时代特色区域，代替军营。建造费用更低（-50%），+1 [ICON_Housing] 住房，不需要人口支持。满足市政或科技先决条件后即可创建军团和军队，并降低其 25% 的花费。其内的建筑 +2 [ICON_GOLD] 金币、+1 [ICON_SCIENCE] 科技值。</Text>
+		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME">
 			<Text>赝品博物馆</Text>

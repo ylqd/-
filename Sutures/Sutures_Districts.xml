@@ -4,6 +4,7 @@
 		<Row Type="DISTRICT_WastelandOfKnowledge" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_TypeAcasino" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_UnfinishedBuilding" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_EastPointMilitaryAcademy" Kind="KIND_DISTRICT"/>
 	</Types>
 
 	<Districts>
@@ -79,6 +80,31 @@
 			CityStrengthModifier="2"
 			TraitType="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding"
 			/>
+		<Row 
+			DistrictType="DISTRICT_EastPointMilitaryAcademy" 
+			Name="LOC_DISTRICT_EastPointMilitaryAcademy_NAME" 
+			Description="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION" 
+			PrereqTech="TECH_BRONZE_WORKING" 
+			PlunderType="NO_PLUNDER" 
+			AdvisorType="ADVISOR_CONQUEST" 
+			Cost="27"  
+			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			CostProgressionParam1="40" 
+			Maintenance="1" 
+			RequiresPlacement="true" 
+			RequiresPopulation="false" 
+			Aqueduct="false" 
+			NoAdjacentCity="true" 
+			InternalOnly="false" 
+			ZOC="true" 
+			HitPoints="100" 
+			CaptureRemovesBuildings="true" 
+			CaptureRemovesCityDefenses="false" 
+			MilitaryDomain="DOMAIN_LAND"
+			Appeal="-1"
+			Housing="1" 
+			CityStrengthModifier="2" 
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy"/>
 	</Districts>
 	
 	<District_Adjacencies>
@@ -116,27 +142,37 @@
 
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
+
+		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 
 	<District_CitizenYieldChanges>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_GOLD" YieldChange="4"/>
+		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 	</District_CitizenYieldChanges>
 
 	<DistrictReplaces>
 		<Row CivUniqueDistrictType="DISTRICT_WastelandOfKnowledge" ReplacesDistrictType="DISTRICT_CAMPUS"/>
 		<Row CivUniqueDistrictType="DISTRICT_TypeAcasino" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
 		<Row CivUniqueDistrictType="DISTRICT_UnfinishedBuilding" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
+		<Row CivUniqueDistrictType="DISTRICT_EastPointMilitaryAcademy" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
 	</DistrictReplaces>
 	
 	<Adjacency_YieldChanges>
 		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="2" Self="true"/>
 	</Adjacency_YieldChanges>
+
+	<Districts_XP2>
+		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" AttackRange="2"/>
+	</Districts_XP2>
 	
 	<DistrictModifiers>
 		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE"/>
@@ -145,6 +181,45 @@
 
 		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_UnfinishedBuilding_GOLD"/>
 		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_UnfinishedBuilding_Food"/>
+
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>IKANDA_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_BARRACKS_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_BARRACKS_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_STABLE_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_STABLE_SCIENCE</ModifierId>
+		
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_ARMORY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_ARMORY_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_MILITARY_ACADEMY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>TRAIT_IKANDA_MILITARY_ACADEMY_SCIENCE</ModifierId>
+		
+	</Row>
 	</DistrictModifiers>
 	<Modifiers>
 		<Row>

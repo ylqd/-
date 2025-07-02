@@ -9,6 +9,9 @@
 		<Row Name="ICON_DISTRICT_UnfinishedBuilding"                  Atlas="ICON_ATLAS_DISTRICTS" Index="10"/>
 		<Row Name="ICON_DISTRICT_UnfinishedBuilding_FOW"                Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="10"/>
 
+		<Row Name="ICON_DISTRICT_EastPointMilitaryAcademy"                                      Atlas="ICON_ATLAS_XP1_DISTRICTS" Index="3"/>
+		<Row Name="ICON_DISTRICT_EastPointMilitaryAcademy_FOW"                                  Atlas="ICON_ATLAS_XP1_DISTRICTS_FOW" Index="3"/>
+
 		<Row Name="ICON_BUILDING_MUSEUM_FAKES_Sutures"           Atlas="ICON_ATLAS_BUILDINGS" Index="25"/>
 		<Row Name="ICON_BUILDING_MUSEUM_FAKES_Sutures_FOW"          Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="25"/>
 
