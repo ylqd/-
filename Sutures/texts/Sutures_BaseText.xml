@@ -250,6 +250,12 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_DESCRIPTION">
 			<Text>Cities do not generate war weariness. When capturing a city with a World Wonder, the health of all military units will be fully restored. Boosts are granted after conquering a city: Every barracks or academy in a conquered city activates [ICON_TechBoosted] Eureka, and every sanctum and theatre square brings [ICON_CivicBoosted] inspiration.</Text>
 		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_NAME">
+			<Text>1968 Serve the motherland</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_DESCRIPTION">
+			<Text>100% [ICON_PRODUCTION] productivity when building canals, dikes, flood dams，canal. 200% [ICON_PRODUCTION] productivity when building in the Municipal Square.</Text>
+		</Replace>
 		<!--ability--> 
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME">
 			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot1_NAME}</Text>
@@ -649,6 +655,12 @@
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市不会产生厌战情绪。占领拥有世界奇观的城市时，所有军事单位的体力值将完全恢复。征服城市后将获得提升：征服城市中每个军营或学院都会启动 [ICON_TechBoosted] 尤里卡、每个圣地和剧院广场都带来 [ICON_CivicBoosted] 鼓舞。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_NAME" Language="zh_Hans_CN">
+			<Text>1968 报效祖国</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>修建水渠、堤坝、运河、拦洪坝时 +100% [ICON_PRODUCTION]生产力。修建市政广场内的建筑时 +200% [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<!--ability-->
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME" Language="zh_Hans_CN">

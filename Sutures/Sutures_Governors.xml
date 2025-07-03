@@ -45,6 +45,7 @@
 		<Row Type="GOVERNOR_SuturesAntiFraudsters" Kind="KIND_GOVERNOR"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters1" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters2" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters3" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<!--ability-->
 		<Row Type="ABILITY_Sutures_GetExtraMovement" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS" Kind="KIND_ABILITY"/>
@@ -292,6 +293,7 @@
 
 		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"/>
 		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"/>
+		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters3"/>
 	</GovernorPromotionSets>
 	
 	<GovernorPromotions>
@@ -484,7 +486,13 @@
 			 Level="1"
 			 Column="1"
 			 BaseAbility="true"/>
-
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters3"
+			 Name="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_NAME"
+			 Description="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_DESCRIPTION"
+			 Level="2"
+			 Column="1"
+			 BaseAbility="true"/>
 	</GovernorPromotions>
 
 	<GovernorPromotionPrereqs>
@@ -553,6 +561,9 @@
 		<Row
 			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"
 			 PrereqGovernorPromotion="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"/>
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters3"
+			 PrereqGovernorPromotion="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"/>
 	</GovernorPromotionPrereqs>
 	<UnitAbilityModifiers>
 		<Row>
@@ -1076,6 +1087,59 @@
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
 			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
+		</Row>
+		<!--报效祖国-->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_DISTRICT_AQUEDUCT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_DISTRICT_DAM_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_FLOOD_BARRIER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_DISTRICT_CANAL_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_TALL_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_WIDE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_CONQUEST_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_FAITH_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_CITYSTATES_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_SPIES_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_MILITARY_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_CULTURE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
+			<ModifierId>Sutures_BUILDING_GOV_SCIENCE_PRODUCTION</ModifierId>
 		</Row>
 	</GovernorPromotionModifiers>
 
@@ -1647,6 +1711,60 @@
 			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
 			<Permanent>true</Permanent>
 			<RunOnce>true</RunOnce>
+		</Row>
+		<!--报效祖国-->
+		<Row>
+			<ModifierId>Sutures_DISTRICT_AQUEDUCT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_DAM_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_FLOOD_BARRIER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_CANAL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>
+		
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_TALL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_WIDE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CONQUEST_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_FAITH_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CITYSTATES_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_SPIES_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_MILITARY_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CULTURE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_SCIENCE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -2851,6 +2969,138 @@
 			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
 			<Name>Source</Name>
 			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<!--报效祖国-->
+		<Row>
+			<ModifierId>Sutures_DISTRICT_AQUEDUCT_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_AQUEDUCT</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_AQUEDUCT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_CANAL_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CANAL</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_CANAL_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_DAM_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DAM</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DISTRICT_DAM_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_FLOOD_BARRIER_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_FLOOD_BARRIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_FLOOD_BARRIER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_TALL_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_TALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_TALL_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_WIDE_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_WIDE</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_WIDE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CONQUEST_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CONQUEST</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CONQUEST_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_FAITH_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_FAITH_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CITYSTATES_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CITYSTATES</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CITYSTATES_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_SPIES_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SPIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_SPIES_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CULTURE_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_CULTURE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_MILITARY_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_MILITARY_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_SCIENCE_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BUILDING_GOV_SCIENCE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>200</Value>
 		</Row>
 	</ModifierArguments>
 
