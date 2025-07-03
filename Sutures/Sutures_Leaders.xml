@@ -39,7 +39,7 @@
 		<Row>
 			<ModifierId>LEADER_StitchingMonster_COMMANDANTE_GOVERNOR_TITLE</ModifierId>
 			<Name>Delta</Name>
-			<Value>25</Value>
+			<Value>30</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

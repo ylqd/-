@@ -549,6 +549,10 @@
 		<Row
 			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesWinner4"
 			 PrereqGovernorPromotion="GOVERNOR_PROMOTION_SuturesWinner3"/>
+		<!--反诈先锋-->
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"
+			 PrereqGovernorPromotion="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"/>
 	</GovernorPromotionPrereqs>
 	<UnitAbilityModifiers>
 		<Row>
