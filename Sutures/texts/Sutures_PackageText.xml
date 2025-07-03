@@ -2,21 +2,47 @@
 <GameData>
 	<BaseGameText>
 		<Replace Tag="LOC_Sutures_MOD_TITLE">
-			<Text>永赢者文明</Text>
+			<Text>Eternal Winner Civilization</Text>
 		</Replace>
 		<Replace Tag="LOC_Sutures_MOD_AUTHORS">
-			<Text>爱疯超人</Text>
+			<Text>Love mad Superman</Text>
 		</Replace>
 		<Replace Tag="LOC_Sutures_MOD_THANKS">
-			<Text>特别感谢 B 站的 Hemmelfort 老师，mod 制作技术都是从他的教程学的，感谢老师的无私奉献。</Text>
+			<Text>Special thanks to Mr. Hemmelfort at Station B, the mod making techniques are all learned from his tutorials, and thanks to the teacher for his selfless dedication.</Text>
 		</Replace>
 		<Replace Tag="LOC_Sutures_MOD_HOMEPAGE">
-			<Text>暂无</Text>
+			<Text>Not yet</Text>
 		</Replace>
 		<Replace Tag="LOC_Sutures_MOD_TEASER">
-			<Text>永赢者文明和它的 1 个 领袖</Text>
+			<Text>The Forever Winner civilisation and its 1 leader.</Text>
 		</Replace>
 		<Replace Tag="LOC_Sutures_MOD_DESCRIPTION">
+			<Text>
+				Newcomer practice works, mainly based on the existing civilisation stitched into a civilisation out, the strength is average, barely able to touch the difficulty of the gods, the main feature is breadth, various types of characteristics are basically there (except for religion).[NEWLINE][NEWLINE]
+				The mod summarises about 24 perk bonuses from all DLC civilisations and leaders, categorised by function, and encapsulated into the skills of different featured governors (some of which are moderately enhanced), which can be enabled as needed.[NEWLINE][NEWLINE]
+				This module is strongly dependent on the rise and fall of the DLC. Also, since most of the featured Governors in this mod use the shell of the Viceroy of the Secret Society, it's a good idea to have the DLC of the Ethiopian pack, otherwise the display of the Viceroy section may lack context and slightly affect the senses.[NEWLINE][NEWLINE]
+				This mod only supports the Storm of Clouds DLC game version.
+			</Text>
+		</Replace>
+	</BaseGameText>
+
+	<LocalizedText>
+		<Replace Tag="LOC_Sutures_MOD_TITLE" Language="zh_Hans_CN">
+			<Text>永赢者文明</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_AUTHORS" Language="zh_Hans_CN">
+			<Text>爱疯超人</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_THANKS" Language="zh_Hans_CN">
+			<Text>特别感谢 B 站的 Hemmelfort 老师，mod 制作技术都是从他的教程学的，感谢老师的无私奉献。</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_HOMEPAGE" Language="zh_Hans_CN">
+			<Text>暂无</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_TEASER" Language="zh_Hans_CN">
+			<Text>永赢者文明和它的 1 个 领袖</Text>
+		</Replace>
+		<Replace Tag="LOC_Sutures_MOD_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>
 				新人练手作品，主要根据已有的文明缝合了一个文明出来，强度一般，勉强能和天神难度碰一下，主打特性广度，各种类型的特性基本都有（除了宗教）。[NEWLINE][NEWLINE]
 				该模组从全 dlc 的文明和领袖中摘要了约 24 个特性加成，按照功能分类，封装到了不同的特色总督的技能中（部分技能被适度强化），可以按需启用。[NEWLINE][NEWLINE]
@@ -24,5 +50,5 @@
 				该模组仅支持风云变幻 dlc 游戏版本。
 			</Text>
 		</Replace>
-	</BaseGameText>
+	</LocalizedText>
 </GameData>
