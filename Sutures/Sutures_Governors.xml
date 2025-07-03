@@ -44,7 +44,7 @@
 		<!--反诈先锋-->
 		<Row Type="GOVERNOR_SuturesAntiFraudsters" Kind="KIND_GOVERNOR"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters1" Kind="KIND_GOVERNOR_PROMOTION"/>
-		
+		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters2" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<!--ability-->
 		<Row Type="ABILITY_Sutures_GetExtraMovement" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS" Kind="KIND_ABILITY"/>
@@ -291,7 +291,7 @@
 		<Row GovernorType="GOVERNOR_SuturesWinner" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesWinner4"/>
 
 		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"/>
-
+		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"/>
 	</GovernorPromotionSets>
 	
 	<GovernorPromotions>
@@ -475,6 +475,13 @@
 			 Name="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_NAME"
 			 Description="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION"
 			 Level="0"
+			 Column="1"
+			 BaseAbility="true"/>
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"
+			 Name="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_NAME"
+			 Description="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_DESCRIPTION"
+			 Level="1"
 			 Column="1"
 			 BaseAbility="true"/>
 
@@ -1019,7 +1026,7 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWinner4</GovernorPromotionType>
 			<ModifierId>Sutures_PURCHASE_SPY</ModifierId>
 		</Row>
-		<!--反诈先锋-->
+		<!--差不多得了-->
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
 			<ModifierId>TRAIT_LAND_CORPS_COMBAT_STRENGTH</ModifierId>
@@ -1039,6 +1046,32 @@
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters1</GovernorPromotionType>
 			<ModifierId>TRAIT_ISIBONGO_UPGRADEMILITARYFORMATIONONCITYCONQUEST</ModifierId>
+		</Row>
+		<!--速通只需一小时二十二分-->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
+			<ModifierId>Sutures_TRAIT_NO_WAR_WEARINESS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
+			<ModifierId>Sutures_HEAL_ON_WONDER_CAPTURE</ModifierId>
+		</Row>
+
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters2</GovernorPromotionType>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
 		</Row>
 	</GovernorPromotionModifiers>
 
@@ -1549,6 +1582,67 @@
 		<Row>
 			<ModifierId>Sutures_PURCHASE_SPY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+		</Row>
+		<!--速通只需一小时二十二分-->
+		<Row>
+			<ModifierId>Sutures_TRAIT_NO_WAR_WEARINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HEAL_ON_WONDER_CAPTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_CITY_HAS_WONDER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HEAL_ON_WONDER_CAPTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_CITY_HAS_ENCAMPMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLAYER_HAS_CAMPUS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_TECHNOLOGY_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_CITY_HAS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CAPTURED_CITY_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLAYER_HAS_Artist_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_RANDOM_CIVIC_BOOST_GOODY_HUT</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -2671,6 +2765,89 @@
 			<Name>Tag</Name>
 			<Value>CLASS_SPY</Value>
 		</Row>
+		<!--速通只需一小时二十二分-->
+		<Row>
+			<ModifierId>Sutures_TRAIT_NO_WAR_WEARINESS</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_TRAIT_NO_WAR_WEARINESS</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_HEAL_ON_WONDER_CAPTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>Sutures_HEAL_ON_WONDER_CAPTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HEAL_ON_WONDER_CAPTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_ENCAMPMENT_EUREKA_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_CAMPUS_EUREKA_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_HOLY_SITE_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HELLENISTIC_FUSION_THEATER_INSPIRATION_MODIFIER</ModifierId>
+			<Name>Source</Name>
+			<Value>CAPTURED_CITY</Value>
+		</Row>
 	</ModifierArguments>
 
 	<ModifierStrings>
@@ -2721,10 +2898,7 @@
 			<RequirementType>REQUIREMENT_PLOT_NEAR_CAPITAL</RequirementType>
 		</Row>
 
-		<Row>
-			<RequirementId>Sutures_REQUIRES_CITY_HAS_CAMPUS</RequirementId>
-			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
-		</Row>
+
 		<Row>
 			<RequirementId>Sutures_REQUIRES_CITY_HAS_Merchant</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
@@ -2733,10 +2907,7 @@
 			<RequirementId>Sutures_REQUIRES_CITY_HAS_Engineer</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
 		</Row>
-		<Row>
-			<RequirementId>Sutures_REQUIRES_CITY_HAS_Artist</RequirementId>
-			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
-		</Row>
+
 		
 		<Row>
 			<RequirementId>Sutures_REQUIRES_CITY_HAS_MUSEUM_ARTIFACT</RequirementId>
@@ -2760,6 +2931,11 @@
 		<Row>
 			<RequirementId>Sutures_PLAYER_HAS_RECORDED_HISTORY_Single</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
+
+		<Row>
+			<RequirementId>Sutures_REQUIRES_CITY_HAS_WONDER</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_ANY_WONDER</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -2802,11 +2978,6 @@
 		</Row>
 
 		<Row>
-			<RequirementId>Sutures_REQUIRES_CITY_HAS_CAMPUS</RequirementId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_CAMPUS</Value>
-		</Row>
-		<Row>
 			<RequirementId>Sutures_REQUIRES_CITY_HAS_Merchant</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_COMMERCIAL_HUB</Value>
@@ -2815,11 +2986,6 @@
 			<RequirementId>Sutures_REQUIRES_CITY_HAS_Engineer</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
-		</Row>
-		<Row>
-			<RequirementId>Sutures_REQUIRES_CITY_HAS_Artist</RequirementId>
-			<Name>DistrictType</Name>
-			<Value>DISTRICT_THEATER</Value>
 		</Row>
 
 		<Row>
@@ -2935,6 +3101,20 @@
 			<RequirementSetId>Sutures_PLAYER_HAS_RECORDED_HISTORY</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+
+		<Row>
+			<RequirementSetId>Sutures_CITY_HAS_WONDER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>Sutures_CITY_HAS_ENCAMPMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>Sutures_CITY_HAS_HOLY_SITE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!--非野蛮人-->
@@ -2982,7 +3162,7 @@
 		<!--我这一锅在美国值多少钱-->
 		<Row>
 			<RequirementSetId>Sutures_PLAYER_HAS_CAMPUS_REQUIREMENTS</RequirementSetId>
-			<RequirementId>Sutures_REQUIRES_CITY_HAS_CAMPUS</RequirementId>
+			<RequirementId>REQUIRES_CITY_HAS_CAMPUS</RequirementId>
 		</Row>
 		<Row>
 			<RequirementSetId>Sutures_PLAYER_HAS_Merchant_REQUIREMENTS</RequirementSetId>
@@ -2994,7 +3174,7 @@
 		</Row>
 		<Row>
 			<RequirementSetId>Sutures_PLAYER_HAS_Artist_REQUIREMENTS</RequirementSetId>
-			<RequirementId>Sutures_REQUIRES_CITY_HAS_Artist</RequirementId>
+			<RequirementId>REQUIRES_CITY_HAS_THEATER_DISTRICT</RequirementId>
 		</Row>
 
 		<!--对账对不上-->
@@ -3024,6 +3204,19 @@
 			<RequirementSetId>Sutures_PLAYER_HAS_RECORDED_HISTORY</RequirementSetId>
 			<RequirementId>Sutures_PLAYER_HAS_RECORDED_HISTORY_Single</RequirementId>
 		</Row>
-		
+
+		<Row>
+			<RequirementSetId>Sutures_CITY_HAS_WONDER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>Sutures_REQUIRES_CITY_HAS_WONDER</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>Sutures_CITY_HAS_ENCAMPMENT</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_ENCAMPMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>Sutures_CITY_HAS_HOLY_SITE</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_HOLY_SITE</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 </GameData>

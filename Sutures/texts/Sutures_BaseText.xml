@@ -244,8 +244,13 @@
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION">
 			<Text>可更早组建军团（需雇佣兵市政）和军队（需民族主义市政）。使军团和军队的 [ICON_STRENGTH] 基础战斗力额外 +5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
 		</Replace>
-		
-		<!--ability-->
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_NAME">
+			<Text>速通只需一小时二十二分</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_DESCRIPTION">
+			<Text>城市不会产生厌战情绪。占领拥有世界奇观的城市时，所有军事单位的体力值将完全恢复。征服城市后将获得提升：征服城市中每个军营或学院都会启动 [ICON_TechBoosted] 尤里卡、每个圣地和剧院广场都带来 [ICON_CivicBoosted] 鼓舞。</Text>
+		</Replace>
+		<!--ability--> 
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME">
 			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot1_NAME}</Text>
 		</Replace>
