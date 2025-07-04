@@ -657,7 +657,7 @@
 			<Text>城市不会产生厌战情绪。占领拥有世界奇观的城市时，所有军事单位的体力值将完全恢复。征服城市后将获得提升：征服城市中每个军营或学院都会启动 [ICON_TechBoosted] 尤里卡、每个圣地和剧院广场都带来 [ICON_CivicBoosted] 鼓舞。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_NAME" Language="zh_Hans_CN">
-			<Text>1968 报效祖国</Text>
+			<Text>祖国的呼唤</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>修建水渠、堤坝、运河、拦洪坝时 +100% [ICON_PRODUCTION]生产力。修建市政广场内的建筑时 +200% [ICON_PRODUCTION]生产力。</Text>
