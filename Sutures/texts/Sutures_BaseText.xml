@@ -239,22 +239,28 @@
 		</Replace>
 		<!--反诈先锋-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_NAME">
-			<Text>Almost</Text>
+			<Text>Just don't kneel!!</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION">
 			<Text>Legions (mercenary municipals) and armies (nationalist municipals) can be formed earlier. Adds 5 to the [ICON_STRENGTH] base combat power of clans and armies. If the relevant Civic has been unlocked, capturing a city with a unit can upgrade it to a clan or army.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_NAME">
-			<Text>The speedrun takes only one hour and twenty-two minutes.</Text>
+			<Text>Rabbit! Rabbit! Rabbit!</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_DESCRIPTION">
 			<Text>Cities do not generate war weariness. When capturing a city with a World Wonder, the health of all military units will be fully restored. Boosts are granted after conquering a city: Every barracks or academy in a conquered city activates [ICON_TechBoosted] Eureka, and every sanctum and theatre square brings [ICON_CivicBoosted] inspiration.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_NAME">
-			<Text>1968 Serve the motherland</Text>
+			<Text>Meet 68</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_DESCRIPTION">
 			<Text>100% [ICON_PRODUCTION] productivity when building canals, dikes, flood dams，canal. 200% [ICON_PRODUCTION] productivity when building in the Municipal Square.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_NAME">
+			<Text>Selling nuclear bombs on the road of the Anti-Japanese War</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_DESCRIPTION">
+			<Text>Gain 5 Thermonuclear Weapons (each costing 16 gold for round maintenance) as soon as you have Apprentice Technology.</Text>
 		</Replace>
 		<!--ability--> 
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME">
@@ -399,6 +405,9 @@
 		</Replace>
 		<Replace Tag="LOC_GOSSIP_SuturesRational">
 			<Text>Your company cow horse, {1_Name}, eavesdropping</Text>
+		</Replace>
+		<Replace Tag="LOC_WMD_Super_NUCLEAR_DEVICE_Sutures_NAME">
+			<Text>Super nuke</Text>
 		</Replace>
 		
 		<!--区域-->
@@ -645,22 +654,28 @@
 		</Replace>
 		<!--反诈先锋-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_NAME" Language="zh_Hans_CN">
-			<Text>差不多得了</Text>
+			<Text>就是不跪！！！</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可更早组建军团（需雇佣兵市政）和军队（需民族主义市政）。使军团和军队的 [ICON_STRENGTH] 基础战斗力额外 +5。如已解锁相关市政，用单位占领城市则可将其升级为军团或军队。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_NAME" Language="zh_Hans_CN">
-			<Text>速通只需一小时二十二分</Text>
+			<Text>兔！兔！兔！</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市不会产生厌战情绪。占领拥有世界奇观的城市时，所有军事单位的体力值将完全恢复。征服城市后将获得提升：征服城市中每个军营或学院都会启动 [ICON_TechBoosted] 尤里卡、每个圣地和剧院广场都带来 [ICON_CivicBoosted] 鼓舞。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_NAME" Language="zh_Hans_CN">
-			<Text>祖国的呼唤</Text>
+			<Text>相约 68</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters3_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>修建水渠、堤坝、运河、拦洪坝时 +100% [ICON_PRODUCTION]生产力。修建市政广场内的建筑时 +200% [ICON_PRODUCTION]生产力。</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_NAME" Language="zh_Hans_CN">
+			<Text>抗战路上卖核弹</Text>
+		</Replace>
+		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>拥有学徒科技后，立即获得 5 枚热核武器（每枚需要 16 金币的回合维护费）。</Text>
 		</Replace>
 		<!--ability-->
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME" Language="zh_Hans_CN">
@@ -806,7 +821,10 @@
 		<Replace Tag="LOC_GOSSIP_SuturesRational" Language="zh_Hans_CN">
 			<Text>您的公司牛马，{1_Name}，窃听到</Text>
 		</Replace>
-
+		<Replace Tag="LOC_WMD_Super_NUCLEAR_DEVICE_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>超级核弹</Text>
+		</Replace>
+		
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" Language="zh_Hans_CN">
 			<Text>+{1_Num} [ICON_Science] 科技值。</Text>

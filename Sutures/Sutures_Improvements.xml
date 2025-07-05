@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="IMPROVEMENT_MISSILE_SILO_Sutures" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<Row 
+			ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" 
+			Name="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME" 
+			Description="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION" 
+			Icon="ICON_IMPROVEMENT_MISSILE_SILO" 
+			PlunderType="NO_PLUNDER" 
+			Buildable="true"
+			CanBuildOutsideTerritory="false" 
+			PrereqTech="TECH_APPRENTICESHIP"
+			WeaponSlots="1"
+			TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MISSILE_SILO_Sutures"
+			/>
+	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" TerrainType="TERRAIN_SNOW"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" FeatureType="FEATURE_VOLCANIC_SOIL"/>
+	</Improvement_ValidFeatures>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+</GameData>

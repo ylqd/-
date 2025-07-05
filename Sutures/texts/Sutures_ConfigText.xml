@@ -110,6 +110,13 @@
 		<Replace Tag="LOC_UNIT_DIGGER_Sutures_DESCRIPTION">
 			<Text>Modern unique melee unit that replaces infantry. Production and maintenance do not require strategic resource oil, maintenance cost is halved, production cost is -35%, and -5 base [ICON_Strength] combat power. 10 [ICON_Strength] Combat Power when fighting non-native.</Text>
 		</Replace>
+		<!--特色改良设施-->
+		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME">
+			<Text>Faith missile silos</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION">
+			<Text>Missile silos that can launch nuclear weapons, unlocked very early, can be built by builders.</Text>
+		</Replace>
 	</BaseGameText>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_Sutures_NAME" Language="zh_Hans_CN">
@@ -220,6 +227,14 @@
 		</Replace>
 		<Replace Tag="LOC_UNIT_DIGGER_Sutures_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>现代特色近战单位，代替步兵。生产和维护不需要战略资源石油，维护费用减半，生产费用 -35%，-5 基础 [ICON_Strength]战斗力。非本土作战时 +10 [ICON_Strength]战斗力。</Text>
+		</Replace>
+		
+		<!--特色改良设施-->
+		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>信仰导弹发射井</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以发射核武器的导弹发射井，解锁时间非常早，可以由建造者修建。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

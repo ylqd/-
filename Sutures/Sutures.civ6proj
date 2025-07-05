@@ -5,7 +5,7 @@
     <Name>LOC_Sutures_MOD_TITLE</Name>
     <Guid>339b78b9-7a25-437b-97f2-2d327b58e18c</Guid>
     <ProjectGuid>9ad5534a-1a30-48d5-8399-e5b4b4fa44f7</ProjectGuid>
-    <ModVersion>16</ModVersion>
+    <ModVersion>17</ModVersion>
     <Teaser>LOC_Sutures_MOD_TEASER</Teaser>
     <Description>LOC_Sutures_MOD_DESCRIPTION</Description>
     <Authors>LOC_Sutures_MOD_AUTHORS</Authors>
@@ -26,7 +26,7 @@
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
 </Associations>]]></AssociationData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Sutures_ud_art_ingame"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="Sutures_ud_txt_ingame"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File><File>texts/Sutures_BaseText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons_ingame"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Governor_small_image.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons><UpdateDatabase id="Sutures_ud_db_ingame"><Properties><LoadOrder>1000</LoadOrder></Properties><File>Sutures_Leaders.xml</File><File>Sutures_Civilization.xml</File><File>Sutures_Governors.xml</File><File>Sutures_Districts.xml</File><File>Sutures_Buildings.xml</File><File>Sutures_Units.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="Sutures_ud_art_ingame"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateText id="Sutures_ud_txt_ingame"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File><File>texts/Sutures_BaseText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons_ingame"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Governor_small_image.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons><UpdateDatabase id="Sutures_ud_db_ingame"><Properties><LoadOrder>1000</LoadOrder></Properties><File>Sutures_Leaders.xml</File><File>Sutures_Civilization.xml</File><File>Sutures_Governors.xml</File><File>Sutures_Districts.xml</File><File>Sutures_Buildings.xml</File><File>Sutures_Units.xml</File><File>Sutures_WMDs.xml</File><File>Sutures_Improvements.xml</File></UpdateDatabase></InGameActions>]]></InGameActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
@@ -47,6 +47,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Improvements.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Artdefs\Landmarks.artdef">
@@ -82,10 +85,16 @@
     <Content Include="Sutures_Governors.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Sutures_Improvements.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Sutures_Leaders.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Sutures_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sutures_WMDs.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="texts\Sutures_BaseText.xml">

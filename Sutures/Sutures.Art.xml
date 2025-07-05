@@ -18,6 +18,7 @@
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
+				<Element text="Improvements.artdef"/>
 				<Element text="Units.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -136,6 +137,7 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
+				<Element text="Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -144,6 +146,7 @@
 		<Element>
 			<consumerName text="IndirectGrid"/>
 			<relativeArtDefPaths>
+				<Element text="Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -153,6 +156,7 @@
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
 				<Element text="Civilizations.artdef"/>
+				<Element text="Improvements.artdef"/>
 				<Element text="Landmarks.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
@@ -311,6 +315,7 @@
 			<relativeArtDefPaths>
 				<Element text="Buildings.artdef"/>
 				<Element text="Districts.artdef"/>
+				<Element text="Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -365,6 +370,7 @@
 		<Element>
 			<consumerName text="UnitSimulation"/>
 			<relativeArtDefPaths>
+				<Element text="Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -439,6 +445,7 @@
 				<Element text="Buildings.artdef"/>
 				<Element text="Civilizations.artdef"/>
 				<Element text="Districts.artdef"/>
+				<Element text="Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>

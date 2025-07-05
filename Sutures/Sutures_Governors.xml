@@ -46,6 +46,7 @@
 		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters1" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters2" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters3" Kind="KIND_GOVERNOR_PROMOTION"/>
+		<Row Type="GOVERNOR_PROMOTION_SuturesAntiFraudsters4" Kind="KIND_GOVERNOR_PROMOTION"/>
 		<!--ability-->
 		<Row Type="ABILITY_Sutures_GetExtraMovement" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS" Kind="KIND_ABILITY"/>
@@ -294,6 +295,7 @@
 		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters1"/>
 		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"/>
 		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters3"/>
+		<Row GovernorType="GOVERNOR_SuturesAntiFraudsters" GovernorPromotion ="GOVERNOR_PROMOTION_SuturesAntiFraudsters4"/>
 	</GovernorPromotionSets>
 	
 	<GovernorPromotions>
@@ -493,8 +495,15 @@
 			 Level="2"
 			 Column="1"
 			 BaseAbility="true"/>
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters4"
+			 Name="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_NAME"
+			 Description="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_DESCRIPTION"
+			 Level="3"
+			 Column="1"
+			 BaseAbility="false"/>
 	</GovernorPromotions>
-
+	
 	<GovernorPromotionPrereqs>
 		<!--爱国者-->
 		<Row
@@ -564,6 +573,9 @@
 		<Row
 			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters3"
 			 PrereqGovernorPromotion="GOVERNOR_PROMOTION_SuturesAntiFraudsters2"/>
+		<Row
+			 GovernorPromotionType="GOVERNOR_PROMOTION_SuturesAntiFraudsters4"
+			 PrereqGovernorPromotion="GOVERNOR_PROMOTION_SuturesAntiFraudsters3"/>
 	</GovernorPromotionPrereqs>
 	<UnitAbilityModifiers>
 		<Row>
@@ -1140,6 +1152,11 @@
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters3</GovernorPromotionType>
 			<ModifierId>Sutures_BUILDING_GOV_SCIENCE_PRODUCTION</ModifierId>
+		</Row>
+		<!--埋葬一切来犯之敌-->
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
+			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 		</Row>
 	</GovernorPromotionModifiers>
 
@@ -1766,6 +1783,13 @@
 			<ModifierId>Sutures_BUILDING_GOV_SCIENCE_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
 		</Row>
+		<!--埋葬一切来犯之敌-->
+		<Row>
+			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CREATE_WMD</ModifierType>
+			<SubjectRequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>		
 	</Modifiers>
 	<ModifierArguments>
 		<!--我也可以爱国-->
@@ -3102,6 +3126,17 @@
 			<Name>Amount</Name>
 			<Value>200</Value>
 		</Row>
+		<!--埋葬一切来犯之敌-->
+		<Row>
+			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
+			<Name>Type</Name>
+			<Value>WMD_THERMONUCLEAR_DEVICE</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
 	</ModifierArguments>
 
 	<ModifierStrings>
@@ -3191,6 +3226,11 @@
 			<RequirementId>Sutures_REQUIRES_CITY_HAS_WONDER</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_ANY_WONDER</RequirementType>
 		</Row>
+
+		<Row>
+			<RequirementId>Sutures_REQUIRES_TECHNOLOGY_For_UNIT_JET</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
@@ -3272,6 +3312,12 @@
 			<RequirementId>Sutures_PLAYER_HAS_RECORDED_HISTORY_Single</RequirementId>
 			<Name>CivicType</Name>
 			<Value>CIVIC_RECORDED_HISTORY</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>Sutures_REQUIRES_TECHNOLOGY_For_UNIT_JET</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_APPRENTICESHIP</Value>
 		</Row>
 	</RequirementArguments>
 
@@ -3367,6 +3413,11 @@
 		</Row>
 		<Row>
 			<RequirementSetId>Sutures_CITY_HAS_HOLY_SITE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -3471,6 +3522,11 @@
 		<Row>
 			<RequirementSetId>Sutures_CITY_HAS_HOLY_SITE</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_HOLY_SITE</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</RequirementSetId>
+			<RequirementId>Sutures_REQUIRES_TECHNOLOGY_For_UNIT_JET</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 </GameData>
