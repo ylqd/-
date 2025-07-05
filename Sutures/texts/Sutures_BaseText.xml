@@ -538,19 +538,19 @@
 			<Text>我不姓福我姓曾</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>贸易路线会立即在目标城市创建贸易站。如果和城邦存在活跃的 [ICON_TradeRoute]贸易路线，派遣 [ICON_Envoy]使者时数量将翻倍。</Text>
+			<Text>[ICON_TradeRoute]贸易路线会立即在目标城市创建贸易站。如果和城邦存在活跃的 [ICON_TradeRoute]贸易路线，派遣 [ICON_Envoy]使者时数量将翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis3_NAME" Language="zh_Hans_CN">
 			<Text>懂什么叫外交豁免权吗？</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>商人单位无法被掠夺。</Text>
+			<Text>[ICON_TradeRoute]商人单位无法被掠夺。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis4_NAME" Language="zh_Hans_CN">
 			<Text>摸着石头过河</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesHappySis4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>如果贸易的目标文明比己方更先进，将为贸易路线提供科技值或者文化值加成（每领先 1 项科技或者市政 +1）。</Text>
+			<Text>如果[ICON_TradeRoute]贸易的目标文明比己方更先进，将为贸易路线提供 [ICON_SCIENCE]科技值或者 [ICON_CULTURE]文化值加成（每领先 1 项科技或者市政 +1）。</Text>
 		</Replace>
 		<!--战犬-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior1_NAME" Language="zh_Hans_CN">
@@ -588,7 +588,7 @@
 			<Text>岁月静好</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造者额外获得 1 次使用次数。建造远古和古典奇观时，可以消耗建造者的使用次数加速奇观建造进程的 20%。解锁“砌砖”科技的同时也解锁“运河”。建造所有时代的奇观时，+35% 生产力。</Text>
+			<Text>建造者额外获得 1 次使用次数。建造远古和古典奇观时，可以消耗建造者的使用次数加速奇观建造进程的 20%。解锁“砌砖”科技的同时也解锁“运河”。建造所有时代的奇观时，+35% [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME" Language="zh_Hans_CN">
 			<Text>都不拿怎么进步</Text>
@@ -613,7 +613,7 @@
 			<Text>我又觉醒了</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>对所有文明的外交能见度 +1。外交能见度提供的战斗力加成翻倍。</Text>
+			<Text>对所有文明的外交能见度 +1。外交能见度提供的 [ICON_Strength]战斗力加成翻倍。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational3_NAME" Language="zh_Hans_CN">
 			<Text>我这一锅值多少钱？</Text>
