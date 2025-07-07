@@ -63,6 +63,7 @@
 		<Row Type="MODIFIER_PLAYER_ADJUST_DUPLICATE_INFLUENCE_TOKEN_WHEN_TRADE_ROUTE_TOT_Suture" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_CAPACITY_ON_MEETING_Suture" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_GRANT_UNIT_OF_ABILITY_WITH_MODIFIER_Suture" Kind="KIND_MODIFIER"/>
 	</Types>
 	
 	<!--外交能见度-->
@@ -102,6 +103,11 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture</ModifierType>
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_PLAYER_EMBARK_UNIT_PASS</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_OF_ABILITY_WITH_MODIFIER_Suture</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CAPITAL_CITY</CollectionType>
+			<EffectType>EFFECT_GRANT_UNIT_OF_CLASS_AND_APPLY_ABILITY</EffectType>
 		</Row>
 	</DynamicModifiers>
 	
@@ -1158,6 +1164,10 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
 			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+		</Row>
 	</GovernorPromotionModifiers>
 
 	<Modifiers>
@@ -1789,7 +1799,18 @@
 			<ModifierType>MODIFIER_PLAYER_CREATE_WMD</ModifierType>
 			<SubjectRequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
-		</Row>		
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_OF_ABILITY_WITH_MODIFIER_Suture</ModifierType>
+			<SubjectRequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</SubjectRequirementSetId>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_UNIT_REFUND_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RESOURCE_MAINTENANCE</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!--我也可以爱国-->
@@ -3136,6 +3157,22 @@
 			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<Name>UnitPromotionClassType</Name>
+			<Value>PROMOTION_CLASS_GIANT_DEATH_ROBOT</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>Sutures_GOODY_METEOR_UNIT_REFUND_COST</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_UNIT_REFUND_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
 		</Row>
 	</ModifierArguments>
 
