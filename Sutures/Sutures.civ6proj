@@ -5,7 +5,7 @@
     <Name>LOC_Sutures_MOD_TITLE</Name>
     <Guid>339b78b9-7a25-437b-97f2-2d327b58e18c</Guid>
     <ProjectGuid>9ad5534a-1a30-48d5-8399-e5b4b4fa44f7</ProjectGuid>
-    <ModVersion>19</ModVersion>
+    <ModVersion>20</ModVersion>
     <Teaser>LOC_Sutures_MOD_TEASER</Teaser>
     <Description>LOC_Sutures_MOD_DESCRIPTION</Description>
     <Authors>LOC_Sutures_MOD_AUTHORS</Authors>
@@ -20,7 +20,7 @@
     <ModProperties>
       <CustomProperties xmlns="" />
     </ModProperties>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Sutures_ud_db"><File>Sutures_Config.xml</File></UpdateDatabase><UpdateText id="Sutures_ud_txt"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Sutures_ud_db"><File>Sutures_Config.xml</File></UpdateDatabase><UpdateText id="Sutures_ud_txt"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons><UpdateArt id="Sutures_ud_art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <Homepage>LOC_Sutures_MOD_HOMEPAGE</Homepage>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
