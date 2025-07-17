@@ -17,7 +17,7 @@
 			<Text>This is me</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_StitchingMonsterAbility_DESCRIPTION">
-			<Text>Start with a large number of Governor titles.</Text>
+			<Text>Start with 30 Governor titles.</Text>
 		</Replace>
 		
 		<!--区域-->
@@ -135,7 +135,7 @@
 			<Text>这是俺拾嘞</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_StitchingMonsterAbility_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>开局获得海量的总督头衔。</Text>
+			<Text>开局获得 30 个总督头衔。</Text>
 		</Replace>
 
 		<!--区域-->
