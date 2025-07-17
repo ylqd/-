@@ -412,7 +412,7 @@
 		
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures">
-			<Text>+{1_Num} [ICON_Science] Science。</Text>
+			<Text>{1_num: number +#,###;-#,###} [ICON_Science] Science。</Text>
 		</Replace>
 	</BaseGameText>
 	<LocalizedText>
@@ -827,7 +827,7 @@
 		
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" Language="zh_Hans_CN">
-			<Text>+{1_Num} [ICON_Science] 科技值。</Text>
+			<Text>{1_num: number +#,###;-#,###} [ICON_Science] 科技值。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

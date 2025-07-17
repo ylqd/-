@@ -147,7 +147,7 @@
 	</District_TradeRouteYields>
 
 	<District_GreatPersonPoints>
-		<Row DistrictType="DISTRICT_WastelandOfKnowledge" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
@@ -167,7 +167,7 @@
 	</DistrictReplaces>
 	
 	<Adjacency_YieldChanges>
-		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="2" Self="true"/>
+		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="-2" Self="true"/>
 	</Adjacency_YieldChanges>
 
 	<Districts_XP2>
@@ -180,6 +180,8 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_EastPointMilitaryAcademy" Texture="Moment_Infrastructure_Zulu.dds"/>
 	</MomentIllustrations>
 	<DistrictModifiers>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" ModifierId="WastelandOfKnowledge_GRANT_TURN_Sutures"/>
+		
 		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_DISTRICT_PURCHASE"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_UNIT_PURCHASE"/>
@@ -228,6 +230,11 @@
 	</DistrictModifiers>
 	<Modifiers>
 		<Row>
+			<ModifierId>WastelandOfKnowledge_GRANT_TURN_Sutures</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		
+		<Row>
 			<ModifierId>Sutures_UnfinishedBuilding_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
 		</Row>
@@ -238,6 +245,12 @@
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
+		<Row>
+			<ModifierId>WastelandOfKnowledge_GRANT_TURN_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		
 		<Row>
 			<ModifierId>Sutures_UnfinishedBuilding_GOLD</ModifierId>
 			<Name>Amount</Name>
