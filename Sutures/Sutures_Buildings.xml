@@ -116,6 +116,11 @@
 			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
 		</Row>
 	</TraitModifiers>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_MUSEUM_FAKES_Sutures" Texture="Moment_Infrastructure_America.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_Greenhouses_Sutures" Texture="Moment_Infrastructure_Japan.dds"/>
+	</MomentIllustrations>
+	
 	<Modifiers>
 		<Row>
 			<ModifierId>Greenhouses_Sutures_GRANT_TECH_APPRENTICESHIP</ModifierId>

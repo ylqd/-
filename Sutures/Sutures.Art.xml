@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects..GameArtSpecification>
 	<id>
-		<name text="LOC_Sutures_MOD_TITLE"/>
+		<name text="Sutures"/>
 		<id text="339b78b9-7a25-437b-97f2-2d327b58e18c"/>
 	</id>
 	<artConsumers>
@@ -595,6 +595,7 @@
 				<Element text="Sutures_civAndLeader"/>
 				<Element text="Sutures_GOVERNOR_BigImg"/>
 				<Element text="Sutures_LeaderCover"/>
+				<Element text="Sutures_Moments"/>
 				<Element text="Sutures_small_governor_image"/>
 			</relativePackagePaths>
 		</Element>

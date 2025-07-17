@@ -287,6 +287,17 @@
 		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" ResourceCost="20"/>
 		<Row UnitType="UNIT_TANK_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 	</Units_XP2>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_GuardOfHonour" Texture="Moment_UniqueUnit_Cree.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TheTownIsTheProblemSolver" Texture="Moment_UniqueUnit_Rome.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_Whistleblower" Texture="Moment_UniqueUnit_Egypt.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_UnfinishedHomeowners" Texture="Moment_UniqueUnit_Norway_Berserker.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_WhiteMAMLUK" Texture="Moment_UniqueUnit_Arab.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_POLISH_HUSSAR_Sutures" Texture="Moment_UniqueUnit_America_Roughrider.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TANK_Sutures" Texture="Moment_UniqueUnit_TANK_Sutures.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_DIGGER_Sutures" Texture="Moment_UniqueUnit_France_GardeImperiale.dds"/>
+	</MomentIllustrations>
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_GAESATAE_Sutures</UnitAbilityType>

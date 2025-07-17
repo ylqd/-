@@ -173,7 +173,12 @@
 	<Districts_XP2>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" AttackRange="2"/>
 	</Districts_XP2>
-	
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_WastelandOfKnowledge" Texture="Moment_Infrastructure_Korea.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_TypeAcasino" Texture="MomentXP2_BuildingSuguba.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_UnfinishedBuilding" Texture="Moment_Infrastructure_Kongo.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_EastPointMilitaryAcademy" Texture="Moment_Infrastructure_Zulu.dds"/>
+	</MomentIllustrations>
 	<DistrictModifiers>
 		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_BUILDING_PURCHASE"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" ModifierId="SUGUBA_CHEAPER_DISTRICT_PURCHASE"/>

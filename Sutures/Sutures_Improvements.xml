@@ -30,4 +30,8 @@
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_MISSILE_SILO_Sutures" UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
+
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_MISSILE_SILO_Sutures" Texture="Moment_UniqueImproment_MISSILE_SILO_Sutures.dds"/>
+	</MomentIllustrations>
 </GameData>
