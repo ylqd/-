@@ -15,18 +15,13 @@
 		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="200" Filename="ICONS_CIVILIZATION_Sutures_200"/>
 		<Row Name="ATLAS_ICONS_CIVILIZATION_Sutures" IconSize="256" Filename="ICONS_CIVILIZATION_Sutures_256"/>
 
-		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="22" Filename="ICON_LEADER_StitchingMonster_22"/>
-		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="30" Filename="ICON_LEADER_StitchingMonster_30"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="32" Filename="ICON_LEADER_StitchingMonster_32"/>
-		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="36" Filename="ICON_LEADER_StitchingMonster_36"/>
-		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="44" Filename="ICON_LEADER_StitchingMonster_44"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="45" Filename="ICON_LEADER_StitchingMonster_45"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="48" Filename="ICON_LEADER_StitchingMonster_48"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="50" Filename="ICON_LEADER_StitchingMonster_50"/>
+		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="55" Filename="ICON_LEADER_StitchingMonster_55"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="64" Filename="ICON_LEADER_StitchingMonster_64"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="80" Filename="ICON_LEADER_StitchingMonster_80"/>
-		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="128" Filename="ICON_LEADER_StitchingMonster_128"/>
-		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="200" Filename="ICON_LEADER_StitchingMonster_200"/>
 		<Row Name="ATLAS_ICON_LEADER_StitchingMonster" IconSize="256" Filename="ICON_LEADER_StitchingMonster_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>

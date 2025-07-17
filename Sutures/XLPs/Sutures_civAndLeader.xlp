@@ -10,38 +10,6 @@
 	<m_PackageName text="Sutures_civAndLeader"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_256"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_32"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_45"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_48"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_50"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_55"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_55"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_64"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_StitchingMonster_80"/>
-			<m_ObjectName text="ICON_LEADER_StitchingMonster_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICONS_CIVILIZATION_Sutures_128"/>
 			<m_ObjectName text="ICONS_CIVILIZATION_Sutures_128"/>
 		</Element>
@@ -92,6 +60,38 @@
 		<Element>
 			<m_EntryID text="ICONS_CIVILIZATION_Sutures_80"/>
 			<m_ObjectName text="ICONS_CIVILIZATION_Sutures_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_256"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_32"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_45"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_48"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_50"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_55"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_64"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_StitchingMonster_80"/>
+			<m_ObjectName text="ICON_LEADER_StitchingMonster_80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
