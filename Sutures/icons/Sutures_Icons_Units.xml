@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" IconSize="22" Filename="ICON_UNIT_TheTownIsTheProblemSolver_22"/>
+		<Row Name="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" IconSize="32" Filename="ICON_UNIT_TheTownIsTheProblemSolver_32"/>
+		<Row Name="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" IconSize="38" Filename="ICON_UNIT_TheTownIsTheProblemSolver_38"/>
+		<Row Name="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" IconSize="50" Filename="ICON_UNIT_TheTownIsTheProblemSolver_50"/>
+		<Row Name="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" IconSize="80" Filename="ICON_UNIT_TheTownIsTheProblemSolver_80"/>
+		<Row Name="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" IconSize="256" Filename="ICON_UNIT_TheTownIsTheProblemSolver_256"/>
+
+		<Row Name="ATLAS_ICON_UNIT_Whistleblower" IconSize="22" Filename="ICON_UNIT_Whistleblower_22"/>
+		<Row Name="ATLAS_ICON_UNIT_Whistleblower" IconSize="32" Filename="ICON_UNIT_Whistleblower_32"/>
+		<Row Name="ATLAS_ICON_UNIT_Whistleblower" IconSize="38" Filename="ICON_UNIT_Whistleblower_38"/>
+		<Row Name="ATLAS_ICON_UNIT_Whistleblower" IconSize="50" Filename="ICON_UNIT_Whistleblower_50"/>
+		<Row Name="ATLAS_ICON_UNIT_Whistleblower" IconSize="80" Filename="ICON_UNIT_Whistleblower_80"/>
+		<Row Name="ATLAS_ICON_UNIT_Whistleblower" IconSize="256" Filename="ICON_UNIT_Whistleblower_256"/>
+
+		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="22" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_22"/>
+		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="32" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_32"/>
+		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="38" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_38"/>
+		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="50" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_50"/>
+		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="80" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_80"/>
+		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="256" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_TheTownIsTheProblemSolver" Atlas="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" Index="0"/>
+		<Row Name="ICON_UNIT_Whistleblower" Atlas="ATLAS_ICON_UNIT_Whistleblower" Index="0"/>
+		<Row Name="ICON_UNIT_POLISH_HUSSAR_Sutures" Atlas="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -21,12 +21,8 @@
 		<Row Name="ICON_UNIT_GuardOfHonour"      Atlas="ICON_ATLAS_EXPANSION_1_UNITS" Index="11"/>
 		<Row Name="ICON_UNIT_GuardOfHonour_PORTRAIT"      Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS" Index="11"/>
 
-		<Row Name="ICON_UNIT_TheTownIsTheProblemSolver"                  Atlas="ICON_ATLAS_UNITS" Index="20"/>
-		<Row Name="ICON_UNIT_TheTownIsTheProblemSolver_FOW"                  Atlas="ICON_ATLAS_UNITS_FOW" Index="20"/>
 		<Row Name="ICON_UNIT_TheTownIsTheProblemSolver_PORTRAIT"                      Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="18"/>
 
-		<Row Name="ICON_UNIT_Whistleblower"                   Atlas="ICON_ATLAS_UNITS" Index="29"/>
-		<Row Name="ICON_UNIT_Whistleblower_FOW"                   Atlas="ICON_ATLAS_UNITS_FOW" Index="29"/>
 		<Row Name="ICON_UNIT_Whistleblower_PORTRAIT"                       Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="27"/>
 
 		<Row Name="ICON_UNIT_UnfinishedHomeowners"      Atlas="ICON_ATLAS_UNITS" Index="44"/>
@@ -37,7 +33,6 @@
 		<Row Name="ICON_UNIT_WhiteMAMLUK_FOW"           Atlas="ICON_ATLAS_UNITS_FOW" Index="48"/>
 		<Row Name="ICON_UNIT_WhiteMAMLUK_PORTRAIT"               Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="46"/>
 
-		<Row Name="ICON_UNIT_POLISH_HUSSAR_Sutures"              Atlas="ICON_ATLAS_EXPANSION_2_UNITS"   Index="11"/>
 		<Row Name="ICON_UNIT_POLISH_HUSSAR_Sutures_PORTRAIT"              Atlas="ICON_ATLAS_EXPANSION_2_UNIT_PORTRAITS"   Index="11"/>
 
 		<Row Name="ICON_UNIT_TANK_Sutures"                     Atlas="ICON_ATLAS_UNITS" Index="78"/>

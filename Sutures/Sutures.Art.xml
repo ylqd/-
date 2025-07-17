@@ -597,6 +597,7 @@
 				<Element text="Sutures_LeaderCover"/>
 				<Element text="Sutures_Moments"/>
 				<Element text="Sutures_small_governor_image"/>
+				<Element text="Sutures_Units"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
