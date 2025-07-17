@@ -5,9 +5,9 @@ C:\Users\24395\Documents\Firaxis ModBuddy\Civilization VI\Sutures\Sutures\XLPs\S
 Opened output file: C:\Users\24395\Documents\My Games\Sid Meier's Civilization VI\Mods\Sutures\Platforms\MacOS\BLPs/Sutures_small_governor_image.blp    For XLP: 'C:\Users\24395\Documents\Firaxis ModBuddy\Civilization VI\Sutures\Sutures\XLPs\Sutures_small_governor_image.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'Sutures_small_governor_image'
-Load finished for: 'Sutures_small_governor_image' in 0.001 seconds
+Load finished for: 'Sutures_small_governor_image' in 0.000 seconds
 Cook finished for: 'Sutures_small_governor_image' in 0.001 seconds
-Disk write finished for: 'Sutures_small_governor_image' in 0.058 seconds
+Disk write finished for: 'Sutures_small_governor_image' in 0.069 seconds
 Cleanup finished for: 'Sutures_small_governor_image' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.067 seconds
+Cook completed in 0.079 seconds
