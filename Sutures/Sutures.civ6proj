@@ -21,6 +21,7 @@
       <CustomProperties xmlns="" />
     </ModProperties>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Sutures_ud_db"><File>Sutures_Config.xml</File></UpdateDatabase><UpdateText id="Sutures_ud_txt"><File>texts/Sutures_ConfigText.xml</File><File>texts/Sutures_PackageText.xml</File></UpdateText><UpdateColors id="Sutures_ud_color"><File>Sutures_Colors.xml</File></UpdateColors><UpdateIcons id="Sutures_ud_icons"><File>icons/Sutures_Icons_civAndLeader.xml</File><File>icons/Sutures_Icons_Districts.xml</File></UpdateIcons><UpdateArt id="Sutures_ud_art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <LocalizedTextData><![CDATA[<LocalizedText><File>texts/Sutures_PackageText.xml</File></LocalizedText>]]></LocalizedTextData>
     <Homepage>LOC_Sutures_MOD_HOMEPAGE</Homepage>
     <AssociationData><![CDATA[<Associations>
   <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
