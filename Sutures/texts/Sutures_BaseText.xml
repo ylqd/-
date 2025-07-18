@@ -95,7 +95,7 @@
 			<Text>All units have 1 [ICON_Movement] movement power, and upgrading does not end the turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME">
-			<Text>How did I not receive the subsidy</Text>
+			<Text>No subsidies were received</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION">
 			<Text>Fight a wounded unit for 5 [ICON_Strength] Combat Power and destroy enemies to restore 30 HP.</Text>
@@ -510,7 +510,7 @@
 			<Text>所有单位 +1 [ICON_Movement]移动力，升级不结束回合。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME" Language="zh_Hans_CN">
-			<Text>我怎么没收到补贴</Text>
+			<Text>没收到补贴</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>和受伤单位作战 +5 [ICON_Strength]战斗力，消灭敌人回复 30 血量。</Text>
@@ -519,7 +519,7 @@
 			<Text>打砸式爱国</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>目标为蛮族时，获得 +5 [ICON_Strength]战斗力并且获得正常经验值。每占领 1 个蛮族哨站获得 500 额外 [ICON_GOLD]金币。</Text>
+			<Text>目标为蛮族时，获得 +5 [ICON_Strength]战斗力并且获得正常经验值。每占领 1 个蛮族哨站获得 350 额外 [ICON_GOLD]金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME" Language="zh_Hans_CN">
 			<Text>我要洋人死</Text>
