@@ -801,12 +801,50 @@
 		</Row>
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_INCREASED_FOOD_2</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
 			<ModifierId>Sutures_INCREASED_FAITH</ModifierId>
 		</Row>
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
 			<ModifierId>Sutures_INCREASED_FOOD</ModifierId>
 		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_INCREASED_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_INCREASED_PRODUCTION</ModifierId>
+		</Row>
+
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>TUNDRA_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>TUNDRA_HILLS_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_SNOW_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_SNOW_HILLS_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_DESERT_FARMS</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>
+			<ModifierId>Sutures_DESERT_HILLS_FARMS</ModifierId>
+		</Row>
+		
 		<!--双轨式资源分配-->
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesRegulators1</GovernorPromotionType>
@@ -1366,6 +1404,12 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_CITY_TILES</ModifierType>
 		</Row>
 		<Row>
+			<ModifierId>Sutures_INCREASED_FOOD_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLOT_IS_BAD_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		
+		<Row>
 			<ModifierId>Sutures_INCREASED_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>Sutures_PLOT_HAS_WATER_REQUIREMENTS</SubjectRequirementSetId>
@@ -1373,8 +1417,38 @@
 		<Row>
 			<ModifierId>Sutures_INCREASED_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLOT_HAS_WATER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_INCREASED_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>Sutures_PLOT_HAS_GRASS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>Sutures_INCREASED_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLOT_HAS_PLAINS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_SNOW_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_SNOW_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DESERT_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DESERT_HILLS_FARMS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IMPROVEMENT_VALID_TERRAIN</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_CIVIL_ENGINEERING</SubjectRequirementSetId>
+		</Row>
+		
 		<!--双轨式资源分配-->
 		<Row>
 			<ModifierId>Sutures_NEARBY_CITIES_GAIN_YIELDS</ModifierId>
@@ -2296,6 +2370,18 @@
 			<Name>Amount</Name>
 			<Value>6</Value>
 		</Row>
+		
+		<Row>
+			<ModifierId>Sutures_INCREASED_FOOD_2</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_INCREASED_FOOD_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		
 		<Row>
 			<ModifierId>Sutures_INCREASED_FAITH</ModifierId>
 			<Name>YieldType</Name>
@@ -2317,6 +2403,73 @@
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		
+		<Row>
+			<ModifierId>Sutures_INCREASED_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_INCREASED_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_INCREASED_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_INCREASED_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		
+		<Row>
+			<ModifierId>Sutures_SNOW_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_SNOW_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_SNOW_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_SNOW_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_DESERT_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DESERT_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DESERT_HILLS_FARMS</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_DESERT_HILLS_FARMS</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_HILLS</Value>
+		</Row>
+		
 		<!--双轨式资源分配-->
 		<Row>
 			<ModifierId>Sutures_NEARBY_CITIES_GAIN_YIELDS</ModifierId>
@@ -3203,6 +3356,19 @@
 		</Row>
 		<!--单元格类型判断-->
 		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_DESERT</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_TUNDRA</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES</RequirementType>
+		</Row>
+		
+		<Row>
 			<RequirementId>Sutures_REQUIRES_PLOT_HAS_WATER</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES</RequirementType>
 		</Row>
@@ -3274,6 +3440,22 @@
 			<RequirementId>Sutures_OPPONENT_IS_IN_GOLDEN_AGE_REQUIREMENT</RequirementId>
 			<Name>Type</Name>
 			<Value>GOLDEN</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_DESERT</RequirementId>
+			<Name>TerrainClass</Name>
+			<Value>TERRAIN_CLASS_DESERT</Value>
+		</Row>
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_TUNDRA</RequirementId>
+			<Name>TerrainClass</Name>
+			<Value>TERRAIN_CLASS_TUNDRA</Value>
+		</Row>
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<Name>TerrainClass</Name>
+			<Value>TERRAIN_CLASS_SNOW</Value>
 		</Row>
 		
 		<Row>
@@ -3375,6 +3557,10 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<!--单元格类型判断-->
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_BAD_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
 		<Row>
 			<RequirementSetId>Sutures_PLOT_HAS_WATER_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
@@ -3478,7 +3664,20 @@
 			<RequirementSetId>Sutures_PLOT_IS_COASTAL_LAND_REQUIREMENTS</RequirementSetId>
 			<RequirementId>Sutures_PLOT_IS_COASTAL_LAND</RequirementId>
 		</Row>
-
+		
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_BAD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_BAD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_TUNDRA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_BAD_REQUIREMENTS</RequirementSetId>
+			<RequirementId>Sutures_REQUIRES_PLOT_HAS_SNOW</RequirementId>
+		</Row>
+		
 		<Row>
 			<RequirementSetId>Sutures_PLOT_HAS_WATER_REQUIREMENTS</RequirementSetId>
 			<RequirementId>Sutures_REQUIRES_PLOT_HAS_WATER</RequirementId>

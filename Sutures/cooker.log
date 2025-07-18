@@ -7,7 +7,7 @@ Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'Sutures_Units'
 Load finished for: 'Sutures_Units' in 0.002 seconds
 Cook finished for: 'Sutures_Units' in 0.004 seconds
-Disk write finished for: 'Sutures_Units' in 0.046 seconds
+Disk write finished for: 'Sutures_Units' in 0.038 seconds
 Cleanup finished for: 'Sutures_Units' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.060 seconds
+Cook completed in 0.053 seconds

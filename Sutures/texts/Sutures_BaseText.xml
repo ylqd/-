@@ -104,7 +104,7 @@
 			<Text>Smash patriotism</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot3_DESCRIPTION">
-			<Text>While targeting a Barbarian, gain 5 [ICON_Strength] Combat Power and Normal XP. Gain 500 additional [ICON_GOLD] gold for each 1 Barbarian Outpost captured.</Text>
+			<Text>While targeting a Barbarian, gain 5 [ICON_Strength] Combat Power and Normal XP. Gain 350 additional [ICON_GOLD] gold for each 1 Barbarian Outpost captured.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME">
 			<Text>I want foreigners to live</Text>
@@ -160,7 +160,7 @@
 			<Text>Our mother, our mother, our mother</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_DESCRIPTION">
-			<Text>Gain double the number of initial cells when the city is created. Territory Water Type Tile 1 [ICON_FAITH] Faith and Grassland Type Tile 1 [ICON_FOOD] Food.</Text>
+			<Text>Cities are created with double the number of initial cells. Frozen, Snow, and Desert type cells have an additional 2[ICON_FOOD] food and can build farms(After unlocking the civil engineering municipality, you can build a farm on the corresponding hilly terrain). Water-type cells add 1 [ICON_FAITH] Faith, 1 [ICON_FOOD] Food, Grassland-type cells 2 [[ICON_GOLD]] Gold, and Plains-type cells 1 [ICON_PRODUCTION] Productivity.</Text>
 		</Replace>
 		<!--监护人-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_NAME">
@@ -575,7 +575,7 @@
 			<Text>咱妈咱妈咱妈</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市创建时获得双倍数量的初始单元格。境内水域类型单元格 +1 [ICON_FAITH]信仰值，草原类型单元格 +1 [ICON_FOOD]食物。</Text>
+			<Text>城市创建时获得双倍数量的初始单元格。冻土、雪地、沙漠类型单元格额外 +2[ICON_FOOD]食物，并且可以修建农场(解锁土木工程市政后可以在对应的丘陵地形上修建农场)。水域类型单元格额外 +1 [ICON_FAITH]信仰值、+1[ICON_FOOD]食物，草原类型单元格 +2 [[ICON_GOLD]]金币，平原类型单元格 +1 [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<!--监护人-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_NAME" Language="zh_Hans_CN">
