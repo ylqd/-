@@ -414,6 +414,17 @@
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures">
 			<Text>{1_num: number +#,###;-#,###} [ICON_Science] Science。</Text>
 		</Replace>
+
+		<!--项目-->
+		<Replace Tag="LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME">
+			<Text>Avalon Protocol</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_AWL_AGREEMENT_DESCRIPTION">
+			<Text>When adjacent to your unit, enemy units gain -5 [ICON_Strength] Combat Strength. When within 3 tiles of your unit, the enemy unit gains -2 [ICON_Movement] Movement.({LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME})</Text>
+		</Replace>
+		<Replace Tag="LOC_VARU_NEGATIVE_COMBAT_Sutures_Modifierd">
+			<Text>Avalon Protocol -5 [ICON_Strength] Combat Effectiveness</Text>
+		</Replace>
 	</BaseGameText>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_Sutures_DESCRIPTION" Language="zh_Hans_CN">
@@ -828,6 +839,17 @@
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" Language="zh_Hans_CN">
 			<Text>{1_num: number +#,###;-#,###} [ICON_Science] 科技值。</Text>
+		</Replace>
+		
+		<!--项目-->
+		<Replace Tag="LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME" Language="zh_Hans_CN">
+			<Text>阿瓦隆协议</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_AWL_AGREEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>相邻己方单位时，敌方单位 -5 [ICON_Strength]战斗力。位于己方单位 3 个单元格内时，敌方单位 -2 [ICON_Movement]移动力。（{LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME}）</Text>
+		</Replace>
+		<Replace Tag="LOC_VARU_NEGATIVE_COMBAT_Sutures_Modifierd" Language="zh_Hans_CN">
+			<Text>阿瓦隆协议 -5 [ICON_Strength]战斗力</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!--阿瓦隆协议-->
+		<Row Type="PROJECT_AWL_AGREEMENT" Kind="KIND_PROJECT"/>
+		
+		<!--技能-->
+		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
+	</Types>
+
+	<UnitAbilities>
+		<Row
+             UnitAbilityType="ABILITY_Sutures_AWL_AGREEMENT"
+             Name="LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME"
+             Description="LOC_ABILITY_Sutures_AWL_AGREEMENT_DESCRIPTION"
+             Inactive="true"/>
+	</UnitAbilities>
+	<TypeTags>
+		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Tag="CLASS_ALL_UNITS"/>
+	</TypeTags>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_AWL_AGREEMENT</UnitAbilityType>
+			<ModifierId>VARU_NEGATIVE_COMBAT_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_AWL_AGREEMENT</UnitAbilityType>
+			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+	
+	<Projects>
+		<Row
+			 ProjectType="PROJECT_AWL_AGREEMENT"
+			 Name="LOC_PROJECT_AWL_AGREEMENT_NAME"
+			 ShortName="LOC_PROJECT_AWL_AGREEMENT_SHORT_NAME"
+			 Description="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_WastelandOfKnowledge"
+			 MaxPlayerInstances="1"
+			 Cost="100"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
+	</Projects>
+
+	<ProjectCompletionModifiers>
+		<Row ProjectType="PROJECT_AWL_AGREEMENT" ModifierId="PROJECT_COMPLETION_AWL_AGREEMENT"/>
+	</ProjectCompletionModifiers>
+
+	<Modifiers>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_AWL_AGREEMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>VARU_NEGATIVE_COMBAT_Sutures</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>VARU_NEGATIVE_COMBAT_Sutures_Modifierd</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		
+		<Row>
+			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS_THREE</SubjectRequirementSetId>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		<Row>
+			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures_Modifierd</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+			<SubjectStackLimit>1</SubjectStackLimit>
+		</Row>
+		
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_AWL_AGREEMENT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_Sutures_AWL_AGREEMENT</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>VARU_NEGATIVE_COMBAT_Sutures</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>VARU_NEGATIVE_COMBAT_Sutures_Modifierd</Value>
+		</Row>
+		<Row>
+			<ModifierId>VARU_NEGATIVE_COMBAT_Sutures_Modifierd</ModifierId>
+			<Name>Amount</Name>
+			<Value>-5</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>VARU_NEGATIVE_MOVEMENTS_Sutures_Modifierd</Value>
+		</Row>
+		<Row>
+			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures_Modifierd</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<Row
+             ModifierId="VARU_NEGATIVE_COMBAT_Sutures_Modifierd"
+             Context="Preview"
+             Text="LOC_VARU_NEGATIVE_COMBAT_Sutures_Modifierd"/>
+	</ModifierStrings>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS_THREE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS_THREE</RequirementSetId>
+			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>3</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>

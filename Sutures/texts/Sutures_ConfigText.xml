@@ -25,7 +25,7 @@
 			<Text>Knowledge desert</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION">
-			<Text>Characteristic areas of ancient times, replacing colleges. Lower construction cost (-50%), -2 base adjacent [ICON_Science] Tech points, and an additional 2 [ICON_GreatScientist] Great Scientist Points. Grants 10 Loyalty per turn.</Text>
+			<Text>Characteristic areas of ancient times, replacing colleges. Lower construction cost (-50%), -2 base adjacent [ICON_Science] Tech points, and an additional 2 [ICON_GreatScientist] Great Scientist Points. Grants 10 Loyalty per turn.After the construction of this area is completed, the special item "Avalon Protocol" will be unlocked.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME">
 			<Text>Big A Casino</Text>
@@ -117,6 +117,17 @@
 		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION">
 			<Text>Missile silos that can be used to drop nuclear weapons, unlocked in the Middle Ages, can be built by builders.</Text>
 		</Replace>
+
+		<!--项目-->
+		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_NAME">
+			<Text>Avalon Protocol</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_SHORT_NAME">
+			<Text>{LOC_PROJECT_AWL_AGREEMENT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION">
+			<Text>Characteristic projects need to be developed in cities with knowledge deserts. After researching, all allied units gain a unique ability: -5 [ICON_Strength] Combat Damage for enemy units when adjacent to your units. When within 3 tiles of your unit, the enemy unit gains -2 [ICON_Movement] Movement.</Text>
+		</Replace>
 	</BaseGameText>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_Sutures_NAME" Language="zh_Hans_CN">
@@ -143,7 +154,7 @@
 			<Text>知识荒漠</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），-2 基础相邻 [ICON_Science]科技值，额外产出 2 点 [ICON_GreatScientist]大科学家点数。每回合提供 +10 忠诚度。</Text>
+			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），-2 基础相邻 [ICON_Science]科技值，额外产出 2 点 [ICON_GreatScientist]大科学家点数。每回合提供 +10 忠诚度。该区域建造完成后解锁特色项目“阿瓦隆协议”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME" Language="zh_Hans_CN">
 			<Text>大 A 赌场</Text>
@@ -235,6 +246,17 @@
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可以投放核武器的导弹发射井，中世纪即可解锁，可以由建造者修建。</Text>
+		</Replace>
+
+		<!--项目-->
+		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_NAME" Language="zh_Hans_CN">
+			<Text>阿瓦隆协议</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_AWL_AGREEMENT_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色项目，需要在有知识荒漠的城市进行研发。研发完成后，所有的己方单位获得一项特色能力：相邻己方单位时，敌方单位 -5 [ICON_Strength]战斗力。位于己方单位 3 个单元格内时，敌方单位 -2 [ICON_Movement]移动力。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
