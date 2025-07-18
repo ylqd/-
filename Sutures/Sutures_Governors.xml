@@ -2809,7 +2809,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_LIBRARY</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_UNIVERSITY</ModifierId>
@@ -2819,7 +2819,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_UNIVERSITY</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_RESEARCH_LAB</ModifierId>
@@ -2829,7 +2829,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_RESEARCH_LAB</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 
 		<Row>
@@ -2840,7 +2840,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_AMPHITHEATER</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_MUSEUM</ModifierId>
@@ -2850,7 +2850,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_MUSEUM</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_BROADCAST_CENTER</ModifierId>
@@ -2860,7 +2860,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_BROADCAST_CENTER</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 
 		<Row>
@@ -2871,7 +2871,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_MARKET</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_BANK</ModifierId>
@@ -2881,7 +2881,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_BANK</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_STOCK_EXCHANGE</ModifierId>
@@ -2891,7 +2891,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_STOCK_EXCHANGE</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 
 		<Row>
@@ -2902,7 +2902,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_WORKSHOP</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_FACTORY</ModifierId>
@@ -2912,7 +2912,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_FACTORY</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_POWER_PLANT</ModifierId>
@@ -2922,7 +2922,7 @@
 		<Row>
 			<ModifierId>Sutures_POWER_BUILDING_POWER_PLANT</ModifierId>
 			<Name>Amount</Name>
-			<Value>5</Value>
+			<Value>10</Value>
 		</Row>
 
 		<!--咱妈是天神-->

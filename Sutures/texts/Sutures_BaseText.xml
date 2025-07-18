@@ -625,7 +625,7 @@
 			<Text>对账对不上</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>区域内（仅限于学院、剧院广场、商业中心、工业区）每有一种对应的建筑，该城市对应类型产出 +5%。</Text>
+			<Text>区域内（仅限于学院、剧院广场、商业中心、工业区）每有一种对应的建筑，该城市对应类型产出 +10%。</Text>
 		</Replace>
 		<!--赢家-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner1_NAME" Language="zh_Hans_CN">
