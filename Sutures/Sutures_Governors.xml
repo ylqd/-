@@ -2479,7 +2479,7 @@
 		<Row>
 			<ModifierId>Sutures_NEARBY_CITIES_GAIN_YIELDS</ModifierId>
 			<Name>Amount</Name>
-			<Value>10, 10, 10, 10, 10, 10</Value>
+			<Value>20, 20, 20, 20, 20, 20</Value>
 		</Row>
 
 		<Row>
@@ -2490,7 +2490,7 @@
 		<Row>
 			<ModifierId>Sutures_NEARBY_CITIES_LOSE_YIELDS</ModifierId>
 			<Name>Amount</Name>
-			<Value>-20, -20, -20, -20, -20, -20</Value>
+			<Value>-30, -30, -30, -30, -30, -30</Value>
 		</Row>
 		<!--岁月静好-->
 		<Row>

@@ -167,7 +167,7 @@
 			<Text>Dual-track resource allocation</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_DESCRIPTION">
-			<Text>[ICON_Capital] All allied cities within 15 tiles of the capital have 10% of all production, and all other allied cities have -20% of all production.</Text>
+			<Text>[ICON_Capital] All allied cities within 15 tiles of the capital have 20% of all production, and all other allied cities have -30% of all production.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators2_NAME">
 			<Text>The years are quiet.</Text>
@@ -582,7 +582,7 @@
 			<Text>双轨式资源分配</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>[ICON_Capital]首都 15 单元格内的所有己方城市 +10% 全部产出，其他己方城市 -20% 全部产出。</Text>
+			<Text>[ICON_Capital]首都 15 单元格内的所有己方城市 +20% 全部产出，其他己方城市 -30% 全部产出。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators2_NAME" Language="zh_Hans_CN">
 			<Text>岁月静好</Text>
