@@ -63,7 +63,7 @@
 			<Text>Guard of honour</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GuardOfHonour_DESCRIPTION">
-			<Text>Ancient Era Unique Scout unit, instead of Scout. Lower build cost (-50%), 10 base [ICON_Strength] Combat Power, and 1 free upgrade to start. This unit is produced with an additional 1 of the same unit.</Text>
+			<Text>Ancient Era Unique Scout unit, instead of Scout.10 base [ICON_Strength] Combat Power, and 1 free upgrade to start. This unit is produced with an additional 1 of the same unit.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_TheTownIsTheProblemSolver_NAME">
@@ -149,7 +149,7 @@
 			<Text>大 A 赌场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。解锁特色项目“以刑化债”</Text>
+			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_NAME" Language="zh_Hans_CN">
 			<Text>烂尾楼</Text>
@@ -181,7 +181,7 @@
 			<Text>仪仗队</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_GuardOfHonour_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色侦察单位，代替侦察兵。建造费用更低（-50%），+10 基础 [ICON_Strength]战斗力 ，初始就有 1 次免费升级。该单位生产时会额外获得 1 个相同的单位。</Text>
+			<Text>远古时代特色侦察单位，代替侦察兵。+10 基础 [ICON_Strength]战斗力 ，初始就有 1 次免费升级。该单位生产时会额外获得 1 个相同的单位。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_TheTownIsTheProblemSolver_NAME" Language="zh_Hans_CN">

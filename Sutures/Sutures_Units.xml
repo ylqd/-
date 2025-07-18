@@ -115,7 +115,7 @@
 	<Units>
 		<Row
 			UnitType="UNIT_GuardOfHonour"
-			Cost="15"
+			Cost="30"
 			BaseMoves="3"
 			BaseSightRange="2"
 			ZoneOfControl="true"
