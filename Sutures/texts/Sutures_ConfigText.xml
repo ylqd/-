@@ -77,7 +77,7 @@
 			<Text>Whistleblower</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Whistleblower_DESCRIPTION">
-			<Text>Ancient Era unique ranged unit that replaces the Archer. 1 [ICON_Movement] Movement Damage, 10 [ICON_Strength] Melee Combat Power, 5 [ICON_Strength] Ranged Combat Power. Vision can travel through woods and rainforests, without moving debuffs.</Text>
+			<Text>Ancient Era unique ranged unit, instead of the Archer, can perform active melee combat. Has 3 base [ICON_Movement] movement power, 30 [ICON_Strength] melee combat power, and 25 [ICON_Strength] ranged combat power. Vision can travel through woods and rainforests, without moving debuffs.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_UnfinishedHomeowners_NAME">
@@ -195,7 +195,7 @@
 			<Text>吹哨人</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Whistleblower_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色远程单位，代替弓箭手。+1 [ICON_Movement]移动力，+10 [ICON_Strength]近战战斗力，+5 [ICON_Strength]远程战斗力。视野可以穿过树林和雨林，穿行雨林和树林时没有移动减益。</Text>
+			<Text>远古时代特色远程单位，代替弓箭手，可以进行主动近战。拥有 3 点基础 [ICON_Movement]移动力、30 点 [ICON_Strength]近战战斗力 和 25 点 [ICON_Strength]远程战斗力。视野可以穿过树林和雨林，穿行雨林和树林时没有移动减益。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_UNIT_UnfinishedHomeowners_NAME" Language="zh_Hans_CN">

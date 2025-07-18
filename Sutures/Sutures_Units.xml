@@ -46,6 +46,7 @@
 		<Row Type="UNIT_TheTownIsTheProblemSolver" Tag="CLASS_GAESATAE_Sutures"/>
 
 		<Row Type="UNIT_Whistleblower" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_Whistleblower" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_Whistleblower" Tag="CLASS_SEE_THROUGH_FEATURES_Suturess"/>
 
 		<Row Type="UNIT_UnfinishedHomeowners" Tag="CLASS_MELEE"/>
@@ -153,8 +154,8 @@
 			BaseSightRange="2" 
 			ZoneOfControl="false" 
 			Domain="DOMAIN_LAND" 
-			Combat="25" 
-			RangedCombat="30" 
+			Combat="30" 
+			RangedCombat="25" 
 			Range="2" 
 			FormationClass="FORMATION_CLASS_LAND_COMBAT" 
 			PromotionClass="PROMOTION_CLASS_RANGED"
