@@ -210,7 +210,7 @@
 			<Text>The reconciliation is not reconciled.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRational4_DESCRIPTION">
-			<Text>For each type of building in the area (limited to colleges, theatre squares, commercial centres, and industrial areas), the output of the corresponding type of city is 5%.</Text>
+			<Text>For each type of building in the area (limited to colleges, theatre squares, commercial centres, and industrial areas), the output of the corresponding type of city is 10%.</Text>
 		</Replace>
 		<!--赢家-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner1_NAME">
@@ -229,7 +229,7 @@
 			<Text>It's a kind of self-confidence.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner3_DESCRIPTION">
-			<Text>After unlocking the Classical Civic Political Philosophy, all foreign policy slots in the current government are converted to wildcard policy slots, each of which grants 1 [ICON_FAVOR] diplomatic support point per turn.</Text>
+			<Text>After unlocking the Classical Civic Political Philosophy, all foreign policy slots in the current government are converted to wildcard policy slots, each of which grants 3 [ICON_FAVOR] diplomatic support point per turn.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_NAME">
 			<Text>There is nothing that cannot be said.</Text>
@@ -644,7 +644,7 @@
 			<Text>这是一种自信</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁古典市政政治哲学后，当前政体中的所有外交政策槽全部转换为通配符政策槽，每个通配符政策槽每回合提供 1 点 [ICON_FAVOR]外交支持点数。</Text>
+			<Text>解锁古典市政政治哲学后，当前政体中的所有外交政策槽全部转换为通配符政策槽，每个通配符政策槽每回合提供 3 点 [ICON_FAVOR]外交支持点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_NAME" Language="zh_Hans_CN">
 			<Text>没什么不能说的</Text>
