@@ -112,10 +112,10 @@
 		</Replace>
 		<!--特色改良设施-->
 		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME">
-			<Text>Faith missile silos</Text>
+			<Text>Void missile silos</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION">
-			<Text>Missile silos that can launch nuclear weapons, unlocked very early, can be built by builders.</Text>
+			<Text>Missile silos that can be used to drop nuclear weapons, unlocked in the Middle Ages, can be built by builders.</Text>
 		</Replace>
 	</BaseGameText>
 	<LocalizedText>
@@ -231,10 +231,10 @@
 		
 		<!--特色改良设施-->
 		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME" Language="zh_Hans_CN">
-			<Text>信仰导弹发射井</Text>
+			<Text>虚空导弹发射井</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可以发射核武器的导弹发射井，解锁时间非常早，可以由建造者修建。</Text>
+			<Text>可以投放核武器的导弹发射井，中世纪即可解锁，可以由建造者修建。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
