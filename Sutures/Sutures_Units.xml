@@ -9,6 +9,7 @@
 		<Row Type="UNIT_POLISH_HUSSAR_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_TANK_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_DIGGER_Sutures" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_Wolf_Warrior_Sutures" Kind="KIND_UNIT"/>
 
 		<Row Type="ABILITY_GAESATAE_Sutures" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_SEE_THROUGH_FEATURES_Sutures" Kind="KIND_ABILITY"/>
@@ -64,6 +65,9 @@
 
 		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
+
+		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_ALL_ERAS"/>
+		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_HEAVY_CAVALRY"/>
 	</TypeTags>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_GuardOfHonour" AiType="UNITAI_EXPLORE"/>
@@ -102,6 +106,11 @@
 		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
 	</UnitAiInfos>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_GAESATAE_Sutures" Name="LOC_ABILITY_GAESATAE_Sutures_NAME" Description="LOC_ABILITYGAESATAE_Sutures_DESCRIPTION"/>
@@ -261,6 +270,22 @@
 			Combat="70" 
 			PrereqTech="TECH_REPLACEABLE_PARTS" 
 			TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures"/>
+		<Row
+			UnitType="UNIT_Wolf_Warrior_Sutures"
+			BaseMoves="6"
+			Cost="280"
+			AdvisorType="ADVISOR_CONQUEST"
+			BaseSightRange="3"
+			ZoneOfControl="true"
+			Domain="DOMAIN_LAND"
+			FormationClass="FORMATION_CLASS_LAND_COMBAT"
+			Name="LOC_UNIT_Wolf_Warrior_Sutures_NAME"
+			Description="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION"
+			PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+			ImmediatelyName="true"
+			CanTrain="false"
+			UseMaxMeleeTrainedStrength="true"
+			Combat="30"/>
 	</Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_GuardOfHonour" UpgradeUnit="UNIT_SKIRMISHER"/>
@@ -287,8 +312,15 @@
 		<Row UnitType="UNIT_WhiteMAMLUK" ResourceCost="20"/>
 		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" ResourceCost="20"/>
 		<Row UnitType="UNIT_TANK_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_Wolf_Warrior_Sutures" CanFormMilitaryFormation="false"/>
 	</Units_XP2>
-
+	
+	<UnitRetreats_XP1>
+		<Row UnitRetreatType="UNIT_RETREAT_VAMPIRE_TO_CAPITAL_Sutures" UnitType="UNIT_Wolf_Warrior_Sutures" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_VAMPIRE_TO_BARRACKS_Sutures" UnitType="UNIT_Wolf_Warrior_Sutures" BuildingType="BUILDING_BARRACKS"/>
+		<Row UnitRetreatType="UNIT_RETREAT_VAMPIRE_TO_MONUMENT_Sutures" UnitType="UNIT_Wolf_Warrior_Sutures" BuildingType="BUILDING_MONUMENT"/>
+	</UnitRetreats_XP1>
+	
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_GuardOfHonour" Texture="Moment_UniqueUnit_Cree.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TheTownIsTheProblemSolver" Texture="Moment_UniqueUnit_Rome.dds"/>

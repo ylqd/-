@@ -43,7 +43,7 @@
 			<Text>East Point Military Academy</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION">
-			<Text>A special area from ancient times, replacing the barracks. The cost of construction is lower (-50%), 1 [ICON_Housing] housing, which does not require population support. Clans and armies can be created by meeting Civic or Tech prerequisites and cost 25% less. Buildings within it have 2 [ICON_GOLD] gold, 1 [ICON_SCIENCE] technology.</Text>
+			<Text>A special area from ancient times, replacing the barracks. The cost of construction is lower (-50%), 1 [ICON_Housing] housing, which does not require population support. Clans and armies can be created by meeting Civic or Tech prerequisites and cost 25% less. Buildings within it have 2 [ICON_GOLD] gold, 1 [ICON_SCIENCE] technology.Each area is built to gain 1 unique heavy cavalry unit "{LOC_UNIT_Wolf_Warrior_Sutures_NAME}".</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME">
@@ -138,6 +138,14 @@
 		<Replace Tag="LOC_PROJECT_feast_Sutures_DESCRIPTION" >
 			<Text>Repeatable feature projects that need to be carried out in cities with large A casinos. During the project, the city's [ICON_PRODUCTION] productivity is converted to [ICON_GOLD] gold at a rate of 200%. When the project is completed, the current [ICON_GreatMerchant] Merchant is immediately gained and 3 population points are lost (minimum population drops to 1 point population).</Text>
 		</Replace>
+
+		<!--特殊单位-->
+		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME">
+			<Text>Wolf Warrior</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION">
+			<Text>Featured heavy cavalry units, unobtainable through normal means. Cannot be combined into a corps or army. Combat power anchors the combat power of your strongest melee type unit, has 6 base [ICON_Movement] movement and 3 base vision, and when killed by a non-skill, it will reserve 1 HP and teleport back to the nearest city with a barracks or monument, or back to the capital if it doesn't.</Text>
+		</Replace>
 	</BaseGameText>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_Sutures_NAME" Language="zh_Hans_CN">
@@ -182,7 +190,7 @@
 			<Text>东点军校</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色区域，代替军营。建造费用更低（-50%），+1 [ICON_Housing] 住房，不需要人口支持。满足市政或科技先决条件后即可创建军团和军队，并降低其 25% 的花费。其内的建筑 +2 [ICON_GOLD] 金币、+1 [ICON_SCIENCE] 科技值。</Text>
+			<Text>远古时代特色区域，代替军营。建造费用更低（-50%），+1 [ICON_Housing] 住房，不需要人口支持。满足市政或科技先决条件后即可创建军团和军队，并降低其 25% 的花费。其内的建筑 +2 [ICON_GOLD] 金币、+1 [ICON_SCIENCE] 科技值。每个该区域建造后都会获得 1 个特色重骑兵单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”。</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME" Language="zh_Hans_CN">
@@ -277,6 +285,14 @@
 		</Replace>
 		<Replace Tag="LOC_PROJECT_feast_Sutures_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可重复的特色项目，需要在有大 A 赌场的城市进行。项目执行期间，该城市的 [ICON_PRODUCTION]生产力会以 200% 的比例转换为 [ICON_GOLD]金币。当项目完成时，会立即获得当前的 [ICON_GreatMerchant]大商人，并损失 3 点人口（最低降到 1 点人口）。</Text>
+		</Replace>
+		
+		<!--特殊单位-->
+		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>战狼</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色重骑兵单位，无法通过正常方式获得。无法合成为兵团或者军队。战斗力锚定己方最强近战类型单位的战斗力，拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野，被非技能击杀时会保留 1 点血量传送回最近的有兵营或者纪念碑的城市，如果都没有则传送回首都。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

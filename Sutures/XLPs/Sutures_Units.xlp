@@ -81,6 +81,30 @@
 			<m_EntryID text="ICON_UNIT_POLISH_HUSSAR_Sutures_80"/>
 			<m_ObjectName text="ICON_UNIT_POLISH_HUSSAR_Sutures_80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_Wolf_Warrior_Sutures_22"/>
+			<m_ObjectName text="ICON_UNIT_Wolf_Warrior_Sutures_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_Wolf_Warrior_Sutures_256"/>
+			<m_ObjectName text="ICON_UNIT_Wolf_Warrior_Sutures_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_Wolf_Warrior_Sutures_32"/>
+			<m_ObjectName text="ICON_UNIT_Wolf_Warrior_Sutures_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_Wolf_Warrior_Sutures_38"/>
+			<m_ObjectName text="ICON_UNIT_Wolf_Warrior_Sutures_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_Wolf_Warrior_Sutures_50"/>
+			<m_ObjectName text="ICON_UNIT_Wolf_Warrior_Sutures_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_Wolf_Warrior_Sutures_80"/>
+			<m_ObjectName text="ICON_UNIT_Wolf_Warrior_Sutures_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

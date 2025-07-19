@@ -228,6 +228,11 @@
 			<ModifierId>TRAIT_IKANDA_MILITARY_ACADEMY_SCIENCE</ModifierId>
 		
 	</Row>
+
+		<Row>
+			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
+			<ModifierId>Sutures_GRANT_UNIT_Wolf_Warrior</ModifierId>
+		</Row>
 	</DistrictModifiers>
 	<Modifiers>
 		<Row>
@@ -246,6 +251,11 @@
 		<Row>
 			<ModifierId>Sutures_NEGATIVE_LOYALTY</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_GRANT_UNIT_Wolf_Warrior</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -281,6 +291,22 @@
 			<ModifierId>Sutures_NEGATIVE_LOYALTY</ModifierId>
 			<Name>Amount</Name>
 			<Value>-6</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_GRANT_UNIT_Wolf_Warrior</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_Wolf_Warrior_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GRANT_UNIT_Wolf_Warrior</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GRANT_UNIT_Wolf_Warrior</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

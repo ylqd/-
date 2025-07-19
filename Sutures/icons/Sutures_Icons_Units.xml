@@ -21,10 +21,20 @@
 		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="50" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_50"/>
 		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="80" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_80"/>
 		<Row Name="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" IconSize="256" Filename="ICON_UNIT_POLISH_HUSSAR_Sutures_256"/>
+
+		<Row Name="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" IconSize="22" Filename="ICON_UNIT_Wolf_Warrior_Sutures_22"/>
+		<Row Name="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" IconSize="32" Filename="ICON_UNIT_Wolf_Warrior_Sutures_32"/>
+		<Row Name="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" IconSize="38" Filename="ICON_UNIT_Wolf_Warrior_Sutures_38"/>
+		<Row Name="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" IconSize="50" Filename="ICON_UNIT_Wolf_Warrior_Sutures_50"/>
+		<Row Name="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" IconSize="80" Filename="ICON_UNIT_Wolf_Warrior_Sutures_80"/>
+		<Row Name="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" IconSize="256" Filename="ICON_UNIT_Wolf_Warrior_Sutures_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_UNIT_TheTownIsTheProblemSolver" Atlas="ATLAS_ICON_UNIT_TheTownIsTheProblemSolver" Index="0"/>
 		<Row Name="ICON_UNIT_Whistleblower" Atlas="ATLAS_ICON_UNIT_Whistleblower" Index="0"/>
 		<Row Name="ICON_UNIT_POLISH_HUSSAR_Sutures" Atlas="ATLAS_ICON_UNIT_POLISH_HUSSAR_Sutures" Index="0"/>
+		
+		<Row Name="ICON_UNIT_Wolf_Warrior_Sutures" Atlas="ATLAS_ICON_UNIT_Wolf_Warrior_Sutures" Index="0"/>
+		<Row Name="ICON_UNIT_Wolf_Warrior_Sutures_PORTRAIT"    Atlas="ICON_ATLAS_UNIT_PORTRAITS"   Index="22"/>
 	</IconDefinitions>
 </GameData>
