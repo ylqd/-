@@ -31,7 +31,7 @@
 			<Text>Big A Casino</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_DESCRIPTION">
-			<Text>Classical era characteristic area, instead of a commercial centre. Cheaper to build (-50%). -20% cost when purchasing areas, buildings, or units in this city with [ICON_GOLD] gold and [ICON_FAITH] faith.</Text>
+			<Text>Classical era characteristic area, instead of a commercial centre. Cheaper to build (-50%). -20% cost when purchasing areas, buildings, or units in this city with [ICON_GOLD] gold and [ICON_FAITH] faith.Unlocks the featured item "{LOC_PROJECT_feast_Sutures_NAME}" when this area is built.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_NAME">
 			<Text>Unfinished building</Text>
@@ -128,6 +128,16 @@
 		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION">
 			<Text>Characteristic projects need to be developed in cities with knowledge deserts. After researching, all allied units gain a unique ability: -5 [ICON_Strength] Combat Damage for enemy units when adjacent to your units. When within 3 tiles of your unit, the enemy unit gains -2 [ICON_Movement] Movement.</Text>
 		</Replace>
+
+		<Replace Tag="LOC_PROJECT_feast_Sutures_NAME" >
+			<Text>A feast of gluttony</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_feast_Sutures_SHORT_NAME" >
+			<Text>{LOC_PROJECT_feast_Sutures_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_feast_Sutures_DESCRIPTION" >
+			<Text>Repeatable feature projects that need to be carried out in cities with large A casinos. During the project, the city's [ICON_PRODUCTION] productivity is converted to [ICON_GOLD] gold at a rate of 200%. When the project is completed, the current [ICON_GreatMerchant] Merchant is immediately gained and 3 population points are lost (minimum population drops to 1 point population).</Text>
+		</Replace>
 	</BaseGameText>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_Sutures_NAME" Language="zh_Hans_CN">
@@ -160,7 +170,7 @@
 			<Text>大 A 赌场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。</Text>
+			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。该区域建造完成后解锁特色项目“{LOC_PROJECT_feast_Sutures_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_NAME" Language="zh_Hans_CN">
 			<Text>烂尾楼</Text>
@@ -257,6 +267,16 @@
 		</Replace>
 		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>特色项目，需要在有知识荒漠的城市进行研发。研发完成后，所有的己方单位获得一项特色能力：相邻己方单位时，敌方单位 -5 [ICON_Strength]战斗力。位于己方单位 3 个单元格内时，敌方单位 -2 [ICON_Movement]移动力。</Text>
+		</Replace>
+
+		<Replace Tag="LOC_PROJECT_feast_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>餮餮盛宴</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_feast_Sutures_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_feast_Sutures_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_feast_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可重复的特色项目，需要在有大 A 赌场的城市进行。项目执行期间，该城市的 [ICON_PRODUCTION]生产力会以 200% 的比例转换为 [ICON_GOLD]金币。当项目完成时，会立即获得当前的 [ICON_GreatMerchant]大商人，并损失 3 点人口（最低降到 1 点人口）。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

@@ -3,11 +3,20 @@
 	<Types>
 		<!--阿瓦隆协议-->
 		<Row Type="PROJECT_AWL_AGREEMENT" Kind="KIND_PROJECT"/>
-		
+		<Row Type="PROJECT_feast_Sutures" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
+
+		<Row Type="MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures" Kind="KIND_MODIFIER"/>
 	</Types>
 
+	<DynamicModifiers>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_POPULATION</EffectType>
+		</Row>
+	</DynamicModifiers>
 	<UnitAbilities>
 		<Row
              UnitAbilityType="ABILITY_Sutures_AWL_AGREEMENT"
@@ -42,10 +51,32 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row
+			 ProjectType="PROJECT_feast_Sutures"
+			 Name="LOC_PROJECT_feast_Sutures_NAME"
+			 ShortName="LOC_PROJECT_feast_Sutures_SHORT_NAME"
+			 Description="LOC_PROJECT_feast_Sutures_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_TypeAcasino"
+			 Cost="75"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
 	</Projects>
-
+	<Project_YieldConversions>
+		<Row
+             ProjectType="PROJECT_feast_Sutures"
+             YieldType="YIELD_GOLD"
+             PercentOfProductionRate="200"
+             />
+	</Project_YieldConversions>
+	
 	<ProjectCompletionModifiers>
 		<Row ProjectType="PROJECT_AWL_AGREEMENT" ModifierId="PROJECT_COMPLETION_AWL_AGREEMENT"/>
+
+		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_GRANT_Businessman"/>
+		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_1"/>
+		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_2"/>
+		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_3"/>
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
@@ -77,7 +108,31 @@
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
 			<SubjectStackLimit>1</SubjectStackLimit>
 		</Row>
-		
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_GRANT_Businessman</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_GREAT_PERSON_CLASS_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Reduce_POPUL_1</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Reduce_POPUL_2</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Reduce_POPUL_3</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -106,6 +161,33 @@
 			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures_Modifierd</ModifierId>
 			<Name>Amount</Name>
 			<Value>-2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_GRANT_Businessman</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MERCHANT</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_GRANT_Businessman</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Reduce_POPUL_1</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Reduce_POPUL_2</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Reduce_POPUL_3</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
 		</Row>
 	</ModifierArguments>
 

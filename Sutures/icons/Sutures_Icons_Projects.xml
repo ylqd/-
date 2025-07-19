@@ -2,5 +2,7 @@
 <GameData>
 	<IconDefinitions>
 		<Row Name="ICON_PROJECT_AWL_AGREEMENT"            Atlas="ICON_ATLAS_PROJECTS" Index="11"/>
+
+		<Row Name="ICON_PROJECT_feast_Sutures"               				Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
 	</IconDefinitions>
 </GameData>
