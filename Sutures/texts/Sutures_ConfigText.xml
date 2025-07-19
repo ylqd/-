@@ -176,7 +176,7 @@
 			<Text>烂尾楼</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>工业时代特色区域，代替社区。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。</Text>
+			<Text>工业时代特色区域，代替社区。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。每个该区域每回合 -6 忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_NAME" Language="zh_Hans_CN">
 			<Text>东点军校</Text>

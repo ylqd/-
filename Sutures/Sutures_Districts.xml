@@ -188,7 +188,8 @@
 
 		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_UnfinishedBuilding_GOLD"/>
 		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_UnfinishedBuilding_Food"/>
-
+		<Row DistrictType="DISTRICT_UnfinishedBuilding" ModifierId="Sutures_NEGATIVE_LOYALTY"/>
+		
 		<Row>
 			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
 			<ModifierId>IKANDA_TRAINED_CORPS_ARMY_DISCOUNT</ModifierId>
@@ -238,10 +239,13 @@
 			<ModifierId>Sutures_UnfinishedBuilding_GOLD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
 		</Row>
-
 		<Row>
 			<ModifierId>Sutures_UnfinishedBuilding_Food</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_NEGATIVE_LOYALTY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -271,6 +275,12 @@
 			<ModifierId>Sutures_UnfinishedBuilding_Food</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_NEGATIVE_LOYALTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>-6</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>
