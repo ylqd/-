@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<Types>
-		<!--阿瓦隆协议-->
 		<Row Type="PROJECT_AWL_AGREEMENT" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_feast_Sutures" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_SummonTheDead" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
 
@@ -61,6 +61,16 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row
+			 ProjectType="PROJECT_SummonTheDead"
+			 Name="LOC_PROJECT_SummonTheDead_NAME"
+			 ShortName="LOC_PROJECT_SummonTheDead_SHORT_NAME"
+			 Description="LOC_PROJECT_SummonTheDead_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_EastPointMilitaryAcademy"
+			 Cost="10"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
 	</Projects>
 	<Project_YieldConversions>
 		<Row
@@ -78,7 +88,12 @@
 		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_2"/>
 		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_3"/>
 	</ProjectCompletionModifiers>
-
+	<Projects_XP2>
+		<Row ProjectType="PROJECT_SummonTheDead" RequiredBuilding="BUILDING_MobilisationStation_Sutures" CreateBuilding="BUILDING_MobilisationStation2_Sutures"/>
+	</Projects_XP2>
+	<Project_BuildingCosts>
+		<Row ProjectType="PROJECT_SummonTheDead" ConsumedBuildingType="BUILDING_MobilisationStation_Sutures"/>
+	</Project_BuildingCosts>
 	<Modifiers>
 		<Row>
 			<ModifierId>PROJECT_COMPLETION_AWL_AGREEMENT</ModifierId>

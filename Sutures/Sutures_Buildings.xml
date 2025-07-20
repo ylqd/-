@@ -4,7 +4,12 @@
 		<Row Type="BUILDING_MUSEUM_FAKES_Sutures" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_Greenhouses_Sutures" Kind="KIND_BUILDING"/>
 
+		<!--自动生成的建筑-->
+		<Row Type="BUILDING_MobilisationStation_Sutures" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_MobilisationStation2_Sutures" Kind="KIND_BUILDING"/>
+		
 		<Row Type="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_Single_City_ADJUST_TRAIT_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
 
 		<Row Type="ABILITY_Sutures_Unit_Free_Resource" Kind="KIND_ABILITY"/>
 	</Types>
@@ -14,6 +19,12 @@
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures</ModifierType>
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS</EffectType>
+		</Row>
+
+		<Row>
+			<ModifierType>MODIFIER_Single_City_ADJUST_TRAIT_AMENITY_Sutures</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_POLICY_AMENITY</EffectType>
 		</Row>
 	</DynamicModifiers>
 
@@ -66,6 +77,20 @@
 			RegionalRange="6" 
 			TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures"
 			/>
+		<Row
+			BuildingType="BUILDING_MobilisationStation_Sutures"
+			Name="LOC_BUILDING_MobilisationStation_Sutures_NAME"
+			Description="LOC_BUILDING_MobilisationStation_Sutures_DESCRIPTION"
+			PrereqDistrict="DISTRICT_EastPointMilitaryAcademy"
+			Cost="1"
+			/>
+		<Row
+			BuildingType="BUILDING_MobilisationStation2_Sutures"
+			Name="LOC_BUILDING_MobilisationStation2_Sutures_NAME"
+			Description="LOC_BUILDING_MobilisationStation2_Sutures_DESCRIPTION"
+			PrereqDistrict="DISTRICT_EastPointMilitaryAcademy"
+			Cost="1"
+			/>
 	</Buildings>
 
 	<BuildingPrereqs>
@@ -109,6 +134,10 @@
 			<BuildingType>BUILDING_Greenhouses_Sutures</BuildingType>
 			<ModifierId>Greenhouses_Sutures_GRANT_TECH_APPRENTICESHIP</ModifierId>
 		</Row>
+		<Row>
+			<BuildingType>BUILDING_MobilisationStation2_Sutures</BuildingType>
+			<ModifierId>TRAIT_CAPTURED_AMENITY_Sutures</ModifierId>
+		</Row>
 	</BuildingModifiers>
 	<TraitModifiers>
 		<Row>
@@ -139,6 +168,11 @@
 			<ModifierId>HIPPODROME_RESOURCE_FREE_Sutures</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RESOURCE_MAINTENANCE</ModifierType>
 		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_AMENITY_Sutures</ModifierId>
+			<ModifierType>MODIFIER_Single_City_ADJUST_TRAIT_AMENITY_Sutures</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -167,6 +201,12 @@
 			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
 			<Name>UnitAbilityType</Name>
 			<Value>ABILITY_Sutures_Unit_Free_Resource</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_CAPTURED_AMENITY_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
 		</Row>
 	</ModifierArguments>
 

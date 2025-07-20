@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<IconDefinitions>
-		<Row Name="ICON_PROJECT_AWL_AGREEMENT"            Atlas="ICON_ATLAS_PROJECTS" Index="11"/>
+		<Row Name="ICON_PROJECT_AWL_AGREEMENT"  Atlas="ICON_ATLAS_PROJECTS" Index="11"/>
 
-		<Row Name="ICON_PROJECT_feast_Sutures"               				Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+		<Row Name="ICON_PROJECT_feast_Sutures"  Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+
+		<Row Name="ICON_PROJECT_SummonTheDead"  Atlas="ICON_ATLAS_PROJECTS" Index="11"/>
 	</IconDefinitions>
 </GameData>
