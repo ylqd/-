@@ -28,6 +28,7 @@
 		<Row Tag="CLASS_HUSSAR_FORCE_RETREAT_Sutures" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_TANK_Sutures" Vocabulary="ABILITY_CLASS"/>
 		<Row Tag="CLASS_DIGGER_Sutures" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_Wolf_Warrior" Vocabulary="ABILITY_CLASS"/>
 	</Tags>
 	
 	<TypeTags>
@@ -38,6 +39,7 @@
 		<Row Type="ABILITY_HUSSAR_FORCE_RETREAT_Sutures" Tag="CLASS_HUSSAR_FORCE_RETREAT_Sutures"/>
 		<Row Type="ABILITY_TANK_Sutures" Tag="CLASS_TANK_Sutures"/>
 		<Row Type="ABILITY_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
+		<Row Type="ABILITY_IGNORE_ZOC" Tag="CLASS_Wolf_Warrior"/>
 		
 		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_REVEAL_STEALTH"/>
@@ -67,7 +69,7 @@
 		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
 
 		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_ALL_ERAS"/>
-		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_Wolf_Warrior"/>
 	</TypeTags>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_GuardOfHonour" AiType="UNITAI_EXPLORE"/>
@@ -281,13 +283,19 @@
 			FormationClass="FORMATION_CLASS_LAND_COMBAT"
 			Name="LOC_UNIT_Wolf_Warrior_Sutures_NAME"
 			Description="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION"
-			PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
-			ImmediatelyName="true"
+			PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"
+			CanEarnExperience="false"
 			UseMaxMeleeTrainedStrength="true"
 			PrereqPopulation="3"
 			PopulationCost="2"
+			MustPurchase="true"
 			Combat="25"/>
 	</Units>
+
+	<Units_Presentation>
+		<Row UnitType="UNIT_Wolf_Warrior_Sutures" UIFlagOffset="20"/>
+	</Units_Presentation>
+	
 	<UnitUpgrades>
 		<Row Unit="UNIT_GuardOfHonour" UpgradeUnit="UNIT_SKIRMISHER"/>
 		<Row Unit="UNIT_TheTownIsTheProblemSolver" UpgradeUnit="UNIT_SWORDSMAN"/>
@@ -315,9 +323,7 @@
 		<Row UnitType="UNIT_TANK_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" CanFormMilitaryFormation="false"/>
 	</Units_XP2>
-	<Unit_BuildingPrereqs>
-		<Row Unit="UNIT_Wolf_Warrior_Sutures" PrereqBuilding="BUILDING_MobilisationStation2_Sutures"/>
-	</Unit_BuildingPrereqs>
+
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_GuardOfHonour" Texture="Moment_UniqueUnit_Cree.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TheTownIsTheProblemSolver" Texture="Moment_UniqueUnit_Rome.dds"/>

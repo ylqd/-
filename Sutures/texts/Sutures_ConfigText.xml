@@ -146,7 +146,7 @@
 			<Text>{LOC_PROJECT_SummonTheDead_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_SummonTheDead_DESCRIPTION">
-			<Text>Once completed, the project will open the production authority of the featured unit "{LOC_UNIT_Wolf_Warrior_Sutures_NAME}" for this city, but it will also give the city -3 [ICON_Amenities] livability.</Text>
+			<Text>Once the project is complete, cities with {LOC_DISTRICT_EastPointMilitaryAcademy_NAME} can purchase the featured unit "{LOC_UNIT_Wolf_Warrior_Sutures_NAME}" with Faith Points.</Text>
 		</Replace>
 
 		<!--特殊单位-->
@@ -154,20 +154,7 @@
 			<Text>Wolf Warrior</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION">
-			<Text>Featured light cavalry unit with very low production costs, but the city loses 2 people when production is completed. It does not require maintenance costs and strategic resources, and cannot be combined into a corps or army. Combat Effectiveness anchors the combat power of your strongest melee-type units, with 6 base [ICON_Movement] movement and 3 base vision.</Text>
-		</Replace>
-		<!--特殊建筑-->
-		<Replace Tag="LOC_BUILDING_MobilisationStation_Sutures_NAME">
-			<Text>Mobilise the platform</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MobilisationStation_Sutures_DESCRIPTION">
-			<Text>This building is a precursor to the project "{LOC_PROJECT_SummonTheDead_NAME}" and will be automatically generated after {LOC_DISTRICT_EastPointMilitaryAcademy_NAME} is built.</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MobilisationStation2_Sutures_NAME">
-			<Text>Self-service meeting point</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MobilisationStation2_Sutures_DESCRIPTION">
-			<Text>This building is a precursor to the production of the featured unit "{LOC_UNIT_Wolf_Warrior_Sutures_NAME}", and will be automatically generated after the execution of the project "{LOC_PROJECT_SummonTheDead_NAME}".</Text>
+			<Text>Special military combat unit with very low production cost, but the city loses 2 population after production is completed. No maintenance costs or strategic resources are required, but there is no experience to be earned and cannot be combined into a corps or army. [ICON_Strength] Combat power is anchored to the [ICON_Strength] combat power of the strongest melee type unit you have ever produced, and has 6 base [ICON_Movement] movement and 3 base vision, ignores area control, and starts with the "Enhanced Maneuver" upgrade.</Text>
 		</Replace>
 	</BaseGameText>
 	<LocalizedText>
@@ -317,7 +304,7 @@
 			<Text>{LOC_PROJECT_SummonTheDead_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_SummonTheDead_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>该项目完成后会为此城市开启特色单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”的生产权限，但是也会为该城市 -3 [ICON_Amenities]宜居度。</Text>
+			<Text>该项目完成后，有{LOC_DISTRICT_EastPointMilitaryAcademy_NAME}的城市可以通过信仰值购买特色单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”。</Text>
 		</Replace>
 		
 		<!--特殊单位-->
@@ -325,20 +312,7 @@
 			<Text>战狼</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>特色轻骑兵单位，生产费用极低，但是生产完成后该城市会损失 2 人口。不需要维护费用和战略资源，无法合成为兵团或者军队。战斗力锚定己方最强近战类型单位的战斗力，拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野。</Text>
-		</Replace>
-		<!--特殊建筑-->
-		<Replace Tag="LOC_BUILDING_MobilisationStation_Sutures_NAME" Language="zh_Hans_CN">
-			<Text>动员站台</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MobilisationStation_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>该建筑为项目"{LOC_PROJECT_SummonTheDead_NAME}"执行的前置建筑，会在{LOC_DISTRICT_EastPointMilitaryAcademy_NAME}建造完成后自动生成。</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MobilisationStation2_Sutures_NAME" Language="zh_Hans_CN">
-			<Text>自助集合点</Text>
-		</Replace>
-		<Replace Tag="LOC_BUILDING_MobilisationStation2_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>该建筑为特色单位"{LOC_UNIT_Wolf_Warrior_Sutures_NAME}"生产的前置建筑，会在项目“{LOC_PROJECT_SummonTheDead_NAME}”执行完成后自动生成。</Text>
+			<Text>特殊军事战斗单位，生产花费极低，但是生产完成后该城市会损失 2 人口。不需要维护费用和战略资源，但是也无法获取经验值，无法合成为兵团或者军队。[ICON_Strength] 战斗力锚定为己方生产过的最强近战类型单位的 [ICON_Strength]战斗力，并且拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野，无视区域控制，初始就拥有“增强机动”升级。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

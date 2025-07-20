@@ -66,6 +66,7 @@
 			 Name="LOC_PROJECT_SummonTheDead_NAME"
 			 ShortName="LOC_PROJECT_SummonTheDead_SHORT_NAME"
 			 Description="LOC_PROJECT_SummonTheDead_DESCRIPTION"
+			 MaxPlayerInstances="1"
 			 PrereqDistrict="DISTRICT_EastPointMilitaryAcademy"
 			 Cost="10"
 			 AdvisorType="ADVISOR_GENERIC"
@@ -87,13 +88,11 @@
 		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_1"/>
 		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_2"/>
 		<Row ProjectType="PROJECT_feast_Sutures" ModifierId="PROJECT_COMPLETION_Reduce_POPUL_3"/>
+
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_SummonTheDead"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_GDR_BONUS_MOVEMENT_UPGRADE_Sutures"/>
 	</ProjectCompletionModifiers>
-	<Projects_XP2>
-		<Row ProjectType="PROJECT_SummonTheDead" RequiredBuilding="BUILDING_MobilisationStation_Sutures" CreateBuilding="BUILDING_MobilisationStation2_Sutures"/>
-	</Projects_XP2>
-	<Project_BuildingCosts>
-		<Row ProjectType="PROJECT_SummonTheDead" ConsumedBuildingType="BUILDING_MobilisationStation_Sutures"/>
-	</Project_BuildingCosts>
+
 	<Modifiers>
 		<Row>
 			<ModifierId>PROJECT_COMPLETION_AWL_AGREEMENT</ModifierId>
@@ -147,6 +146,17 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_SummonTheDead</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_EastPointMilitaryAcademy_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_GDR_BONUS_MOVEMENT_UPGRADE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -204,6 +214,17 @@
 			<Name>Amount</Name>
 			<Value>-1</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_SummonTheDead</ModifierId>
+			<Name>Tag</Name>
+			<Value>CLASS_Wolf_Warrior</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_GDR_BONUS_MOVEMENT_UPGRADE_Sutures</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</Value>
+		</Row>
 	</ModifierArguments>
 
 	<ModifierStrings>
@@ -218,17 +239,45 @@
 			<RequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS_THREE</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_HAS_EastPointMilitaryAcademy_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
 			<RequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS_THREE</RequirementSetId>
 			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
 		</Row>
+
+		<Row>
+			<RequirementSetId>PLAYER_HAS_EastPointMilitaryAcademy_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_EastPointMilitaryAcademy</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
 			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
 			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER_AT_WAR</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_EastPointMilitaryAcademy</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+
+		<Row>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -241,6 +290,17 @@
 			<RequirementId>VARU_ADJACENT_UNIT_AT_WAR_REQUIREMENT_THREE</RequirementId>
 			<Name>MaxDistance</Name>
 			<Value>3</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_EastPointMilitaryAcademy</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_EastPointMilitaryAcademy</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+			<Name>Tag</Name>
+			<Value>CLASS_Wolf_Warrior</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

@@ -18,11 +18,6 @@
 		<Row Name="ICON_BUILDING_Greenhouses_Sutures"              Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
 		<Row Name="ICON_BUILDING_Greenhouses_Sutures_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="26"/>
 
-		<Row Name="ICON_BUILDING_MobilisationStation_Sutures"      Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="2"/>
-		<Row Name="ICON_BUILDING_MobilisationStation_Sutures_FOW"      Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="2"/>
-		<Row Name="ICON_BUILDING_MobilisationStation2_Sutures"      Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS" Index="2"/>
-		<Row Name="ICON_BUILDING_MobilisationStation2_Sutures_FOW"      Atlas="ICON_ATLAS_EXPANSION_1_DISTRICT_BUILDINGS_FOW" Index="2"/>
-
 		<Row Name="ICON_UNIT_GuardOfHonour"      Atlas="ICON_ATLAS_EXPANSION_1_UNITS" Index="11"/>
 		<Row Name="ICON_UNIT_GuardOfHonour_PORTRAIT"      Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS" Index="11"/>
 

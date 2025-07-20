@@ -1039,7 +1039,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="Scattered"/>
+							<m_ElementName text="Artillery"/>
 							<m_RootCollectionName text="UnitFormationTypes"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1047,11 +1047,11 @@
 							<m_ParamName text="Formation"/>
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text=""/>
+							<m_ElementName text="GDR"/>
 							<m_RootCollectionName text="UnitCombat"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text=""/>
+							<m_TemplateName text="Units"/>
 							<m_ParamName text="UnitCombat"/>
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
@@ -1063,11 +1063,11 @@
 							<m_ParamName text="EscortFormation"/>
 						</Element>
 						<Element class="AssetObjects..ArtDefReferenceValue">
-							<m_ElementName text="UNIT_ANCIENTEMBARK"/>
+							<m_ElementName text=""/>
 							<m_RootCollectionName text="Units"/>
 							<m_ArtDefPath text="Units.artdef"/>
 							<m_CollectionIsLocked>true</m_CollectionIsLocked>
-							<m_TemplateName text="Units"/>
+							<m_TemplateName text=""/>
 							<m_ParamName text="EmbarkedUnit"/>
 						</Element>
 						<Element class="AssetObjects..BoolValue">
@@ -1116,7 +1116,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..FloatValue">
-										<m_fValue>1.000000</m_fValue>
+										<m_fValue>0.750000</m_fValue>
 										<m_ParamName text="Scale"/>
 									</Element>
 									<Element class="AssetObjects..IntValue">
@@ -1124,7 +1124,7 @@
 										<m_ParamName text="Count"/>
 									</Element>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="WarCart"/>
+										<m_ElementName text="GDR"/>
 										<m_RootCollectionName text="UnitMemberTypes"/>
 										<m_ArtDefPath text="Units.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -1134,7 +1134,7 @@
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="Members1"/>
+							<m_Name text="Members"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
@@ -1145,19 +1145,104 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..StringValue">
-										<m_Value text="War_Cart"/>
+										<m_Value text="GiantDeathRobot"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
 								</m_Values>
 							</m_Fields>
 							<m_ChildCollections/>
-							<m_Name text="WAR_CART"/>
+							<m_Name text="GiantDeathRobot"/>
 							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 						</Element>
 					</Element>
 					<Element>
 						<m_CollectionName text="AttachmentVisibility"/>
 						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="PROMOTION_GDR_SIEGE_LASER"/>
+										<m_ParamName text="Conditions"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="CannonAttachmentPoint"/>
+										<m_ParamName text="Attachment Point Name"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Cannon"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="PROMOTION_GDR_ARMOR_UPGRADE"/>
+										<m_ParamName text="Conditions"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="ShieldAttachmentPoint"/>
+										<m_ParamName text="Attachment Point Name"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Shield"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="-PROMOTION_GDR_SIEGE_LASER;PROMOTION_GDR_BONUS_MOVEMENT"/>
+										<m_ParamName text="Conditions"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="JetPackAttachmentPoint"/>
+										<m_ParamName text="Attachment Point Name"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Jetpack"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="-PROMOTION_GDR_SIEGE_LASER"/>
+										<m_ParamName text="Conditions"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="BodyAttachmentPoint"/>
+										<m_ParamName text="Attachment Point Name"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Body"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="PROMOTION_GDR_SIEGE_LASER;PROMOTION_GDR_BONUS_MOVEMENT"/>
+										<m_ParamName text="Conditions"/>
+									</Element>
+									<Element class="AssetObjects..StringValue">
+										<m_Value text="JetPackWithCannonAttachmentPoint"/>
+										<m_ParamName text="Attachment Point Name"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="JetpackWithCannon"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="UNIT_Wolf_Warrior_Sutures"/>
