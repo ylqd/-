@@ -794,6 +794,18 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior3</GovernorPromotionType>
 			<ModifierId>Sutures_TRAIT_ALLOW_QUESTS_IN_GOLDEN_AGE</ModifierId>
 		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior3</GovernorPromotionType>
+			<ModifierId>LIMES_CASTLEPRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior3</GovernorPromotionType>
+			<ModifierId>LIMES_WALLSPRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior3</GovernorPromotionType>
+			<ModifierId>LIMES_STARFORTPRODUCTION</ModifierId>
+		</Row>
 		<!--咱妈说了-->
 		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesWolfWarrior4</GovernorPromotionType>

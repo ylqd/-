@@ -154,7 +154,7 @@
 			<Text>Both want and want.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior3_DESCRIPTION">
-			<Text>When you set a Focus Point in the Golden or Heroic Age, you will also receive a Normal Era Focus Point effect that increases the Era Score in addition to the original bonus.</Text>
+			<Text>When you set a Focus Point in the Golden or Heroic Age, you will also receive a Normal Era Focus Point effect that increases the Era Score in addition to the original bonus.100% productivity when building city walls.</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_NAME">
 			<Text>Our mother, our mother, our mother</Text>
@@ -580,7 +580,7 @@
 			<Text>既要又要还要</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>在黄金或者英雄时代设置着力点时，除了原有加成外还会获得提高时代得分的普通时代着力点效果。</Text>
+			<Text>在黄金或者英雄时代设置着力点时，除了原有加成外还会获得提高时代得分的普通时代着力点效果。修建城墙时 +100% [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_NAME" Language="zh_Hans_CN">
 			<Text>咱妈咱妈咱妈</Text>
