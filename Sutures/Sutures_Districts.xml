@@ -297,7 +297,9 @@
 			<ModifierId>GREATPERSON_EXTRA_DISTRICT_CAPACITY</ModifierId>
 		</Row>
 	</DistrictModifiers>
-
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy" ModifierId="Sutures_LOSE_POPULATION_IN_CITIES"/>
+	</TraitModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>WastelandOfKnowledge_GRANT_TURN_Sutures</ModifierId>
@@ -343,6 +345,11 @@
 		<Row>
 			<ModifierId>Sutures_BranchUnion_Always_Loval</ModifierId>
 			<ModifierType>MODIFIER_Single_CITIE_ALWAYS_LOYAL_Sutures</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_LOSE_POPULATION_IN_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_CHANGE_POPULATION_CREATE_UNIT</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -419,6 +426,17 @@
 			<ModifierId>Sutures_BranchUnion_Always_Loval</ModifierId>
 			<Name>AlwaysLoyal</Name>
 			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_LOSE_POPULATION_IN_CITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_LOSE_POPULATION_IN_CITIES</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_Wolf_Warrior_Sutures</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

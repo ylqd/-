@@ -296,8 +296,8 @@
 			PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"
 			CanEarnExperience="false"
 			UseMaxMeleeTrainedStrength="true"
-			PrereqPopulation="3"
-			PopulationCost="2"
+			PrereqPopulation="4"
+			ImmediatelyName="true"
 			MustPurchase="true"
 			Combat="25"/>
 		<Row
