@@ -288,6 +288,14 @@
 			<DistrictType>DISTRICT_BranchUnion</DistrictType>
 			<ModifierId>Sutures_BranchUnion_Grant_Tech_APPRENTICESHIP</ModifierId>
 		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BranchUnion</DistrictType>
+			<ModifierId>Sutures_BranchUnion_Always_Loval</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BranchUnion</DistrictType>
+			<ModifierId>GREATPERSON_EXTRA_DISTRICT_CAPACITY</ModifierId>
+		</Row>
 	</DistrictModifiers>
 
 	<Modifiers>
@@ -330,6 +338,11 @@
 			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Always_Loval</ModifierId>
+			<ModifierType>MODIFIER_Single_CITIE_ALWAYS_LOYAL_Sutures</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -400,6 +413,12 @@
 			<ModifierId>Sutures_BranchUnion_Grant_Tech_APPRENTICESHIP</ModifierId>
 			<Name>TechType</Name>
 			<Value>TECH_APPRENTICESHIP</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Always_Loval</ModifierId>
+			<Name>AlwaysLoyal</Name>
+			<Value>true</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>

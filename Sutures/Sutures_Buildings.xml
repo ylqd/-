@@ -6,7 +6,8 @@
 		
 		<Row Type="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_Single_City_ADJUST_TRAIT_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
-
+		<Row Type="MODIFIER_Single_CITIE_ALWAYS_LOYAL_Sutures" Kind="KIND_MODIFIER"/>
+		
 		<Row Type="ABILITY_Sutures_Unit_Free_Resource" Kind="KIND_ABILITY"/>
 	</Types>
 
@@ -21,6 +22,12 @@
 			<ModifierType>MODIFIER_Single_City_ADJUST_TRAIT_AMENITY_Sutures</ModifierType>
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_POLICY_AMENITY</EffectType>
+		</Row>
+
+		<Row>
+			<ModifierType>MODIFIER_Single_CITIE_ALWAYS_LOYAL_Sutures</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_CITY_ALWAYS_LOYAL</EffectType>
 		</Row>
 	</DynamicModifiers>
 
