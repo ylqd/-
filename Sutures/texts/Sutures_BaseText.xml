@@ -271,10 +271,10 @@
 		</Replace>
 		
 		<Replace Tag="LOC_ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS_NAME">
-			<Text>No subsidies were received.</Text>
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS_DESCRIPTION">
-			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION}（No subsidies were received.）</Text>
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION}（{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME}）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_Kill_others_NAME">
 			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME}</Text>
@@ -289,10 +289,10 @@
 			<Text>{LOC_GOVERNOR_PROMOTION_SuturesHappySis3_DESCRIPTION}（diplomatic immunity）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_BONUS_PER_LUXURY_NAME">
-			<Text>Progress together</Text>
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_BONUS_PER_LUXURY_DESCRIPTION">
-			<Text>Each luxury resource grants 1 [ICON_Strength] combat strength to a military unit. (Progress Together)</Text>
+			<Text>Each luxury resource grants 1 [ICON_Strength] combat strength to a military unit. ({LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME})</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_LEVY_UNITS_NAME">
 			<Text>Don't do anything.</Text>
@@ -697,10 +697,10 @@
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS_NAME" Language="zh_Hans_CN">
-			<Text>没收到补贴</Text>
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_BONUS_VS_WOUNDED_UNITS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION}（没收到补贴）</Text>
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_DESCRIPTION}（{LOC_GOVERNOR_PROMOTION_SuturesPatriot2_NAME}）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_Kill_others_NAME" Language="zh_Hans_CN">
 			<Text>{LOC_GOVERNOR_PROMOTION_SuturesPatriot4_NAME}</Text>
@@ -715,10 +715,10 @@
 			<Text>{LOC_GOVERNOR_PROMOTION_SuturesHappySis3_DESCRIPTION}（外交豁免权）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_BONUS_PER_LUXURY_NAME" Language="zh_Hans_CN">
-			<Text>一起进步</Text>
+			<Text>{LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_BONUS_PER_LUXURY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每种奢侈品资源都会为军事单位 +1 [ICON_Strength]战斗力。（一起进步）</Text>
+			<Text>每种奢侈品资源都会为军事单位 +1 [ICON_Strength]战斗力。（{LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME}）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_Sutures_LEVY_UNITS_NAME" Language="zh_Hans_CN">
 			<Text>不担事</Text>
@@ -831,9 +831,6 @@
 		</Replace>
 		<Replace Tag="LOC_GOSSIP_SuturesRational" Language="zh_Hans_CN">
 			<Text>您的公司牛马，{1_Name}，窃听到</Text>
-		</Replace>
-		<Replace Tag="LOC_WMD_Super_NUCLEAR_DEVICE_Sutures_NAME" Language="zh_Hans_CN">
-			<Text>超级核弹</Text>
 		</Replace>
 		
 		<!--区域-->
