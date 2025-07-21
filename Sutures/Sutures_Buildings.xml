@@ -164,7 +164,7 @@
 		<Row>
 			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>
 			<Name>DistrictType</Name>
-			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+			<Value>DISTRICT_BranchUnion</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_CREATE_HEAVY_CAVALRY_Sutures</ModifierId>

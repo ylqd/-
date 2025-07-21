@@ -8,6 +8,7 @@
 		<Row Type="UNIT_WhiteMAMLUK" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_POLISH_HUSSAR_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_TANK_Sutures" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_TANK_PRO_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_DIGGER_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_Wolf_Warrior_Sutures" Kind="KIND_UNIT"/>
 
@@ -65,6 +66,10 @@
 		<Row Type="UNIT_TANK_Sutures" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_TANK_Sutures" Tag="CLASS_TANK_Sutures"/>
 
+		<Row Type="UNIT_TANK_PRO_Sutures" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="UNIT_TANK_PRO_Sutures" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_TANK_PRO_Sutures" Tag="CLASS_TANK_Sutures"/>
+
 		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_MELEE"/>
 		<Row Type="UNIT_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
 
@@ -103,6 +108,11 @@
 		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_TANK_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_TANK_PRO_Sutures" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TANK_PRO_Sutures" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_TANK_PRO_Sutures" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_TANK_PRO_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
 
 		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITAI_COMBAT"/>
 		<Row UnitType="UNIT_DIGGER_Sutures" AiType="UNITAI_EXPLORE"/>
@@ -290,6 +300,25 @@
 			PopulationCost="2"
 			MustPurchase="true"
 			Combat="25"/>
+		<Row
+				UnitType="UNIT_TANK_PRO_Sutures"
+				Cost="680"
+				Maintenance="8"
+				BaseMoves="7"
+				BaseSightRange="2"
+				ZoneOfControl="true"
+				Domain="DOMAIN_LAND"
+				Combat="100"
+				StrategicResource="RESOURCE_OIL"
+				FormationClass="FORMATION_CLASS_LAND_COMBAT"
+				PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY"
+				AdvisorType="ADVISOR_CONQUEST"
+				Name="LOC_UNIT_TANK_PRO_Sutures_NAME"
+				Description="LOC_UNIT_TANK_PRO_Sutures_DESCRIPTION"
+				PurchaseYield="YIELD_GOLD"
+				PrereqTech="TECH_COMPOSITES"
+				TraitType="TRAIT_CIVILIZATION_UNIT_TANK_PRO_Sutures"
+			/>
 	</Units>
 
 	<Units_Presentation>
@@ -314,6 +343,7 @@
 		<Row CivUniqueUnitType="UNIT_WhiteMAMLUK" ReplacesUnitType="UNIT_KNIGHT"/>
 		<Row CivUniqueUnitType="UNIT_POLISH_HUSSAR_Sutures" ReplacesUnitType="UNIT_CUIRASSIER"/>
 		<Row CivUniqueUnitType="UNIT_TANK_Sutures" ReplacesUnitType="UNIT_TANK"/>
+		<Row CivUniqueUnitType="UNIT_TANK_PRO_Sutures" ReplacesUnitType="UNIT_MODERN_ARMOR"/>
 		<Row CivUniqueUnitType="UNIT_DIGGER_Sutures" ReplacesUnitType="UNIT_INFANTRY"/>
 	</UnitReplaces>
 	<Units_XP2>
@@ -321,6 +351,7 @@
 		<Row UnitType="UNIT_WhiteMAMLUK" ResourceCost="20"/>
 		<Row UnitType="UNIT_POLISH_HUSSAR_Sutures" ResourceCost="20"/>
 		<Row UnitType="UNIT_TANK_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
+		<Row UnitType="UNIT_TANK_PRO_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" CanFormMilitaryFormation="false"/>
 	</Units_XP2>
 
@@ -332,6 +363,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_WhiteMAMLUK" Texture="Moment_UniqueUnit_Arab.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_POLISH_HUSSAR_Sutures" Texture="Moment_UniqueUnit_America_Roughrider.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TANK_Sutures" Texture="Moment_UniqueUnit_TANK_Sutures.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TANK_PRO_Sutures" Texture="Moment_UniqueUnit_TANK_Sutures.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_DIGGER_Sutures" Texture="Moment_UniqueUnit_France_GardeImperiale.dds"/>
 	</MomentIllustrations>
 	<UnitAbilityModifiers>

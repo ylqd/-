@@ -178,5 +178,14 @@
 			 Name="LOC_UNIT_DIGGER_Sutures_NAME"
 			 Description="LOC_UNIT_DIGGER_Sutures_DESCRIPTION"
 			 SortIndex="48"/>
+		<Row
+			 Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_Sutures"
+			 LeaderType="LEADER_StitchingMonster"
+			 Type="UNIT_TANK_PRO_Sutures"
+			 Icon="ICON_UNIT_TANK_PRO_Sutures"
+			 Name="LOC_UNIT_TANK_PRO_Sutures_NAME"
+			 Description="LOC_UNIT_TANK_PRO_Sutures_DESCRIPTION"
+			 SortIndex="49"/>
 	</PlayerItems>
 </GameData>
