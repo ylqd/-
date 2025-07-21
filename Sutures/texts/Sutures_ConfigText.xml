@@ -174,7 +174,7 @@
 			<Text>偷回了永乐大典</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SuturesAbility_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>新增多个特色总督。开局自动解锁制陶术、畜牧业、采矿业三项科技。</Text>
+			<Text>新增 7 个全境生效的特色总督。开局自动解锁制陶术、畜牧业、采矿业三项科技。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_StitchingMonsterAbility_NAME" Language="zh_Hans_CN">
 			<Text>这是俺拾嘞</Text>
