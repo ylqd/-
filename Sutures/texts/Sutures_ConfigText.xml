@@ -11,7 +11,7 @@
 			<Text>Steal back the Yongle Canon</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_SuturesAbility_DESCRIPTION">
-			<Text>Added a number of unique governors. Automatically unlock three technologies at the beginning: pottery, animal husbandry, and mining.</Text>
+			<Text>7 new featured governors have been added to the entire territory. The three technologies of pottery, animal husbandry, and mining are automatically unlocked at the beginning.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_StitchingMonsterAbility_NAME">
 			<Text>This is me</Text>
@@ -152,7 +152,7 @@
 			<Text>{LOC_PROJECT_SummonTheDead_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_SummonTheDead_DESCRIPTION">
-			<Text>Once the project is complete, cities with {LOC_DISTRICT_EastPointMilitaryAcademy_NAME} can purchase the featured unit "{LOC_UNIT_Wolf_Warrior_Sutures_NAME}" with Faith Points.</Text>
+			<Text>Characteristic projects need to be developed in cities with East Point Military Academy. After the research is completed, cities with East Point Military Academy can purchase the unique unit "Wolf Warrior Sutures" with Faith Points.</Text>
 		</Replace>
 
 		<!--特殊单位-->
@@ -316,7 +316,7 @@
 			<Text>{LOC_PROJECT_SummonTheDead_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_SummonTheDead_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>该项目完成后，有{LOC_DISTRICT_EastPointMilitaryAcademy_NAME}的城市可以通过信仰值购买特色单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”。</Text>
+			<Text>特色项目，需要在有东点军校的城市进行研发。研发完成后，有{LOC_DISTRICT_EastPointMilitaryAcademy_NAME}的城市可以通过信仰值购买特色单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”。</Text>
 		</Replace>
 		
 		<!--特殊单位-->
