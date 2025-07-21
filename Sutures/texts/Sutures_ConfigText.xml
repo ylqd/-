@@ -138,7 +138,7 @@
 			<Text>{LOC_PROJECT_AWL_AGREEMENT_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION">
-			<Text>Characteristic projects need to be developed in cities with knowledge deserts. After researching, all allied units gain a unique ability: -5 [ICON_Strength] Combat Damage for enemy units when adjacent to your units. When within 3 tiles of your unit, the enemy unit gains -2 [ICON_Movement] Movement.</Text>
+			<Text>Characteristic projects need to be developed in cities with knowledge deserts. After researching, all allied units gain a unique ability: -5 [ICON_Strength] Combat Damage for enemy units when adjacent to your units. When within 3 tiles of your unit, the enemy unit gains -1 [ICON_Movement] Movement.</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_feast_Sutures_NAME" >
@@ -318,7 +318,7 @@
 			<Text>{LOC_PROJECT_AWL_AGREEMENT_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>特色项目，需要在有知识荒漠的城市进行研发。研发完成后，所有的己方单位获得一项特色能力：相邻己方单位时，敌方单位 -5 [ICON_Strength]战斗力。位于己方单位 3 个单元格内时，敌方单位 -2 [ICON_Movement]移动力。</Text>
+			<Text>特色项目，需要在有知识荒漠的城市进行研发。研发完成后，所有的己方单位获得一项特色能力：相邻己方单位时，敌方单位 -5 [ICON_Strength]战斗力。位于己方单位 3 个单元格内时，敌方单位 -1 [ICON_Movement]移动力。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_feast_Sutures_NAME" Language="zh_Hans_CN">

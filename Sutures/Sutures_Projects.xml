@@ -54,7 +54,7 @@
 			 Description="LOC_PROJECT_AWL_AGREEMENT_DESCRIPTION"
 			 PrereqDistrict="DISTRICT_WastelandOfKnowledge"
 			 MaxPlayerInstances="1"
-			 Cost="100"
+			 Cost="50"
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
@@ -231,7 +231,7 @@
 		<Row>
 			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures_Modifierd</ModifierId>
 			<Name>Amount</Name>
-			<Value>-2</Value>
+			<Value>-1</Value>
 		</Row>
 
 		<Row>
