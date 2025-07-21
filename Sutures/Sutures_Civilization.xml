@@ -8,7 +8,8 @@
 		<Row Type="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy" Kind="KIND_TRAIT"/>
-
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_BranchUnion" Kind="KIND_TRAIT"/>
+		
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures" Kind="KIND_TRAIT"/>
 
@@ -87,6 +88,7 @@
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino" Name="LOC_DISTRICT_TypeAcasino_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding" Name="LOC_DISTRICT_UnfinishedBuilding_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy" Name="LOC_DISTRICT_EastPointMilitaryAcademy_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_BranchUnion" Name="LOC_DISTRICT_BranchUnion_NAME"/>
 
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures" Name="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures" Name="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION"/>
@@ -110,6 +112,7 @@
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_TypeAcasino"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_UnfinishedBuilding"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_DISTRICT_BranchUnion"/>
 		
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures"/>

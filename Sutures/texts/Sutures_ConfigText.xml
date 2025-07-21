@@ -45,6 +45,12 @@
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION">
 			<Text>A special area from ancient times, replacing the barracks. The cost of construction is lower (-50%), 1 [ICON_Housing] housing, which does not require population support. Clans and armies can be created by meeting Civic or Tech prerequisites and cost 25% less. Buildings within it have 2 [ICON_GOLD] gold, 1 [ICON_SCIENCE] technology.Unlocks the featured item "{LOC_PROJECT_SummonTheDead_NAME}" when this area is built.</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_BranchUnion_NAME">
+			<Text>branch union</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION">
+			<Text>Classical Era characteristic area, unlocked by technological ironsmithing, replaces the industrial zone (medieval). Free to build, unlocks Medieval "Apprentice" technology immediately upon completion, and gains 1000 [ICON_GOLD] gold (at standard speed), but the city's [ICON_GOLD] gold output is reduced by 25%, and [ICON_Amenities] livability is -2. This zone adds a large number of adjacency bonuses from commercial centres, standard adjacency bonuses for resource cells, and is defensive and capable of performing ranged attacks.</Text>
+		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME">
 			<Text>Museum of Fakes</Text>
@@ -201,6 +207,12 @@
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>远古时代特色区域，代替军营。建造费用更低（-50%），+1 [ICON_Housing] 住房，不需要人口支持。满足市政或科技先决条件后即可创建军团和军队，并降低其 25% 的花费。其内的建筑 +2 [ICON_GOLD] 金币、+1 [ICON_SCIENCE] 科技值。该区域建造完成后解锁特色项目“{LOC_PROJECT_SummonTheDead_NAME}”。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BranchUnion_NAME" Language="zh_Hans_CN">
+			<Text>支部工会</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。建造免费，建成后立即解锁中世纪的“学徒”科技、获得 1000 [ICON_GOLD]金币（标准速度下），但是该城市的 [ICON_GOLD]金币产出降低 25%，[ICON_Amenities]宜居度 -2。该区域增加来自商业中心的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME" Language="zh_Hans_CN">

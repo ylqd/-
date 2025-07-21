@@ -18,6 +18,9 @@
 		<Row Name="ICON_BUILDING_Greenhouses_Sutures"              Atlas="ICON_ATLAS_BUILDINGS" Index="26"/>
 		<Row Name="ICON_BUILDING_Greenhouses_Sutures_FOW"             Atlas="ICON_ATLAS_BUILDINGS_FOW" Index="26"/>
 
+		<Row Name="ICON_DISTRICT_BranchUnion"         Atlas="ICON_ATLAS_DISTRICTS" Index="9"/>
+		<Row Name="ICON_DISTRICT_BranchUnion_FOW"       Atlas="ICON_ATLAS_DISTRICTS_FOW" Index="9"/>
+		
 		<Row Name="ICON_UNIT_GuardOfHonour"      Atlas="ICON_ATLAS_EXPANSION_1_UNITS" Index="11"/>
 		<Row Name="ICON_UNIT_GuardOfHonour_PORTRAIT"      Atlas="ICON_ATLAS_EXPANSION_1_UNIT_PORTRAITS" Index="11"/>
 

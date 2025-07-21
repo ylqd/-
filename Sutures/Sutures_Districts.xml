@@ -5,6 +5,7 @@
 		<Row Type="DISTRICT_TypeAcasino" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_UnfinishedBuilding" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_EastPointMilitaryAcademy" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_BranchUnion" Kind="KIND_DISTRICT"/>
 	</Types>
 
 	<Districts>
@@ -105,6 +106,32 @@
 			Housing="1" 
 			CityStrengthModifier="2" 
 			TraitType="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy"/>
+		<Row 
+			DistrictType="DISTRICT_BranchUnion" 
+			Name="LOC_DISTRICT_BranchUnion_NAME" 
+			Description="LOC_DISTRICT_BranchUnion_DESCRIPTION" 
+			PrereqTech="TECH_IRON_WORKING" 
+			PlunderType="PLUNDER_SCIENCE" 
+			PlunderAmount="25" 
+			AdvisorType="ADVISOR_GENERIC" 
+			Cost="0" 
+			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			CostProgressionParam1="40"
+			Maintenance="1" 
+			RequiresPlacement="true" 
+			RequiresPopulation="true" 
+			Aqueduct="false" 
+			NoAdjacentCity="false" 
+			InternalOnly="false" 
+			ZOC="false" 
+			CaptureRemovesBuildings="false" 
+			CaptureRemovesCityDefenses="false" 
+			MilitaryDomain="NO_DOMAIN" 
+			Appeal="-1" 
+			CityStrengthModifier="2"
+			HitPoints="100"
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_BranchUnion"
+			/>
 	</Districts>
 	
 	<District_Adjacencies>
@@ -133,7 +160,17 @@
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Harbor_Gold"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Cothon_Gold"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Pamukkale_Gold"/>
-		
+
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Commerical_Hub_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Resource_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="District_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Government_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Minel_HalfProduction"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="LumberMill_HalfProduction"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Aqueduct_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Bath_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Canal_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Dam_Production"/>/>
 	</District_Adjacencies>
 	
 	<District_TradeRouteYields>
@@ -144,12 +181,14 @@
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
 
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_BranchUnion" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 
 	<District_CitizenYieldChanges>
@@ -157,6 +196,7 @@
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldType="YIELD_GOLD" YieldChange="4"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
 	</District_CitizenYieldChanges>
 
 	<DistrictReplaces>
@@ -164,6 +204,7 @@
 		<Row CivUniqueDistrictType="DISTRICT_TypeAcasino" ReplacesDistrictType="DISTRICT_COMMERCIAL_HUB"/>
 		<Row CivUniqueDistrictType="DISTRICT_UnfinishedBuilding" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
 		<Row CivUniqueDistrictType="DISTRICT_EastPointMilitaryAcademy" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
+		<Row CivUniqueDistrictType="DISTRICT_BranchUnion" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
 	</DistrictReplaces>
 	
 	<Adjacency_YieldChanges>
@@ -172,12 +213,14 @@
 
 	<Districts_XP2>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" AttackRange="2"/>
+		<Row DistrictType="DISTRICT_BranchUnion" AttackRange="2"/>
 	</Districts_XP2>
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_WastelandOfKnowledge" Texture="Moment_Infrastructure_Korea.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_TypeAcasino" Texture="MomentXP2_BuildingSuguba.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_UnfinishedBuilding" Texture="Moment_Infrastructure_Kongo.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_EastPointMilitaryAcademy" Texture="Moment_Infrastructure_Zulu.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_BranchUnion" Texture="Moment_Infrastructure_Germany.dds"/>
 	</MomentIllustrations>
 	<DistrictModifiers>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" ModifierId="WastelandOfKnowledge_GRANT_TURN_Sutures"/>
@@ -230,10 +273,21 @@
 	</Row>
 
 		<Row>
-			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
-			<ModifierId>Sutures_GRANT_BUILDING_MobilisationStation_Sutures</ModifierId>
+			<DistrictType>DISTRICT_BranchUnion</DistrictType>
+			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
 		</Row>
-
+		<Row>
+			<DistrictType>DISTRICT_BranchUnion</DistrictType>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BranchUnion</DistrictType>
+			<ModifierId>Sutures_BranchUnion_Adjest_Amenity</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BranchUnion</DistrictType>
+			<ModifierId>Sutures_BranchUnion_Grant_Tech_APPRENTICESHIP</ModifierId>
+		</Row>
 	</DistrictModifiers>
 
 	<Modifiers>
@@ -256,12 +310,27 @@
 		</Row>
 
 		<Row>
-			<ModifierId>Sutures_GRANT_BUILDING_MobilisationStation_Sutures</ModifierId>
-			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_BUILDING_IN_CITY_IGNORE</ModifierType>
+			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Amenity</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_DISTRICT_AMENITY</ModifierType>
+		</Row>
+		
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Grant_Tech_APPRENTICESHIP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPECIFIC_TECHNOLOGY</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
-
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -299,9 +368,38 @@
 		</Row>
 
 		<Row>
-			<ModifierId>Sutures_GRANT_BUILDING_MobilisationStation_Sutures</ModifierId>
-			<Name>BuildingType</Name>
-			<Value>BUILDING_MobilisationStation_Sutures</Value>
+			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
+			<Name>Amount</Name>
+			<Value>1000</Value>
+			<Type>ScaleByGameSpeed</Type>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold</ModifierId>
+			<Name>Amount</Name>
+			<Value>-25</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Amenity</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Grant_Tech_APPRENTICESHIP</ModifierId>
+			<Name>TechType</Name>
+			<Value>TECH_APPRENTICESHIP</Value>
 		</Row>
 	</ModifierArguments>
 </GameData>
