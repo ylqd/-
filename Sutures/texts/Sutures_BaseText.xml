@@ -655,7 +655,7 @@
 			<Text>这是一种自信</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁古典市政政治哲学后，当前政体中的所有外交政策槽全部转换为通配符政策槽，每个通配符政策槽每回合提供 3 点 [ICON_FAVOR]外交支持点数。</Text>
+			<Text>解锁古典市政政治哲学后，当前政体中的所有外交政策槽全部转换为通配符政策槽，每个通配符政策槽每回合提供 6 点 [ICON_FAVOR]外交支持点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_NAME" Language="zh_Hans_CN">
 			<Text>没什么不能说的</Text>
