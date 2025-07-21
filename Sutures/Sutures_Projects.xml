@@ -4,10 +4,12 @@
 		<Row Type="PROJECT_AWL_AGREEMENT" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_feast_Sutures" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_SummonTheDead" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_EatDumplings" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
 
 		<Row Type="MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_SINGLE_CITIE_ADJUST_TRAIT_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
 	</Types>
 
 	<DynamicModifiers>
@@ -15,6 +17,11 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures</ModifierType>
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_CITY_POPULATION</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_SINGLE_CITIE_ADJUST_TRAIT_AMENITY_Sutures</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_TRAIT_AMENITY</EffectType>
 		</Row>
 	</DynamicModifiers>
 	<UnitAbilities>
@@ -72,12 +79,28 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row
+			 ProjectType="PROJECT_EatDumplings"
+			 Name="LOC_PROJECT_EatDumplings_NAME"
+			 ShortName="LOC_PROJECT_EatDumplings_SHORT_NAME"
+			 Description="LOC_PROJECT_EatDumplings_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_BranchUnion"
+			 Cost="50"
+			 AmenitiesWhileActive="3"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
 	</Projects>
 	<Project_YieldConversions>
 		<Row
              ProjectType="PROJECT_feast_Sutures"
              YieldType="YIELD_GOLD"
              PercentOfProductionRate="200"
+             />
+		<Row
+			 ProjectType="PROJECT_EatDumplings"
+			 YieldType="YIELD_FOOD"
+			 PercentOfProductionRate="50"
              />
 	</Project_YieldConversions>
 	
@@ -91,6 +114,10 @@
 
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_SummonTheDead"/>
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_GDR_BONUS_MOVEMENT_UPGRADE_Sutures"/>
+
+		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_CITYS_GET_AMENITY"/>
+		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY"/>
+		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_Reduce_Gold"/>
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
@@ -158,6 +185,25 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
 			<SubjectRequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
 		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_CITYS_GET_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITIE_ADJUST_TRAIT_AMENITY_Sutures</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_Reduce_Gold</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -224,6 +270,27 @@
 			<ModifierId>PROJECT_COMPLETION_GDR_BONUS_MOVEMENT_UPGRADE_Sutures</ModifierId>
 			<Name>PromotionType</Name>
 			<Value>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_CITYS_GET_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_Reduce_Gold</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_EatDumplings_Reduce_Gold</ModifierId>
+			<Name>Amount</Name>
+			<Value>-2</Value>
 		</Row>
 	</ModifierArguments>
 
