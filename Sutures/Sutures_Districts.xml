@@ -8,6 +8,7 @@
 		<Row Type="DISTRICT_BranchUnion" Kind="KIND_DISTRICT"/>
 
 		<Row Type="MODIFIER_Single_CITIE_ADJUST_POLICY_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_Citys_GRANT_YIELD_Surures" Kind="KIND_MODIFIER"/>
 	</Types>
 
 	<DynamicModifiers>
@@ -15,6 +16,11 @@
 			<ModifierType>MODIFIER_Single_CITIE_ADJUST_POLICY_AMENITY_Sutures</ModifierType>
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_POLICY_AMENITY</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_Citys_GRANT_YIELD_Surures</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_GRANT_YIELD</EffectType>
 		</Row>
 	</DynamicModifiers>
 	
@@ -281,12 +287,9 @@
 			<DistrictType>DISTRICT_EastPointMilitaryAcademy</DistrictType>
 			<ModifierId>TRAIT_IKANDA_MILITARY_ACADEMY_SCIENCE</ModifierId>
 		
-	</Row>
-
-		<Row>
-			<DistrictType>DISTRICT_BranchUnion</DistrictType>
-			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
 		</Row>
+
+
 		<Row>
 			<DistrictType>DISTRICT_BranchUnion</DistrictType>
 			<ModifierId>Sutures_BranchUnion_Adjest_Gold</ModifierId>
@@ -310,6 +313,10 @@
 	</DistrictModifiers>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy" ModifierId="Sutures_LOSE_POPULATION_IN_CITIES"/>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_BranchUnion</TraitType>
+			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
+		</Row>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -332,9 +339,9 @@
 
 		<Row>
 			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_YIELD</ModifierType>
+			<ModifierType>MODIFIER_PLAYER_Citys_GRANT_YIELD_Surures</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLAYER_HAS_Engineer_REQUIREMENTS</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
-			<RunOnce>true</RunOnce>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_BranchUnion_Adjest_Gold</ModifierId>
