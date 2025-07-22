@@ -37,7 +37,7 @@
 			<Text>Unfinished building</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION">
-			<Text>Featured areas in the industrial age, in place of communities. Cheaper to build (-50%), ignores tile charisma, and provides 6 [ICON_Housing] housing, 4 [ICON_FOOD] food, and 8 [ICON_GOLD] gold per fix.</Text>
+			<Text>Medieval characteristic area, municipal union unlocked, replacing community (Industrial Age).. Cheaper to build (-50%), ignores tile charisma, and provides 6 [ICON_Housing] housing, 4 [ICON_FOOD] food, and 8 [ICON_GOLD] gold per fix.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_NAME">
 			<Text>East Point Military Academy</Text>
@@ -216,7 +216,7 @@
 			<Text>烂尾楼</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>工业时代特色区域，代替社区。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。每个该区域每回合 -6 忠诚度。</Text>
+			<Text>中世纪特色区域，市政工会解锁，代替社区（工业时代）。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。每个该区域每回合 -6 忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_NAME" Language="zh_Hans_CN">
 			<Text>东点军校</Text>

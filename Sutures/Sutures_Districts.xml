@@ -60,7 +60,7 @@
 			DistrictType="DISTRICT_UnfinishedBuilding" 
 			Name="LOC_DISTRICT_UnfinishedBuilding_NAME" 
 			Description="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION" 
-			PrereqCivic="CIVIC_URBANIZATION" 
+			PrereqCivic="CIVIC_GUILDS" 
 			PlunderType="PLUNDER_GOLD" 
 			PlunderAmount="50" 
 			AdvisorType="ADVISOR_GENERIC" 
