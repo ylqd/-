@@ -132,6 +132,7 @@
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MISSILE_SILO_Sutures"/>
 		<!--other exist-->
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SPHINX"/>
 	</CivilizationTraits>
 
 	<TraitModifiers>

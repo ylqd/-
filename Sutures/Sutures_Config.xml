@@ -105,7 +105,17 @@
 			 Name="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME"
 			 Description="LOC_IMPROVEMENT_MOUNTAIN_ROAD_DESCRIPTION"
 			 SortIndex="35"/>
-
+		
+		<Row 
+			Domain="Players:Expansion2_Players" 
+			CivilizationType="CIVILIZATION_Sutures" 
+			LeaderType="LEADER_StitchingMonster" 
+			Type="IMPROVEMENT_SPHINX" 
+			Icon="ICON_IMPROVEMENT_SPHINX" 
+			Name="LOC_IMPROVEMENT_SPHINX_NAME" 
+			Description="LOC_IMPROVEMENT_SPHINX_EXPANSION2_DESCRIPTION" 
+			SortIndex="36"/>
+		
 		<Row
 			 Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_Sutures"
