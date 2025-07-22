@@ -348,7 +348,7 @@
 			<Text>{LOC_PROJECT_EatDumplings_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_EatDumplings_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可重复的特色项目，需要在有支部工会的城市进行。项目执行期间，城市暂时 +3 [ICON_Amenities]宜居度，生产力会以 50% 比例转换为 [ICON_FOOD]食物。项目完成后，当前城市获得 +2 宜居度、-2% [ICON_GOLD]金币产出，其他己方城市获得 +1 [ICON_FOOD]宜居度。</Text>
+			<Text>可重复的特色项目，需要在有支部工会的城市进行。项目执行期间，城市暂时 +3 [ICON_Amenities]宜居度，生产力会以 50% 比例转换为 [ICON_FOOD]食物。项目完成后，当前城市获得 +2 宜居度、-2% [ICON_GOLD]金币产出，其他己方城市获得 +1 [ICON_Amenities]宜居度。</Text>
 		</Replace>
 		
 		<!--特殊单位-->
