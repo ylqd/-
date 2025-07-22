@@ -409,6 +409,9 @@
 		<Replace Tag="LOC_WMD_Super_NUCLEAR_DEVICE_Sutures_NAME">
 			<Text>Super nuke</Text>
 		</Replace>
+		<Replace Tag="LOC_DISTRICT_TypeAcasino_PRODUCTION">
+			<Text>+{1_num} [ICON_Production] productivity comes from adjacency {LOC_DISTRICT_TypeAcasino_NAME} area。</Text>
+		</Replace>
 		
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures">
@@ -831,6 +834,9 @@
 		</Replace>
 		<Replace Tag="LOC_GOSSIP_SuturesRational" Language="zh_Hans_CN">
 			<Text>您的公司牛马，{1_Name}，窃听到</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_TypeAcasino_PRODUCTION" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Production] 生产力来自相邻{LOC_DISTRICT_TypeAcasino_NAME}区域。</Text>
 		</Replace>
 		
 		<!--区域-->

@@ -178,7 +178,7 @@
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Cothon_Gold"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" YieldChangeId="Pamukkale_Gold"/>
 
-		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Commerical_Hub_Production"/>
+		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="TypeAcasino_Production"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Resource_Production"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="District_Production"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Government_Production"/>
@@ -226,6 +226,7 @@
 	
 	<Adjacency_YieldChanges>
 		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="-2" Self="true"/>
+		<Row ID="TypeAcasino_Production" Description="LOC_DISTRICT_TypeAcasino_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_TypeAcasino"/>
 	</Adjacency_YieldChanges>
 
 	<Districts_XP2>
