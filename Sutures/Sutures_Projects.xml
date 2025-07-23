@@ -100,7 +100,7 @@
 		<Row
 			 ProjectType="PROJECT_EatDumplings"
 			 YieldType="YIELD_FOOD"
-			 PercentOfProductionRate="50"
+			 PercentOfProductionRate="100"
              />
 	</Project_YieldConversions>
 	
@@ -290,7 +290,7 @@
 		<Row>
 			<ModifierId>PROJECT_EatDumplings_Reduce_Gold</ModifierId>
 			<Name>Amount</Name>
-			<Value>-2</Value>
+			<Value>-1</Value>
 		</Row>
 	</ModifierArguments>
 

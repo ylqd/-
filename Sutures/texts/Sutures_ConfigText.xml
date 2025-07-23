@@ -49,7 +49,7 @@
 			<Text>branch union</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION">
-			<Text>Classical Era characteristic area, unlocked by technological ironsmithing, replaces the industrial zone (medieval). The area is free to build, and the Medieval "Apprentice" technology is unlocked immediately upon first construction. This zone adds a large number of adjacency bonuses from commercial centres, standard adjacency bonuses for resource cells, and is defensive and capable of performing ranged attacks. Each area is completed with the following effects: 1000 [ICON_GOLD] gold (at standard speed), the current city has a fixed loyalty of 100, and 1 additional buildable zone slot, but the city's [ICON_GOLD] gold output is reduced by 25%, and [ICON_Amenities] livability is -2.The area will unlock the special project "{LOC_PROJECT_EatDumplings_NAME}" upon completion of construction.</Text>
+			<Text>Classical Era characteristic area, unlocked by technological ironsmithing, replaces the industrial zone (medieval). The area is free to build, and the Medieval "Apprentice" technology is unlocked immediately upon first construction. This zone adds a large number of adjacency bonuses from commercial centres, standard adjacency bonuses for resource cells, and is defensive and capable of performing ranged attacks. Each area is completed with the following effects: 1000 [ICON_GOLD] gold (at standard speed), the current city has a fixed loyalty of 100, and 1 additional buildable zone slot, but the city's [ICON_GOLD] gold output is reduced by 15%, and [ICON_Amenities] livability is -2.The area will unlock the special project "{LOC_PROJECT_EatDumplings_NAME}" upon completion of construction.</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME">
@@ -168,7 +168,7 @@
 			<Text>{LOC_PROJECT_EatDumplings_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_EatDumplings_DESCRIPTION">
-			<Text>The repeatable special project needs to be conducted in cities with a local union. During the execution of the project, the city's livability will temporarily convert at a rate of 50% into food. Upon completion of the project, the current city will gain 2 livability and lose 2% of gold output, while other allied cities will gain 1 livability.</Text>
+			<Text>The repeatable special project needs to be conducted in cities with a local union. During the execution of the project, the city's livability will temporarily convert at a rate of 100% into food. Upon completion of the project, the current city will gain 2 livability and lose 1% of gold output, while other allied cities will gain 1 livability.</Text>
 		</Replace>
 		
 		<!--特殊单位-->
@@ -228,7 +228,7 @@
 			<Text>支部工会</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。该区域建造免费，并且首次建成后立即解锁中世纪的“学徒”科技。该区域增加来自商业中心的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。每个该区域建成后获得如下效果：获得 1000 [ICON_GOLD]金币（标准速度下）、当前城市固定忠诚度为 100 且获得 1 个额外的可建造区域位，但是该城市的 [ICON_GOLD]金币产出降低 25%，[ICON_Amenities]宜居度 -2。该区域建造完成后解锁特色项目“{LOC_PROJECT_EatDumplings_NAME}”。</Text>
+			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。该区域建造免费，并且首次建成后立即解锁中世纪的“学徒”科技。该区域增加来自商业中心的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。每个该区域建成后获得如下效果：获得 1000 [ICON_GOLD]金币（标准速度下）、当前城市固定忠诚度为 100 且获得 1 个额外的可建造区域位，但是该城市的 [ICON_GOLD]金币产出降低 15%，[ICON_Amenities]宜居度 -2。该区域建造完成后解锁特色项目“{LOC_PROJECT_EatDumplings_NAME}”。</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME" Language="zh_Hans_CN">
@@ -348,7 +348,7 @@
 			<Text>{LOC_PROJECT_EatDumplings_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_EatDumplings_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可重复的特色项目，需要在有支部工会的城市进行。项目执行期间，城市暂时 +3 [ICON_Amenities]宜居度，生产力会以 50% 比例转换为 [ICON_FOOD]食物。项目完成后，当前城市获得 +2 宜居度、-2% [ICON_GOLD]金币产出，其他己方城市获得 +1 [ICON_Amenities]宜居度。</Text>
+			<Text>可重复的特色项目，需要在有支部工会的城市进行。项目执行期间，城市暂时 +3 [ICON_Amenities]宜居度，生产力会以 100% 比例转换为 [ICON_FOOD]食物。项目完成后，当前城市获得 +2 宜居度、-1% [ICON_GOLD]金币产出，其他己方城市获得 +1 [ICON_Amenities]宜居度。</Text>
 		</Replace>
 		
 		<!--特殊单位-->
