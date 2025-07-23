@@ -3,12 +3,20 @@
 	<Types>
 		<Row Type="PROMOTION_CLASS_Wolf_Warrior_Sutures" Kind="KIND_PROMOTION_CLASS"/>
 		<Row Type="PROMOTION_GDR_BONUS_MOVEMENT_Sutures" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_UnfinishedHomeowners_Sutures" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_WhiteMAMLUK_Sutures" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_POLISH_HUSSAR_Sutures" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_TANK_Sutures" Kind="KIND_PROMOTION"/>
 	</Types>
 	<UnitPromotionClasses>
 		<Row PromotionClassType="PROMOTION_CLASS_Wolf_Warrior_Sutures" Name="LOC_UNIT_Wolf_Warrior_Sutures_NAME"/>
 	</UnitPromotionClasses>
 	<UnitPromotions>
 		<Row UnitPromotionType="PROMOTION_GDR_BONUS_MOVEMENT_Sutures" Name="LOC_PROMOTION_GDR_BONUS_MOVEMENT_NAME" Description="LOC_PROMOTION_GDR_BONUS_MOVEMENT_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
+		<Row UnitPromotionType="PROMOTION_UnfinishedHomeowners_Sutures" Name="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_NAME" Description="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
+		<Row UnitPromotionType="PROMOTION_WhiteMAMLUK_Sutures" Name="LOC_ABILITY_WhiteMAMLUK_Sutures_NAME" Description="LOC_ABILITY_WhiteMAMLUK_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
+		<Row UnitPromotionType="PROMOTION_POLISH_HUSSAR_Sutures" Name="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_NAME" Description="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
+		<Row UnitPromotionType="PROMOTION_TANK_Sutures" Name="LOC_ABILITY_TANK_Sutures_NAME" Description="LOC_ABILITY_TANK_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
 	</UnitPromotions>
 	<UnitPromotionModifiers>
 		<Row>
@@ -18,6 +26,45 @@
 		<Row>
 			<UnitPromotionType>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</UnitPromotionType>
 			<ModifierId>GDR_JUMP_ABILITY</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_UnfinishedHomeowners_Sutures</UnitPromotionType>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_UnfinishedHomeowners_Sutures</UnitPromotionType>
+			<ModifierId>UnfinishedHomeowners_DEFENDER_Range_Sutures</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_UnfinishedHomeowners_Sutures</UnitPromotionType>
+			<ModifierId>UnfinishedHomeowners_Attack_Sutures</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_WhiteMAMLUK_Sutures</UnitPromotionType>
+			<ModifierId>MAMLUK_HEAL_EVERY_MOVE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_WhiteMAMLUK_Sutures</UnitPromotionType>
+			<ModifierId>HOPLITE_NEIGHBOR_COMBAT_Sutures</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitPromotionType>PROMOTION_POLISH_HUSSAR_Sutures</UnitPromotionType>
+			<ModifierId>HUSSAR_FORCE_RETREAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_POLISH_HUSSAR_Sutures</UnitPromotionType>
+			<ModifierId>COSSACK_MOVE_AND_ATTACK</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_TANK_Sutures</UnitPromotionType>
+			<ModifierId>CAROLEAN_UNUSED_MOVEMENT_COMBAT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_TANK_Sutures</UnitPromotionType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
 		</Row>
 	</UnitPromotionModifiers>
 </GameData>

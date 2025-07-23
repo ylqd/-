@@ -114,6 +114,12 @@
 
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_SummonTheDead"/>
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_GDR_BONUS_MOVEMENT_UPGRADE_Sutures"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_UnfinishedHomeowners_UPGRADE_Sutures"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_WhiteMAMLUK_UPGRADE_Sutures"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_POLISH_HUSSAR_UPGRADE_Sutures"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_TANK_UPGRADE_Sutures"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Grant_Wolf_1_Sutures"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Grant_Wolf_2_Sutures"/>
 
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_CITYS_GET_AMENITY"/>
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY"/>
@@ -185,6 +191,39 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
 			<SubjectRequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_UnfinishedHomeowners_UPGRADE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_UnfinishedHomeowners_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_WhiteMAMLUK_UPGRADE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_WhiteMAMLUK_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_POLISH_HUSSAR_UPGRADE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_POLISH_HUSSAR_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_TANK_UPGRADE_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_PROMOTION</ModifierType>
+			<SubjectRequirementSetId>GDR_TANK_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_1_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>GDR_UnfinishedHomeowners_Grant_Wolf_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_2_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>GDR_TANK_Grant_Wolf_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		
 
 		<Row>
 			<ModifierId>PROJECT_EatDumplings_CITYS_GET_AMENITY</ModifierId>
@@ -269,6 +308,58 @@
 			<Name>PromotionType</Name>
 			<Value>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</Value>
 		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_UnfinishedHomeowners_UPGRADE_Sutures</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_UnfinishedHomeowners_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_WhiteMAMLUK_UPGRADE_Sutures</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_WhiteMAMLUK_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_POLISH_HUSSAR_UPGRADE_Sutures</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_POLISH_HUSSAR_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_TANK_UPGRADE_Sutures</ModifierId>
+			<Name>PromotionType</Name>
+			<Value>PROMOTION_TANK_Sutures</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_1_Sutures</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_Wolf_Warrior_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_1_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_1_Sutures</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_2_Sutures</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_Wolf_Warrior_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_2_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Grant_Wolf_2_Sutures</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
 
 		<Row>
 			<ModifierId>PROJECT_EatDumplings_CITYS_GET_AMENITY</ModifierId>
@@ -313,6 +404,31 @@
 			<RequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>GDR_UnfinishedHomeowners_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_WhiteMAMLUK_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_POLISH_HUSSAR_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_TANK_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+
+		<Row>
+			<RequirementSetId>GDR_UnfinishedHomeowners_Grant_Wolf_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_TANK_Grant_Wolf_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -329,6 +445,47 @@
 			<RequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
 			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
 		</Row>
+		<Row>
+			<RequirementSetId>GDR_UnfinishedHomeowners_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_UnfinishedHomeowners_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_Player_Has_Tech_APPRENTICESHIP</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_WhiteMAMLUK_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_WhiteMAMLUK_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_Player_Has_Tech_STIRRUPS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_POLISH_HUSSAR_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_POLISH_HUSSAR_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_Player_Has_Tech_ASTRONOMY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_TANK_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_TANK_UPGRADE_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_Player_Has_Tech_COMBUSTION</RequirementId>
+		</Row>
+
+		<Row>
+			<RequirementSetId>GDR_UnfinishedHomeowners_Grant_Wolf_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_Player_Has_Tech_APPRENTICESHIP</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>GDR_TANK_Grant_Wolf_REQUIREMENTS_Sutures</RequirementSetId>
+			<RequirementId>REQUIRES_Player_Has_Tech_COMBUSTION</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<Row>
@@ -343,6 +500,22 @@
 		<Row>
 			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
 			<RequirementType>REQUIREMENT_UNIT_TAG_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_APPRENTICESHIP</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_STIRRUPS</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_ASTRONOMY</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_COMBUSTION</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_TECHNOLOGY</RequirementType>
 		</Row>
 	</Requirements>
 	<RequirementArguments>
@@ -366,6 +539,27 @@
 			<RequirementId>REQUIRES_UNIT_GIANT_Wolf_Warrior</RequirementId>
 			<Name>Tag</Name>
 			<Value>CLASS_Wolf_Warrior</Value>
+		</Row>
+
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_APPRENTICESHIP</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_APPRENTICESHIP</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_STIRRUPS</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_STIRRUPS</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_ASTRONOMY</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_ASTRONOMY</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_Player_Has_Tech_COMBUSTION</RequirementId>
+			<Name>TechnologyType</Name>
+			<Value>TECH_COMBUSTION</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>
