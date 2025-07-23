@@ -166,6 +166,7 @@
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Geothermal_Science"/>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Reef_Science"/>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="Pamukkale_Science"/>
+		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="GBR_Science"/>
 		<!--书院区域加成-->
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" YieldChangeId="BaseDistrict_Science_WastelandOfKnowledge"/>
 
