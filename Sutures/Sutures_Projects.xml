@@ -189,13 +189,11 @@
 		<Row>
 			<ModifierId>PROJECT_EatDumplings_CITYS_GET_AMENITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRAIT_AMENITY</ModifierType>
-			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
 			<ModifierId>PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITIE_ADJUST_TRAIT_AMENITY_Sutures</ModifierType>
-			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
