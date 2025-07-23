@@ -355,6 +355,11 @@
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" CanFormMilitaryFormation="false"/>
 	</Units_XP2>
 
+	<UnitRetreats_XP1>
+		<Row UnitRetreatType="UNIT_RETREAT_VAMPIRE_TO_CAPITAL_Sutures" UnitType="UNIT_Wolf_Warrior_Sutures" BuildingType="BUILDING_PALACE"/>
+		<Row UnitRetreatType="UNIT_RETREAT_VAMPIRE_TO_MONUMENT_Sutures" UnitType="UNIT_Wolf_Warrior_Sutures" BuildingType="BUILDING_MONUMENT"/>
+	</UnitRetreats_XP1>
+	
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_GuardOfHonour" Texture="Moment_UniqueUnit_Cree.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_TheTownIsTheProblemSolver" Texture="Moment_UniqueUnit_Rome.dds"/>
