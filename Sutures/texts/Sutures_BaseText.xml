@@ -412,6 +412,9 @@
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_PRODUCTION">
 			<Text>+{1_num} [ICON_Production] productivity comes from adjacency {LOC_DISTRICT_TypeAcasino_NAME} area。</Text>
 		</Replace>
+		<Replace Tag="LOC_PROMOTION_GDR_BONUS_MOVEMENT_Sutures_DESCRIPTION">
+			<Text>{LOC_PROMOTION_GDR_BONUS_MOVEMENT_DESCRIPTION}{LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION}{LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION}</Text>
+		</Replace>
 		
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures">
@@ -838,7 +841,11 @@
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_PRODUCTION" Language="zh_Hans_CN">
 			<Text>+{1_num} [ICON_Production] 生产力来自相邻{LOC_DISTRICT_TypeAcasino_NAME}区域。</Text>
 		</Replace>
-		
+		<Replace Tag="LOC_PROMOTION_GDR_BONUS_MOVEMENT_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_PROMOTION_GDR_BONUS_MOVEMENT_DESCRIPTION}{LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION}{LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION}</Text>
+		</Replace>
+
+
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" Language="zh_Hans_CN">
 			<Text>{1_num: number +#,###;-#,###} [ICON_Science] 科技值。</Text>

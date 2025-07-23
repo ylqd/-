@@ -12,7 +12,7 @@
 		<Row PromotionClassType="PROMOTION_CLASS_Wolf_Warrior_Sutures" Name="LOC_UNIT_Wolf_Warrior_Sutures_NAME"/>
 	</UnitPromotionClasses>
 	<UnitPromotions>
-		<Row UnitPromotionType="PROMOTION_GDR_BONUS_MOVEMENT_Sutures" Name="LOC_PROMOTION_GDR_BONUS_MOVEMENT_NAME" Description="LOC_PROMOTION_GDR_BONUS_MOVEMENT_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
+		<Row UnitPromotionType="PROMOTION_GDR_BONUS_MOVEMENT_Sutures" Name="LOC_PROMOTION_GDR_BONUS_MOVEMENT_NAME" Description="LOC_PROMOTION_GDR_BONUS_MOVEMENT_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
 		<Row UnitPromotionType="PROMOTION_UnfinishedHomeowners_Sutures" Name="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_NAME" Description="LOC_ABILITY_UnfinishedHomeowners_DEFENDER_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
 		<Row UnitPromotionType="PROMOTION_WhiteMAMLUK_Sutures" Name="LOC_ABILITY_WhiteMAMLUK_Sutures_NAME" Description="LOC_ABILITY_WhiteMAMLUK_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
 		<Row UnitPromotionType="PROMOTION_POLISH_HUSSAR_Sutures" Name="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_NAME" Description="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_Wolf_Warrior_Sutures"/>
@@ -26,6 +26,14 @@
 		<Row>
 			<UnitPromotionType>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</UnitPromotionType>
 			<ModifierId>GDR_JUMP_ABILITY</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</UnitPromotionType>
+			<ModifierId>MOD_IGNORE_CROSSING_RIVERS_COST</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_GDR_BONUS_MOVEMENT_Sutures</UnitPromotionType>
+			<ModifierId>MOD_IGNORE_TERRAIN_COST</ModifierId>
 		</Row>
 
 		<Row>

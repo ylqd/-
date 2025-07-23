@@ -450,7 +450,7 @@
 		<Row>
 			<ModifierId>Sutures_LOSE_POPULATION_IN_CITIES</ModifierId>
 			<Name>Amount</Name>
-			<Value>-2</Value>
+			<Value>-5</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_LOSE_POPULATION_IN_CITIES</ModifierId>
