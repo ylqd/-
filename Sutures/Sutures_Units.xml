@@ -440,7 +440,10 @@
 			<UnitAbilityType>ABILITY_Wolf_Warrior_Sutures</UnitAbilityType>
 			<ModifierId>Sutures_NO_EMBARK_DISEMBARK_COST</ModifierId>
 		</Row>
-
+		<Row>
+			<UnitAbilityType>ABILITY_Wolf_Warrior_Sutures</UnitAbilityType>
+			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<TraitModifiers>
 		<Row>

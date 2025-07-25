@@ -364,7 +364,7 @@
 			<Text>Water mobility is enhanced</Text>
 		</Replace>
 		<Replace Tag="LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION">
-			<Text>Shore and land cell actions do not consume additional movement when switching.</Text>
+			<Text>Shore and land cell actions do not consume additional movement when switching.Units in a formation can share their mobility.</Text>
 		</Replace>
 		
 		<!--ModifierStrings-->
@@ -802,7 +802,7 @@
 			<Text>水域机动增强</Text>
 		</Replace>
 		<Replace Tag="LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>海岸和陆地单元格行动切换时不额外消耗移动力。</Text>
+			<Text>海岸和陆地单元格行动切换时不额外消耗移动力。编队内的单位可共享其移动力。</Text>
 		</Replace>
 
 		<!--ModifierStrings-->
