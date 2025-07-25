@@ -19,6 +19,7 @@
 		<Row Type="ABILITY_HUSSAR_FORCE_RETREAT_Sutures" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_TANK_Sutures" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_DIGGER_Sutures" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_Wolf_Warrior_Sutures" Kind="KIND_ABILITY"/>
 	</Types>
 
 	<Tags>
@@ -41,6 +42,8 @@
 		<Row Type="ABILITY_TANK_Sutures" Tag="CLASS_TANK_Sutures"/>
 		<Row Type="ABILITY_DIGGER_Sutures" Tag="CLASS_DIGGER_Sutures"/>
 		<Row Type="ABILITY_IGNORE_ZOC" Tag="CLASS_Wolf_Warrior"/>
+		<Row Type="ABILITY_UNIT_FIGHT_WHILE_EMBARKED" Tag="CLASS_Wolf_Warrior"/>
+		<Row Type="ABILITY_Wolf_Warrior_Sutures" Tag="CLASS_Wolf_Warrior"/>
 		
 		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_REVEAL_STEALTH"/>
@@ -132,6 +135,7 @@
 		<Row UnitAbilityType="ABILITY_HUSSAR_FORCE_RETREAT_Sutures" Name="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_NAME" Description="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_TANK_Sutures" Name="LOC_ABILITY_TANK_Sutures_NAME" Description="LOC_ABILITY_TANK_Sutures_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_DIGGER_Sutures" Name="LOC_ABILITY_DIGGER_Sutures_NAME" Description="LOC_ABILITY_DIGGER_Sutures_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_Wolf_Warrior_Sutures" Name="LOC_ABILITY_Wolf_Warrior_Sutures_NAME" Description="LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION"/>
 	</UnitAbilities>
 	
 	<Units>
@@ -432,11 +436,20 @@
 			<UnitAbilityType>ABILITY_DIGGER_Sutures</UnitAbilityType>
 			<ModifierId>Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_Wolf_Warrior_Sutures</UnitAbilityType>
+			<ModifierId>Sutures_NO_EMBARK_DISEMBARK_COST</ModifierId>
+		</Row>
+
 	</UnitAbilityModifiers>
 	<TraitModifiers>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_UNIT_GuardOfHonour</TraitType>
 			<ModifierId>TRAIT_UNIT_GuardOfHonour_Ext</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_DISTRICT_EastPointMilitaryAcademy</TraitType>
+			<ModifierId>Sutures_Wolf_Warrior_EARLY_EMBARK</ModifierId>
 		</Row>
 	</TraitModifiers>
 	<Modifiers>
@@ -487,6 +500,15 @@
 			<ModifierId>Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>DIGGER_NON_DOMESTIC_PLOT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_NO_EMBARK_DISEMBARK_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_IGNORE_SHORES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_Wolf_Warrior_EARLY_EMBARK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -543,6 +565,17 @@
 			<ModifierId>Sutures_UNIT_NOT_IN_OWNER_TERRITORY_for_add</ModifierId>
 			<Name>Amount</Name>
 			<Value>10</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_NO_EMBARK_DISEMBARK_COST</ModifierId>
+			<Name>Ignore</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_Wolf_Warrior_EARLY_EMBARK</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_Wolf_Warrior_Sutures</Value>
 		</Row>
 	</ModifierArguments>
 
