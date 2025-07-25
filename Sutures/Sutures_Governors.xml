@@ -1214,10 +1214,10 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
 			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 		</Row>
-		<Row>
+		<!--<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
 			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
-		</Row>
+		</Row>-->
 	</GovernorPromotionModifiers>
 
 	<Modifiers>
