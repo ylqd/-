@@ -346,7 +346,7 @@
 			<Text>{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION">
-			<Text>If the damage output is higher than that of the enemy unit, the enemy unit will be bounced into the rear cell, and if the defending unit cannot retreat, it will take more damage.（{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}）</Text>
+			<Text>If there is remaining movement after the battle, it can move.If the damage output is higher than that of the enemy unit, the enemy unit will be bounced into the rear cell, and if the defending unit cannot retreat, it will take more damage.（{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TANK_Sutures_NAME">
 			<Text>{LOC_UNIT_TANK_Sutures_NAME}</Text>
@@ -784,7 +784,7 @@
 			<Text>{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_HUSSAR_FORCE_RETREAT_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>如果输出伤害高于敌方单位，会将敌方单位弹到后方的单元格中，如果防守的单位无法后退，会受到更高的伤害。（{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}）</Text>
+			<Text>如果战斗后有剩余移动力，可以移动。如果输出伤害高于敌方单位，会将敌方单位弹到后方的单元格中，如果防守的单位无法后退，会受到更高的伤害。（{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}）</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_TANK_Sutures_NAME" Language="zh_Hans_CN">
 			<Text>{LOC_UNIT_TANK_Sutures_NAME}</Text>
