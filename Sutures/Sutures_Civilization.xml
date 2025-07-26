@@ -140,6 +140,18 @@
 		<Row TraitType="TRAIT_CIVILIZATION_SuturesAbility" ModifierId="LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_ANIMAL_HUSBANDRY"/>
 		<Row TraitType="TRAIT_CIVILIZATION_SuturesAbility" ModifierId="LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_TECH_MINING"/>
 	</TraitModifiers>
+
+	<StartBiasResources>
+		<Row CivilizationType="CIVILIZATION_Sutures" ResourceType="RESOURCE_IRON" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" ResourceType="RESOURCE_DIAMONDS" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" ResourceType="RESOURCE_JADE" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" ResourceType="RESOURCE_TRUFFLES" Tier="1"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" ResourceType="RESOURCE_GYPSUM" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_Sutures" ResourceType="RESOURCE_MARBLE" Tier="2"/>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_Sutures" TerrainType="TERRAIN_DESERT" Tier="1"/>
+	</StartBiasTerrains>
 	<Modifiers>
 		<Row>
 			<ModifierId>LEADER_StitchingMonster_GRANT_SPECIFIC_TECHNOLOGY_POTTERY</ModifierId>
