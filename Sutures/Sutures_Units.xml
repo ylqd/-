@@ -44,6 +44,7 @@
 		<Row Type="ABILITY_IGNORE_ZOC" Tag="CLASS_Wolf_Warrior"/>
 		<Row Type="ABILITY_UNIT_FIGHT_WHILE_EMBARKED" Tag="CLASS_Wolf_Warrior"/>
 		<Row Type="ABILITY_Wolf_Warrior_Sutures" Tag="CLASS_Wolf_Warrior"/>
+		<Row Type="ABILITY_UNIT_WMD_RESISTANCE" Tag="CLASS_Wolf_Warrior"/>
 		
 		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_RECON"/>
 		<Row Type="UNIT_GuardOfHonour" Tag="CLASS_REVEAL_STEALTH"/>
