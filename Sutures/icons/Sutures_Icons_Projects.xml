@@ -8,5 +8,7 @@
 		<Row Name="ICON_PROJECT_SummonTheDead"  Atlas="ICON_ATLAS_PROJECTS" Index="11"/>
 
 		<Row Name="ICON_PROJECT_EatDumplings"  Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
+
+		<Row Name="ICON_PROJECT_ViewBoundEdition"  Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
 	</IconDefinitions>
 </GameData>

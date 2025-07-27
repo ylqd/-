@@ -62,7 +62,7 @@
 			<Text>Industrial greenhouses</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION">
-			<Text>Characteristic buildings of the industrial era, replacing factories. Cheaper to build (-50%), providing double the base and power [ICON_PRODUCTION] productivity bonuses. Once this building is completed, the internal combustion engine technology (Hyundai) is unlocked immediately. The first time you construct this building, and each subsequent construction of an industrial zone and its interior, you will receive 1 "Greenhouse Tank" that is maintenance-free.</Text>
+			<Text>Characteristic buildings of the industrial era, replacing factories. Cheaper to build (-50%), providing double the base and power [ICON_PRODUCTION] productivity bonuses. Once this building is completed, the internal combustion engine technology (Hyundai) is unlocked immediately. The first time you construct this building, and each subsequent construction of an industrial zone and its interior, you will receive 1 "Greenhouse Tank" that is maintenance-free.In the city where the building is built, the special project "{LOC_PROJECT_ViewBoundEdition_NAME}" can be carried out.</Text>
 		</Replace>
 		<!--单位-->
 		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME">
@@ -170,6 +170,15 @@
 		<Replace Tag="LOC_PROJECT_EatDumplings_DESCRIPTION">
 			<Text>The repeatable special project needs to be conducted in cities with a local union. During the execution of the project, the city's livability will temporarily convert at a rate of 100% into food. Upon completion of the project, the current city will gain 2 livability and lose 1% of gold output, while other allied cities will gain 1 livability.</Text>
 		</Replace>
+		<Replace Tag="LOC_PROJECT_ViewBoundEdition_NAME">
+			<Text>View the bound edition</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ViewBoundEdition_SHORT_NAME">
+			<Text>{LOC_PROJECT_ViewBoundEdition_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ViewBoundEdition_DESCRIPTION">
+			<Text>Characteristic projects need to be developed in cities with branch trade unions. After researching: 30% of your cities outside 15 cells of the [ICON_Capital] capital are output; Cities with {LOC_DISTRICT_BranchUnion_NAME} have 15% [ICON_GOLD] Gold Output and 2 [ICON_Amenities] Habitability.</Text>
+		</Replace>
 		
 		<!--特殊单位-->
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME">
@@ -241,7 +250,7 @@
 			<Text>工业大棚</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>工业时代特色建筑，代替工厂。建造费用更低（-50%），提供的基础和供电 [ICON_PRODUCTION]生产力加成翻倍。建成此建筑后，立即解锁内燃机科技（现代）。第一次建造此建筑及之后每修建一个工业区及其内建筑时，都会获得 1 个免资源维护的 “大棚的坦克”。</Text>
+			<Text>工业时代特色建筑，代替工厂。建造费用更低（-50%），提供的基础和供电 [ICON_PRODUCTION]生产力加成翻倍。建成此建筑后，立即解锁内燃机科技（现代）。第一次建造此建筑及之后每修建一个工业区及其内建筑时，都会获得 1 个免资源维护的 “大棚的坦克”。在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_ViewBoundEdition_NAME}”。</Text>
 		</Replace>
 		<!--单位-->
 		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME" Language="zh_Hans_CN">
@@ -350,6 +359,16 @@
 		<Replace Tag="LOC_PROJECT_EatDumplings_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可重复的特色项目，需要在有支部工会的城市进行。项目执行期间，城市暂时 +3 [ICON_Amenities]宜居度，生产力会以 100% 比例转换为 [ICON_FOOD]食物。项目完成后，当前城市获得 +2 宜居度、-1% [ICON_GOLD]金币产出，其他己方城市获得 +1 [ICON_Amenities]宜居度。</Text>
 		</Replace>
+		<Replace Tag="LOC_PROJECT_ViewBoundEdition_NAME" Language="zh_Hans_CN">
+			<Text>查看合订本</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ViewBoundEdition_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_ViewBoundEdition_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_ViewBoundEdition_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>特色项目，需要在有支部工会的城市进行研发。研发完成后：距离 [ICON_Capital]首都 15 个单元格之外的己方城市 +30% 全部产出；有{LOC_DISTRICT_BranchUnion_NAME}的城市 +15% [ICON_GOLD]金币产出、+2 [ICON_Amenities]宜居度。</Text>
+		</Replace>
+		
 		
 		<!--特殊单位-->
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME" Language="zh_Hans_CN">

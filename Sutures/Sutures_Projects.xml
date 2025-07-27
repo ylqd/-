@@ -5,6 +5,7 @@
 		<Row Type="PROJECT_feast_Sutures" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_SummonTheDead" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_EatDumplings" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_ViewBoundEdition" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
 
@@ -90,6 +91,17 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row
+			 ProjectType="PROJECT_ViewBoundEdition"
+			 Name="LOC_PROJECT_ViewBoundEdition_NAME"
+			 ShortName="LOC_PROJECT_ViewBoundEdition_SHORT_NAME"
+			 Description="LOC_PROJECT_ViewBoundEdition_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_BranchUnion"
+			 Cost="50"
+			 MaxPlayerInstances="1"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
 	</Projects>
 	<Project_YieldConversions>
 		<Row
@@ -103,7 +115,9 @@
 			 PercentOfProductionRate="100"
              />
 	</Project_YieldConversions>
-	
+	<Projects_XP2>
+		<Row ProjectType="PROJECT_ViewBoundEdition" RequiredBuilding="BUILDING_Greenhouses_Sutures"/>
+	</Projects_XP2>
 	<ProjectCompletionModifiers>
 		<Row ProjectType="PROJECT_AWL_AGREEMENT" ModifierId="PROJECT_COMPLETION_AWL_AGREEMENT"/>
 
@@ -124,6 +138,10 @@
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_CITYS_GET_AMENITY"/>
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY"/>
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_Reduce_Gold"/>
+
+		<Row ProjectType="PROJECT_ViewBoundEdition" ModifierId="Sutures_NEARBY_CITIES_LOSE_YIELDS_FIX"/>
+		<Row ProjectType="PROJECT_ViewBoundEdition" ModifierId="Sutures_BranchUnion_Adjest_Gold_FIX"/>
+		<Row ProjectType="PROJECT_ViewBoundEdition" ModifierId="Sutures_BranchUnion_Adjest_Amenity_FIX"/>
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
@@ -240,6 +258,22 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_NEARBY_CITIES_LOSE_YIELDS_FIX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_OBJECT_IS_15_MORE_TILES_CAPITAL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold_FIX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLAYER_HAS_Engineer_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Amenity_FIX</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLAYER_HAS_Engineer_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -380,6 +414,33 @@
 			<ModifierId>PROJECT_EatDumplings_Reduce_Gold</ModifierId>
 			<Name>Amount</Name>
 			<Value>-1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_NEARBY_CITIES_LOSE_YIELDS_FIX</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION, YIELD_FOOD, YIELD_SCIENCE, YIELD_CULTURE, YIELD_GOLD, YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_NEARBY_CITIES_LOSE_YIELDS_FIX</ModifierId>
+			<Name>Amount</Name>
+			<Value>30, 30, 30, 30, 30, 30</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold_FIX</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Gold_FIX</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_BranchUnion_Adjest_Amenity_FIX</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
 		</Row>
 	</ModifierArguments>
 
