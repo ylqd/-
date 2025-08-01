@@ -142,7 +142,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_feast_Sutures_NAME" >
-			<Text>A feast of gluttony</Text>
+			<Text>A gluttonous feast</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_feast_Sutures_SHORT_NAME" >
 			<Text>{LOC_PROJECT_feast_Sutures_NAME}</Text>
@@ -331,7 +331,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_feast_Sutures_NAME" Language="zh_Hans_CN">
-			<Text>餮餮盛宴</Text>
+			<Text>饕餮盛宴</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_feast_Sutures_SHORT_NAME" Language="zh_Hans_CN">
 			<Text>{LOC_PROJECT_feast_Sutures_NAME}</Text>
