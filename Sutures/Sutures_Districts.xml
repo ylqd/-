@@ -203,7 +203,6 @@
 	</District_TradeRouteYields>
 
 	<District_GreatPersonPoints>
-		<Row DistrictType="DISTRICT_WastelandOfKnowledge" GreatPersonClassType="GREAT_PERSON_CLASS_SCIENTIST" PointsPerTurn="3"/>
 		<Row DistrictType="DISTRICT_TypeAcasino" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 		<Row DistrictType="DISTRICT_BranchUnion" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
@@ -226,7 +225,7 @@
 	</DistrictReplaces>
 	
 	<Adjacency_YieldChanges>
-		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="-2" Self="true"/>
+		<Row ID="BaseDistrict_Science_WastelandOfKnowledge" Description="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" YieldType="YIELD_SCIENCE" YieldChange="4" Self="true"/>
 		<Row ID="TypeAcasino_Production" Description="LOC_DISTRICT_TypeAcasino_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_TypeAcasino"/>
 	</Adjacency_YieldChanges>
 

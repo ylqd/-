@@ -25,7 +25,7 @@
 			<Text>Knowledge desert</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION">
-			<Text>Characteristic areas of ancient times, replacing colleges. Lower construction cost (-50%), -2 base adjacent [ICON_Science] Tech points, and an additional 2 [ICON_GreatScientist] Great Scientist Points. Grants 10 Loyalty per turn.After the construction of this area is completed, the special item "Avalon Protocol" will be unlocked.</Text>
+			<Text>Characteristic areas of ancient times, replacing colleges. Lower construction cost (-50%), 4 Base adjacent [ICON_Science] Tech Points, but does not yield [ICON_GreatScientist] Great Scientist Points.. Grants 10 Loyalty per turn.After the construction of this area is completed, the special item "Avalon Protocol" will be unlocked.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME">
 			<Text>Big A Casino</Text>
@@ -213,7 +213,7 @@
 			<Text>知识荒漠</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），-2 基础相邻 [ICON_Science]科技值，额外产出 2 点 [ICON_GreatScientist]大科学家点数。每回合提供 +10 忠诚度。该区域建造完成后解锁特色项目“阿瓦隆协议”。</Text>
+			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），+4 基础相邻 [ICON_Science]科技值，但是不产出 [ICON_GreatScientist]大科学家点数。每回合提供 +10 忠诚度。该区域建造完成后解锁特色项目“阿瓦隆协议”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME" Language="zh_Hans_CN">
 			<Text>大 A 赌场</Text>
