@@ -7,6 +7,7 @@
 		<Row Type="PROJECT_EatDumplings" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_ViewBoundEdition" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_InternalPropaganda" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_RefutingRumours" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_COMBAT_UNITS" Kind="KIND_ABILITY"/>
@@ -148,6 +149,16 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row
+			 ProjectType="PROJECT_RefutingRumours"
+			 Name="LOC_PROJECT_RefutingRumours_NAME"
+			 ShortName="LOC_PROJECT_RefutingRumours_SHORT_NAME"
+			 Description="LOC_PROJECT_RefutingRumours_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_PublicityDesk"
+			 Cost="12"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
 	</Projects>
 	<Project_YieldConversions>
 		<Row
@@ -163,6 +174,7 @@
 	</Project_YieldConversions>
 	<Projects_XP2>
 		<Row ProjectType="PROJECT_ViewBoundEdition" RequiredBuilding="BUILDING_Greenhouses_Sutures"/>
+		<Row ProjectType="PROJECT_RefutingRumours" RequiredBuilding="BUILDING_TelevisionStation"/>
 	</Projects_XP2>
 	<ProjectCompletionModifiers>
 		<Row ProjectType="PROJECT_AWL_AGREEMENT" ModifierId="PROJECT_COMPLETION_AWL_AGREEMENT"/>
@@ -191,6 +203,10 @@
 
 		<Row ProjectType="PROJECT_InternalPropaganda" ModifierId="Sutures_HOLY_CITIES_COMBAT"/>
 		<Row ProjectType="PROJECT_InternalPropaganda" ModifierId="Sutures_HOLY_CITIES_RELIGIOUS_COMBAT"/>
+
+		<Row ProjectType="PROJECT_RefutingRumours" ModifierId="PROJECT_EatDumplings_Reduce_Gold"/>
+		<Row ProjectType="PROJECT_RefutingRumours" ModifierId="PROJECT_RefutingRumours_Grant_APOSTLE"/>
+		<Row ProjectType="PROJECT_RefutingRumours" ModifierId="PROJECT_RefutingRumours_TRADE_ROUTE_FAITH"/>
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
@@ -346,6 +362,19 @@
 		<Row>
 			<ModifierId>Sutures_RELIGIOUS_COMBAT_HOLY_CITIES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_FOR_NUMBER_HOLY_CITIES_Sutures</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_RefutingRumours_Grant_APOSTLE</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<Permanent>true</Permanent>
+			<RunOnce>true</RunOnce>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_RefutingRumours_TRADE_ROUTE_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -539,6 +568,28 @@
 			<ModifierId>Sutures_RELIGIOUS_COMBAT_HOLY_CITIES</ModifierId>
 			<Name>Amount</Name>
 			<Value>3</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_RefutingRumours_Grant_APOSTLE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_APOSTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_RefutingRumours_Grant_APOSTLE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>PROJECT_RefutingRumours_TRADE_ROUTE_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_RefutingRumours_TRADE_ROUTE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
 		</Row>
 	</ModifierArguments>
 

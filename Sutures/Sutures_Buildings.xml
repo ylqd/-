@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="BUILDING_MUSEUM_FAKES_Sutures" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_Greenhouses_Sutures" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_TelevisionStation" Kind="KIND_BUILDING"/>
 		
 		<Row Type="MODIFIER_PLAYER_DISTRICT_ADJUST_PLAYER_DISTRICT_AND_BUILDINGS_CREATE_UNIT_WITH_ABILITY_BY_CLASS_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_Single_City_ADJUST_TRAIT_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
@@ -52,6 +53,7 @@
 	<BuildingReplaces>
 		<Row CivUniqueBuildingType="BUILDING_MUSEUM_FAKES_Sutures" ReplacesBuildingType="BUILDING_MUSEUM_ART"/>
 		<Row CivUniqueBuildingType="BUILDING_Greenhouses_Sutures" ReplacesBuildingType="BUILDING_FACTORY"/>
+		<Row CivUniqueBuildingType="BUILDING_TelevisionStation" ReplacesBuildingType="BUILDING_TEMPLE"/>
 	</BuildingReplaces>
 	<Buildings>
 		<Row 
@@ -80,11 +82,24 @@
 			RegionalRange="6" 
 			TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures"
 			/>
+		<Row 
+			BuildingType="BUILDING_TelevisionStation" 
+			Name="LOC_BUILDING_TelevisionStation_NAME" 
+			Description="LOC_BUILDING_TelevisionStation_DESCRIPTION" 
+			PrereqCivic="CIVIC_THEOLOGY" 
+			PrereqDistrict="DISTRICT_HOLY_SITE" 
+			PurchaseYield="YIELD_GOLD" 
+			Cost="60" 
+			AdvisorType="ADVISOR_RELIGIOUS" 
+			Maintenance="2" 
+			CitizenSlots="1"
+			TraitType="TRAIT_CIVILIZATION_BUILDING_TelevisionStation"/>
 	</Buildings>
 
 	<BuildingPrereqs>
 		<Row Building="BUILDING_MUSEUM_FAKES_Sutures" PrereqBuilding="BUILDING_AMPHITHEATER"/>
 		<Row Building="BUILDING_Greenhouses_Sutures" PrereqBuilding="BUILDING_WORKSHOP"/>
+		<Row Building="BUILDING_TelevisionStation" PrereqBuilding="BUILDING_SHRINE"/>
 	</BuildingPrereqs>
 
 	<MutuallyExclusiveBuildings>
@@ -94,16 +109,19 @@
 	<Building_YieldChanges>
 		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" YieldType="YIELD_CULTURE" YieldChange="2"/>
 		<Row BuildingType="BUILDING_Greenhouses_Sutures" YieldType="YIELD_PRODUCTION" YieldChange="6"/>
+		<Row BuildingType="BUILDING_TelevisionStation" YieldType="YIELD_FAITH" YieldChange="4"/>
 	</Building_YieldChanges>
 
 	<Building_GreatPersonPoints>
 		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="1"/>
 		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" GreatPersonClassType="GREAT_PERSON_CLASS_ARTIST" PointsPerTurn="2"/>
 		<Row BuildingType="BUILDING_Greenhouses_Sutures" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row BuildingType="BUILDING_TelevisionStation" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="1"/>
 	</Building_GreatPersonPoints>
 
 	<Building_GreatWorks>
 		<Row BuildingType="BUILDING_MUSEUM_FAKES_Sutures" GreatWorkSlotType="GREATWORKSLOT_ART" NumSlots="3" ThemingUniquePerson="true" ThemingSameObjectType="true" ThemingYieldMultiplier="100" ThemingTourismMultiplier="100" NonUniquePersonYield="1" NonUniquePersonTourism="1" ThemingBonusDescription="LOC_BUILDING_THEMINGBONUS_ART"/>
+		<Row BuildingType="BUILDING_TelevisionStation" GreatWorkSlotType="GREATWORKSLOT_RELIC" NumSlots="1"/>
 	</Building_GreatWorks>
 
 	<Buildings_XP2>
@@ -123,6 +141,51 @@
 			<BuildingType>BUILDING_Greenhouses_Sutures</BuildingType>
 			<ModifierId>Greenhouses_Sutures_GRANT_TECH_APPRENTICESHIP</ModifierId>
 		</Row>
+
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>Sutures_Faith_POPULATION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_RECON</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_MELEE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_RANGED</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_SIEGE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_HEAVY_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_LIGHT_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_RANGED_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_ANTI_CAVALRY</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_HEAVY_CHARIOT</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_TelevisionStation</BuildingType>
+			<ModifierId>GOV_FAITH_PURCHASE_LIGHT_CHARIOT</ModifierId>
+		</Row>
 	</BuildingModifiers>
 	<TraitModifiers>
 		<Row>
@@ -133,6 +196,7 @@
 	<MomentIllustrations>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_MUSEUM_FAKES_Sutures" Texture="Moment_Infrastructure_America.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_Greenhouses_Sutures" Texture="Moment_Infrastructure_Japan.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_TelevisionStation" Texture="Moment_Infrastructure_Norway.dds"/>
 	</MomentIllustrations>
 	
 	<Modifiers>
@@ -153,6 +217,12 @@
 			<ModifierId>HIPPODROME_RESOURCE_FREE_Sutures</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RESOURCE_MAINTENANCE</ModifierType>
 		</Row>
+
+		<Row>
+			<ModifierId>Sutures_Faith_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -182,6 +252,17 @@
 			<Name>UnitAbilityType</Name>
 			<Value>ABILITY_Sutures_Unit_Free_Resource</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>Sutures_Faith_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_Faith_POPULATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
 	</ModifierArguments>
 
 	<RequirementSets>
@@ -210,5 +291,10 @@
 			<Value>TECH_COMBUSTION</Value>
 		</Row>
 	</RequirementArguments>
-	
+	<Unit_BuildingPrereqs>
+		<Row Unit="UNIT_APOSTLE" PrereqBuilding="BUILDING_TelevisionStation"/>
+		<Row Unit="UNIT_INQUISITOR" PrereqBuilding="BUILDING_TelevisionStation"/>
+		<Row Unit="UNIT_WARRIOR_MONK" PrereqBuilding="BUILDING_TelevisionStation"/>
+		<Row Unit="UNIT_GURU" PrereqBuilding="BUILDING_TelevisionStation"/>
+	</Unit_BuildingPrereqs>
 </GameData>

@@ -13,6 +13,7 @@
 		
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_TelevisionStation" Kind="KIND_TRAIT"/>
 
 		<Row Type="TRAIT_CIVILIZATION_UNIT_GuardOfHonour" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver" Kind="KIND_TRAIT"/>
@@ -95,7 +96,8 @@
 
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures" Name="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures" Name="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION"/>
-
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_TelevisionStation" Name="LOC_BUILDING_TelevisionStation_NAME"/>
+		
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_GuardOfHonour" Name="LOC_UNIT_GuardOfHonour_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver" Name="LOC_UNIT_TheTownIsTheProblemSolver_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_Whistleblower" Name="LOC_UNIT_Whistleblower_NAME"/>
@@ -121,7 +123,8 @@
 		
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_MUSEUM_FAKES_Sutures"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_Greenhouses_Sutures"/>
-
+		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_BUILDING_TelevisionStation"/>
+		
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_GuardOfHonour"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_TheTownIsTheProblemSolver"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_Whistleblower"/>

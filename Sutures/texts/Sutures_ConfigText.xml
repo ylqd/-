@@ -70,6 +70,12 @@
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION">
 			<Text>Characteristic buildings of the industrial era, replacing factories. Cheaper to build (-50%), providing double the base and power [ICON_PRODUCTION] productivity bonuses. Once this building is completed, the internal combustion engine technology (Hyundai) is unlocked immediately. The first time you construct this building, and each subsequent construction of an industrial zone and its interior, you will receive 1 "Greenhouse Tank" that is maintenance-free.In the city where the building is built, the special project "{LOC_PROJECT_ViewBoundEdition_NAME}" can be carried out.</Text>
 		</Replace>
+		<Replace Tag="LOC_BUILDING_TelevisionStation_NAME">
+			<Text>television station</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TelevisionStation_DESCRIPTION">
+			<Text>Characteristic buildings of the classical era, replacing temples. Lower construction costs (-50%), with an additional 1 [ICON_Faith] Faith output per population within the city. After first building, all your cities gain the ability to purchase land units for [ICON_Faith] Faith. Featured projects "{LOC_PROJECT_RefutingRumours_NAME}" can be carried out in the city where the building is built.</Text>
+		</Replace>
 		<!--单位-->
 		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME">
 			<Text>Guard of honour</Text>
@@ -197,6 +203,15 @@
 		<Replace Tag="LOC_PROJECT_InternalPropaganda_DESCRIPTION">
 			<Text>Featured projects need to be developed in cities with propaganda desks. After researching, all combat and religious units gain an ability: {LOC_PROJECT_InternalPropaganda_TEMP_DESCRIPTION}</Text>
 		</Replace>
+		<Replace Tag="LOC_PROJECT_RefutingRumours_NAME">
+			<Text>Refuting rumours</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RefutingRumours_SHORT_NAME">
+			<Text>{LOC_PROJECT_RefutingRumours_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RefutingRumours_DESCRIPTION">
+			<Text>Repeatable featured projects need to be carried out in cities with {LOC_BUILDING_TelevisionStation_NAME}. Upon completion of the project, -1% [ICON_GOLD] gold output for the current city, 1 Apostle (provided a religion has been created), output for trade route 1 [ICON_Faith] Faith.</Text>
+		</Replace>
 		<!--特殊单位-->
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME">
 			<Text>Wolf Warrior</Text>
@@ -274,6 +289,12 @@
 		</Replace>
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>工业时代特色建筑，代替工厂。建造费用更低（-50%），提供的基础和供电 [ICON_PRODUCTION]生产力加成翻倍。建成此建筑后，立即解锁内燃机科技（现代）。第一次建造此建筑及之后每修建一个工业区及其内建筑时，都会获得 1 个免资源维护的 “大棚的坦克”。在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_ViewBoundEdition_NAME}”。</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TelevisionStation_NAME" Language="zh_Hans_CN">
+			<Text>电视台</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_TelevisionStation_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>古典时代特色建筑，代替寺庙。建造费用更低（-50%），该城市内的每个人口额外 +1 [ICON_Faith]信仰值产出。首次建成后所有己方城市获得用 [ICON_Faith] 信仰值购买陆地单位的能力。在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_RefutingRumours_NAME}”。</Text>
 		</Replace>
 		<!--单位-->
 		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME" Language="zh_Hans_CN">
@@ -403,7 +424,15 @@
 		<Replace Tag="LOC_PROJECT_InternalPropaganda_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>特色项目，需要在有宣传台的城市进行研发。研发完成后所有战斗单位和宗教单位获得一项能力：{LOC_PROJECT_InternalPropaganda_TEMP_DESCRIPTION}</Text>
 		</Replace>
-		
+		<Replace Tag="LOC_PROJECT_RefutingRumours_NAME" Language="zh_Hans_CN">
+			<Text>辟谣</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RefutingRumours_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_RefutingRumours_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_RefutingRumours_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可重复的特色项目，需要在有{LOC_BUILDING_TelevisionStation_NAME}的城市进行。项目完成后，当前城市 -1% [ICON_GOLD]金币产出，获得 1 个使徒（前提是已经创建了宗教），为贸易路线 +1 [ICON_Faith]信仰值产出。</Text>
+		</Replace>
 		
 		<!--特殊单位-->
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME" Language="zh_Hans_CN">

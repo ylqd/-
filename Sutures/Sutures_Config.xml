@@ -93,7 +93,15 @@
 			 Name="LOC_BUILDING_Greenhouses_Sutures_NAME"
 			 Description="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION"
 			 SortIndex="33"/>
-
+		<Row
+			 Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_Sutures"
+			 LeaderType="LEADER_StitchingMonster"
+			 Type="BUILDING_TelevisionStation"
+			 Icon="ICON_BUILDING_TelevisionStation"
+			 Name="LOC_BUILDING_TelevisionStation_NAME"
+			 Description="LOC_BUILDING_TelevisionStation_DESCRIPTION"
+			 SortIndex="33"/>
 
 		<Row
 			 Domain="Players:Expansion2_Players"

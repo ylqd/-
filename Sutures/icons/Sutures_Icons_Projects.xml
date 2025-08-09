@@ -12,5 +12,7 @@
 		<Row Name="ICON_PROJECT_ViewBoundEdition"  Atlas="ICON_ATLAS_PROJECTS" Index="10"/>
 
 		<Row Name="ICON_PROJECT_InternalPropaganda"   Atlas="ICON_ATLAS_PROJECTS" Index="15"/>
+
+		<Row Name="ICON_PROJECT_RefutingRumours"   Atlas="ICON_ATLAS_PROJECTS" Index="15"/>
 	</IconDefinitions>
 </GameData>
