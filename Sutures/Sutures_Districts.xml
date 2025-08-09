@@ -6,9 +6,11 @@
 		<Row Type="DISTRICT_UnfinishedBuilding" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_EastPointMilitaryAcademy" Kind="KIND_DISTRICT"/>
 		<Row Type="DISTRICT_BranchUnion" Kind="KIND_DISTRICT"/>
+		<Row Type="DISTRICT_PublicityDesk" Kind="KIND_DISTRICT"/>
 
 		<Row Type="MODIFIER_Single_CITIE_ADJUST_POLICY_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_PLAYER_Citys_GRANT_YIELD_Surures" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY_Sutures" Kind="KIND_MODIFIER"/>
 	</Types>
 
 	<DynamicModifiers>
@@ -21,6 +23,11 @@
 			<ModifierType>MODIFIER_PLAYER_Citys_GRANT_YIELD_Surures</ModifierType>
 			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
 			<EffectType>EFFECT_GRANT_YIELD</EffectType>
+		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY_Sutures</ModifierType>
+			<CollectionType>COLLECTION_PLAYER_CITIES</CollectionType>
+			<EffectType>EFFECT_IMPROVEMENT_ADJACENCY</EffectType>
 		</Row>
 	</DynamicModifiers>
 	
@@ -149,6 +156,32 @@
 			HitPoints="100"
 			TraitType="TRAIT_CIVILIZATION_DISTRICT_BranchUnion"
 			/>
+		<Row 
+			DistrictType="DISTRICT_PublicityDesk" 
+			Name="LOC_DISTRICT_PublicityDesk_NAME" 
+			Description="LOC_DISTRICT_PublicityDesk_DESCRIPTION" 
+			PrereqTech="TECH_ASTROLOGY" 
+			PlunderType="PLUNDER_FAITH" 
+			PlunderAmount="25" 
+			AdvisorType="ADVISOR_RELIGIOUS" 
+			Cost="27" 
+			CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" 
+			CostProgressionParam1="40" 
+			Maintenance="1" 
+			RequiresPlacement="true" 
+			RequiresPopulation="true" 
+			AllowsHolyCity="true" 
+			Aqueduct="false"
+			NoAdjacentCity="false" 
+			InternalOnly="false" 
+			ZOC="false" 
+			CaptureRemovesBuildings="false" 
+			CaptureRemovesCityDefenses="false" 
+			MilitaryDomain="NO_DOMAIN" 
+			Appeal="1" 
+			CityStrengthModifier="2"
+			TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk"
+			/>
 	</Districts>
 	
 	<District_Adjacencies>
@@ -189,6 +222,17 @@
 		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Bath_Production"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Canal_Production"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldChangeId="Dam_Production"/>/>
+
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="NaturalWonder_Faith"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Mountain_Faith1"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Mountain_Faith2"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Mountain_Faith3"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Mountain_Faith4"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Mountain_Faith5"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Forest_Faith"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="District_Faith"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Pamukkale_Faith"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldChangeId="Government_Faith"/>
 	</District_Adjacencies>
 	
 	<District_TradeRouteYields>
@@ -200,12 +244,16 @@
 
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="1"/>
+
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldType="YIELD_FAITH" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="1"/>
 	</District_TradeRouteYields>
 
 	<District_GreatPersonPoints>
 		<Row DistrictType="DISTRICT_TypeAcasino" GreatPersonClassType="GREAT_PERSON_CLASS_MERCHANT" PointsPerTurn="1"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" GreatPersonClassType="GREAT_PERSON_CLASS_GENERAL" PointsPerTurn="1"/>
 		<Row DistrictType="DISTRICT_BranchUnion" GreatPersonClassType="GREAT_PERSON_CLASS_ENGINEER" PointsPerTurn="1"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" GreatPersonClassType="GREAT_PERSON_CLASS_PROPHET" PointsPerTurn="3"/>
 	</District_GreatPersonPoints>
 
 	<District_CitizenYieldChanges>
@@ -214,6 +262,7 @@
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row DistrictType="DISTRICT_EastPointMilitaryAcademy" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<Row DistrictType="DISTRICT_BranchUnion" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_PublicityDesk" YieldType="YIELD_FAITH" YieldChange="2"/>
 	</District_CitizenYieldChanges>
 
 	<DistrictReplaces>
@@ -222,6 +271,7 @@
 		<Row CivUniqueDistrictType="DISTRICT_UnfinishedBuilding" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
 		<Row CivUniqueDistrictType="DISTRICT_EastPointMilitaryAcademy" ReplacesDistrictType="DISTRICT_ENCAMPMENT"/>
 		<Row CivUniqueDistrictType="DISTRICT_BranchUnion" ReplacesDistrictType="DISTRICT_INDUSTRIAL_ZONE"/>
+		<Row CivUniqueDistrictType="DISTRICT_PublicityDesk" ReplacesDistrictType="DISTRICT_HOLY_SITE"/>
 	</DistrictReplaces>
 	
 	<Adjacency_YieldChanges>
@@ -239,6 +289,7 @@
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_UnfinishedBuilding" Texture="Moment_Infrastructure_Kongo.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_EastPointMilitaryAcademy" Texture="Moment_Infrastructure_Zulu.dds"/>
 		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_BranchUnion" Texture="Moment_Infrastructure_Germany.dds"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_PublicityDesk" Texture="Moment_Infrastructure_Russia.dds"/>
 	</MomentIllustrations>
 	<DistrictModifiers>
 		<Row DistrictType="DISTRICT_WastelandOfKnowledge" ModifierId="WastelandOfKnowledge_GRANT_TURN_Sutures"/>
@@ -318,6 +369,14 @@
 			<TraitType>TRAIT_CIVILIZATION_DISTRICT_BranchUnion</TraitType>
 			<ModifierId>Sutures_BranchUnion_Grant_1000_Gold</ModifierId>
 		</Row>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="Sutures_ADJACENCY_FOOD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="Sutures_ADJACENCY_CULTURE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="Sutures_HOLY_SITE_ADJACENCY_FARM"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="Sutures_FARM_HOLY_SITE_ADJECENCY_FAITH"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="TRAIT_GAINS_ALL_FOLLOWER_BELIEFS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="TRAIT_MISSIONARY_SPREADS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="TRAIT_AMENITIES_FOR_MIN_FOLLOWERS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_PublicityDesk" ModifierId="TRAIT_ORIGIN_DESTINATION_RELIGIOUS_PRESSURE"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
@@ -369,6 +428,27 @@
 		<Row>
 			<ModifierId>Sutures_LOSE_POPULATION_IN_CITIES</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_CHANGE_POPULATION_CREATE_UNIT</ModifierType>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_ADJACENCY_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_ADJACENCY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS</ModifierType>
+			<SubjectRequirementSetId>DISTRICT_IS_HOLY_SITE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_IMPROVEMENT_ADJACENCY_Sutures</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_FARM_HOLY_SITE_ADJECENCY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>Sutures_PLOT_IS_FARM_HOLY_SITE_ADJECENCY_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -457,5 +537,93 @@
 			<Name>UnitType</Name>
 			<Value>UNIT_Wolf_Warrior_Sutures</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>Sutures_ADJACENCY_FOOD</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_ADJACENCY_FOOD</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_ADJACENCY_CULTURE</ModifierId>
+			<Name>YieldTypeToMirror</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_ADJACENCY_CULTURE</ModifierId>
+			<Name>YieldTypeToGrant</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_PublicityDesk</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_FARM</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_SITE_ADJACENCY_FARM</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_FARM_1_FAITH_Sutures</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>Sutures_FARM_HOLY_SITE_ADJECENCY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_FARM_HOLY_SITE_ADJECENCY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
+
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_FARM_HOLY_SITE_ADJECENCY_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_FARM_HOLY_SITE_ADJECENCY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>Sutures_REQUIRES_PLOT_ADJACENT_TO_HOLY_SITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>Sutures_PLOT_IS_FARM_HOLY_SITE_ADJECENCY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_ADJACENT_TO_HOLY_SITE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>Sutures_REQUIRES_PLOT_ADJACENT_TO_HOLY_SITE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_PublicityDesk</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

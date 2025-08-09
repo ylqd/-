@@ -66,7 +66,15 @@
 			 Name="LOC_DISTRICT_BranchUnion_NAME"
 			 Description="LOC_DISTRICT_BranchUnion_DESCRIPTION"
 			 SortIndex="25"/>
-		
+		<Row
+			 Domain="Players:Expansion2_Players"
+			 CivilizationType="CIVILIZATION_Sutures"
+			 LeaderType="LEADER_StitchingMonster"
+			 Type="DISTRICT_PublicityDesk"
+			 Icon="ICON_DISTRICT_PublicityDesk"
+			 Name="LOC_DISTRICT_PublicityDesk_NAME"
+			 Description="LOC_DISTRICT_PublicityDesk_DESCRIPTION"
+			 SortIndex="26"/>
 		<Row
 			 Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_Sutures"

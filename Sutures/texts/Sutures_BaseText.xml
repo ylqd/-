@@ -421,12 +421,25 @@
 		<Replace Tag="LOC_PROMOTION_GDR_BONUS_MOVEMENT_Sutures_DESCRIPTION">
 			<Text>{LOC_PROMOTION_GDR_BONUS_MOVEMENT_DESCRIPTION}{LOC_ABILITY_IGNORE_CROSSING_RIVERS_COST_DESCRIPTION}{LOC_ABILITY_IGNORE_TERRAIN_COST_MODIFIER_DESCRIPTION}</Text>
 		</Replace>
-		
+		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_UNITS_NAME">
+			<Text>{LOC_PROJECT_InternalPropaganda_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_UNITS_DESCRIPTION">
+			<Text>For every 1 Holy City that converts to your religion (including your own Holy City), the unit gains 3 [ICON_Strength] Combat Strength. When destroying units of an enemy civilisation or city-state, your religion will spread pressure to nearby cities.</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_NAME">
+			<Text>{LOC_PROJECT_InternalPropaganda_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_DESCRIPTION">
+			<Text>For every holy city that converts to its own religion, it gains 3 [ICON_RELIGION] religious combat effectiveness.</Text>
+		</Replace>
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures">
-			<Text>{1_num: number +#,###;-#,###} [ICON_Science] Science。</Text>
+			<Text>{1_num: number +#,###;-#,###} [ICON_Science] Science.</Text>
 		</Replace>
-
+		<Replace Tag="LOC_DISTRICT_FARM_1_FAITH_Sutures">
+			<Text>+{1_num} [ICON_Faith] Faith is derived from adjacent farms.</Text>
+		</Replace>
 		<!--项目-->
 		<Replace Tag="LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME">
 			<Text>Avalon Protocol</Text>
@@ -804,7 +817,19 @@
 		<Replace Tag="LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>海岸和陆地单元格行动切换时不额外消耗移动力。编队内的单位可共享其移动力。</Text>
 		</Replace>
-
+		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_UNITS_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_InternalPropaganda_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_COMBAT_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每有 1 座圣城皈依己方宗教（包括己方圣城），单位便获得 +3 [ICON_Strength] 战斗力。击杀敌方文明或城邦的单位时，己方宗教将传播压力到附近的城市。</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_InternalPropaganda_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每有一座圣城皈己方宗教，便 +3 [ICON_RELIGION] 宗教战斗力。</Text>
+		</Replace>
+		
 		<!--ModifierStrings-->
 		<Replace Tag="LOC_Sutures_BONUS_VS_WOUNDED_UNITS" Language="zh_Hans_CN">
 			<Text>对受伤敌人 +5 [ICON_Strength]战斗力</Text>
@@ -861,6 +886,9 @@
 		<!--区域-->
 		<Replace Tag="LOC_DISTRICT_BASE_DISTRICT_SCIENCE_Sutures" Language="zh_Hans_CN">
 			<Text>{1_num: number +#,###;-#,###} [ICON_Science] 科技值。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_FARM_1_FAITH_Sutures" Language="zh_Hans_CN">
+			<Text>+{1_num} [ICON_Faith] 信仰值来自相邻农场。</Text>
 		</Replace>
 		
 		<!--项目-->

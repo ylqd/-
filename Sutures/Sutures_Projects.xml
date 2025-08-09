@@ -6,11 +6,15 @@
 		<Row Type="PROJECT_SummonTheDead" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_EatDumplings" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_ViewBoundEdition" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_InternalPropaganda" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
-
+		<Row Type="ABILITY_Sutures_COMBAT_UNITS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_Sutures_RELIGIOUS_UNITS" Kind="KIND_ABILITY"/>
+		
 		<Row Type="MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_SINGLE_CITIE_ADJUST_TRAIT_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
+		<Row Type="MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_FOR_NUMBER_HOLY_CITIES_Sutures" Kind="KIND_MODIFIER"/>
 	</Types>
 
 	<DynamicModifiers>
@@ -24,16 +28,34 @@
 			<CollectionType>COLLECTION_OWNER</CollectionType>
 			<EffectType>EFFECT_ADJUST_TRAIT_AMENITY</EffectType>
 		</Row>
+		<Row>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_FOR_NUMBER_HOLY_CITIES_Sutures</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_UNIT_HOLY_CITIES_COMBAT_MODIFIER</EffectType>
+		</Row>
 	</DynamicModifiers>
+	
 	<UnitAbilities>
 		<Row
              UnitAbilityType="ABILITY_Sutures_AWL_AGREEMENT"
              Name="LOC_ABILITY_Sutures_AWL_AGREEMENT_NAME"
              Description="LOC_ABILITY_Sutures_AWL_AGREEMENT_DESCRIPTION"
              Inactive="true"/>
+		<Row 
+			 UnitAbilityType="ABILITY_Sutures_COMBAT_UNITS" 
+			 Name="LOC_ABILITY_Sutures_COMBAT_UNITS_NAME"
+			 Description="LOC_ABILITY_Sutures_COMBAT_UNITS_DESCRIPTION"
+			 Inactive="true"/>
+		<Row 
+			UnitAbilityType="ABILITY_Sutures_RELIGIOUS_UNITS" 
+			Name="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_NAME" 
+			Description="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_DESCRIPTION" 
+			Inactive="true"/>
 	</UnitAbilities>
 	<TypeTags>
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Tag="CLASS_ALL_UNITS"/>
+		<Row Type="ABILITY_Sutures_COMBAT_UNITS" Tag="CLASS_ALL_COMBAT_UNITS"/>
+		<Row Type="ABILITY_Sutures_RELIGIOUS_UNITS" Tag="CLASS_RELIGIOUS_ALL"/>
 	</TypeTags>
 
 	<UnitAbilityModifiers>
@@ -44,6 +66,19 @@
 		<Row>
 			<UnitAbilityType>ABILITY_Sutures_AWL_AGREEMENT</UnitAbilityType>
 			<ModifierId>VARU_NEGATIVE_MOVEMENTS_Sutures</ModifierId>
+		</Row>
+
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_COMBAT_UNITS</UnitAbilityType>
+			<ModifierId>Sutures_COMBAT_HOLY_CITIES</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_COMBAT_UNITS</UnitAbilityType>
+			<ModifierId>Sutures_PRESSURE_KILLS</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_RELIGIOUS_UNITS</UnitAbilityType>
+			<ModifierId>Sutures_RELIGIOUS_COMBAT_HOLY_CITIES</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	
@@ -102,6 +137,17 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row
+			 ProjectType="PROJECT_InternalPropaganda"
+			 Name="LOC_PROJECT_InternalPropaganda_NAME"
+			 ShortName="LOC_PROJECT_InternalPropaganda_SHORT_NAME"
+			 Description="LOC_PROJECT_InternalPropaganda_DESCRIPTION"
+			 PrereqDistrict="DISTRICT_PublicityDesk"
+			 Cost="25"
+			 MaxPlayerInstances="1"
+			 AdvisorType="ADVISOR_GENERIC"
+			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
+			 CostProgressionParam1="1500"/>
 	</Projects>
 	<Project_YieldConversions>
 		<Row
@@ -142,6 +188,9 @@
 		<Row ProjectType="PROJECT_ViewBoundEdition" ModifierId="Sutures_NEARBY_CITIES_LOSE_YIELDS_FIX"/>
 		<Row ProjectType="PROJECT_ViewBoundEdition" ModifierId="Sutures_BranchUnion_Adjest_Gold_FIX"/>
 		<Row ProjectType="PROJECT_ViewBoundEdition" ModifierId="Sutures_BranchUnion_Adjest_Amenity_FIX"/>
+
+		<Row ProjectType="PROJECT_InternalPropaganda" ModifierId="Sutures_HOLY_CITIES_COMBAT"/>
+		<Row ProjectType="PROJECT_InternalPropaganda" ModifierId="Sutures_HOLY_CITIES_RELIGIOUS_COMBAT"/>
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
@@ -274,6 +323,29 @@
 			<ModifierId>Sutures_BranchUnion_Adjest_Amenity_FIX</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_POLICY_AMENITY</ModifierType>
 			<SubjectRequirementSetId>Sutures_PLAYER_HAS_Engineer_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_HOLY_CITIES_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_COMBAT_HOLY_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_FOR_NUMBER_HOLY_CITIES_Sutures</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_PRESSURE_KILLS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_LAND_VICTORY_SPREAD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_CITIES_RELIGIOUS_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_RELIGIOUS_COMBAT_HOLY_CITIES</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_FOR_NUMBER_HOLY_CITIES_Sutures</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -441,6 +513,32 @@
 			<ModifierId>Sutures_BranchUnion_Adjest_Amenity_FIX</ModifierId>
 			<Name>Amount</Name>
 			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>Sutures_HOLY_CITIES_COMBAT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_Sutures_COMBAT_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_HOLY_CITIES_RELIGIOUS_COMBAT</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_Sutures_RELIGIOUS_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_COMBAT_HOLY_CITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_PRESSURE_KILLS</ModifierId>
+			<Name>LandVictorySpread</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_RELIGIOUS_COMBAT_HOLY_CITIES</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
 		</Row>
 	</ModifierArguments>
 
