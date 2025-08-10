@@ -25,13 +25,13 @@
 			<Text>Knowledge desert</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION">
-			<Text>Characteristic areas of ancient times, replacing colleges. Lower construction cost (-50%), 4 Base adjacent [ICON_Science] Tech Points, but does not yield [ICON_GreatScientist] Great Scientist Points.. Grants 10 Loyalty per turn.After the construction of this area is completed, the special item "Avalon Protocol" will be unlocked.</Text>
+			<Text>Characteristic areas of ancient times, replacing colleges. Lower construction cost (-50%), 4 Base adjacent [ICON_Science] Tech Points, but does not yield [ICON_GreatScientist] Great Scientist Points.[NEWLINE][NEWLINE]Grants 10 Loyalty per turn.After the construction of this area is completed, the special item "Avalon Protocol" will be unlocked.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME">
 			<Text>Big A Casino</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_DESCRIPTION">
-			<Text>Classical era characteristic area, instead of a commercial centre. Cheaper to build (-50%). -20% cost when purchasing areas, buildings, or units in this city with [ICON_GOLD] gold and [ICON_FAITH] faith.Unlocks the featured item "{LOC_PROJECT_feast_Sutures_NAME}" when this area is built.</Text>
+			<Text>Classical era characteristic area, instead of a commercial centre. Cheaper to build (-50%). -20% cost when purchasing areas, buildings, or units in this city with [ICON_GOLD] gold and [ICON_FAITH] faith.[NEWLINE][NEWLINE]Unlocks the featured item "{LOC_PROJECT_feast_Sutures_NAME}" when this area is built.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_NAME">
 			<Text>Unfinished building</Text>
@@ -43,19 +43,19 @@
 			<Text>East Point Military Academy</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION">
-			<Text>A special area from ancient times, replacing the barracks. The cost of construction is lower (-50%), 1 [ICON_Housing] housing, which does not require population support. Clans and armies can be created by meeting Civic or Tech prerequisites and cost 25% less. Buildings within it have 2 [ICON_GOLD] gold, 1 [ICON_SCIENCE] technology.Unlocks the featured item "{LOC_PROJECT_SummonTheDead_NAME}" when this area is built.</Text>
+			<Text>A special area from ancient times, replacing the barracks. The cost of construction is lower (-50%), 1 [ICON_Housing] housing, which does not require population support. [NEWLINE][NEWLINE]Clans and armies can be created by meeting Civic or Tech prerequisites and cost 25% less. Buildings within it have 2 [ICON_GOLD] gold, 1 [ICON_SCIENCE] technology.Unlocks the featured item "{LOC_PROJECT_SummonTheDead_NAME}" when this area is built.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_NAME">
 			<Text>branch union</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION">
-			<Text>Classical Era characteristic area, unlocked by technological ironsmithing, replaces the industrial zone (medieval). The area is free to build, and the Medieval "Apprentice" technology is unlocked immediately upon first construction. This zone adds a large number of adjacency bonuses from commercial centres, standard adjacency bonuses for resource cells, and is defensive and capable of performing ranged attacks. Each area is completed with the following effects: 1000 [ICON_GOLD] gold (at standard speed), the current city has a fixed loyalty of 100, and 1 additional buildable zone slot, but the city's [ICON_GOLD] gold output is reduced by 15%, and [ICON_Amenities] livability is -2.The area will unlock the special project "{LOC_PROJECT_EatDumplings_NAME}" upon completion of construction.</Text>
+			<Text>Classical Era characteristic area, unlocked by technological ironsmithing, replaces the industrial zone (medieval). The area is free to build, and the Medieval "Apprentice" technology is unlocked immediately upon first construction. [NEWLINE][NEWLINE]This zone adds a large number of adjacency bonuses from commercial centres, standard adjacency bonuses for resource cells, and is defensive and capable of performing ranged attacks.[NEWLINE][NEWLINE] Each area is completed with the following effects: 1000 [ICON_GOLD] gold (at standard speed), the current city has a fixed loyalty of 100, and 1 additional buildable zone slot, but the city's [ICON_GOLD] gold output is reduced by 15%, and [ICON_Amenities] livability is -2.The area will unlock the special project "{LOC_PROJECT_EatDumplings_NAME}" upon completion of construction.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PublicityDesk_NAME">
 			<Text>Publicity desk</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PublicityDesk_DESCRIPTION">
-			<Text>Characteristic areas of ancient times, replacing holy places. Costs less (-50%) to build, yields an additional 2 [ICON_GreatProphet] Great Prophet Points, and provides [ICON_CULTURE] Culture and [ICON_FOOD] Food equal to its adjacent bonuses. When adjacent to a farm, each farm provides it with a standard adjacency bonus of 1 [ICON_FAITH] Faith. If there are multiple religions in the city, you can get the Faith bonus for multiple religions (they must have at least 1 follower). Cities receive 1 [ICON_Amenities] livability from each religion (must have at least 1 believer). Number of missionaries spread 2. 100% religious pressure from [ICON_TradeRoute] trade routes. Once the area is built, the featured item "{LOC_PROJECT_InternalPropaganda_NAME}" will be unlocked.</Text>
+			<Text>Characteristic areas of ancient times, replacing holy places. Costs less (-50%) to build, yields an additional 2 [ICON_GreatProphet] Great Prophet Points, and provides [ICON_CULTURE] Culture and [ICON_FOOD] Food equal to its adjacent bonuses. When adjacent to a farm, each farm provides it with a standard adjacency bonus of 1 [ICON_FAITH] Faith. [NEWLINE][NEWLINE]If there are multiple religions in the city, you can get the Faith bonus for multiple religions (they must have at least 1 follower). Cities receive 1 [ICON_Amenities] livability from each religion (must have at least 1 believer). Number of missionaries spread 2. 100% religious pressure from [ICON_TradeRoute] trade routes. Once the area is built, the featured item "{LOC_PROJECT_InternalPropaganda_NAME}" will be unlocked.</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME">
@@ -68,13 +68,13 @@
 			<Text>Industrial greenhouses</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION">
-			<Text>Characteristic buildings of the industrial era, replacing factories. Cheaper to build (-50%), providing double the base and power [ICON_PRODUCTION] productivity bonuses. Once this building is completed, the internal combustion engine technology (Hyundai) is unlocked immediately. The first time you construct this building, and each subsequent construction of an industrial zone and its interior, you will receive 1 "Greenhouse Tank" that is maintenance-free.In the city where the building is built, the special project "{LOC_PROJECT_ViewBoundEdition_NAME}" can be carried out.</Text>
+			<Text>Characteristic buildings of the industrial era, replacing factories. Cheaper to build (-50%), providing double the base and power [ICON_PRODUCTION] productivity bonuses. Once this building is completed, the internal combustion engine technology (Hyundai) is unlocked immediately. [NEWLINE][NEWLINE]The first time you construct this building, and each subsequent construction of an industrial zone and its interior, you will receive 1 "Greenhouse Tank" that is maintenance-free.In the city where the building is built, the special project "{LOC_PROJECT_ViewBoundEdition_NAME}" can be carried out.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TelevisionStation_NAME">
 			<Text>television station</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TelevisionStation_DESCRIPTION">
-			<Text>Characteristic buildings of the classical era, replacing temples. Lower construction costs (-50%), with an additional 1 [ICON_Faith] Faith output per population within the city. After first building, all your cities gain the ability to purchase land units for [ICON_Faith] Faith. Featured projects "{LOC_PROJECT_RefutingRumours_NAME}" can be carried out in the city where the building is built.</Text>
+			<Text>Characteristic buildings of the classical era, replacing temples. Lower construction costs (-50%), with an additional 1 [ICON_Faith] Faith output per population within the city. After first building, all your cities gain the ability to purchase land units for [ICON_Faith] Faith. [NEWLINE][NEWLINE]Featured projects "{LOC_PROJECT_RefutingRumours_NAME}" can be carried out in the city where the building is built.</Text>
 		</Replace>
 		<!--单位-->
 		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME">
@@ -114,7 +114,7 @@
 			<Text>Rice Guards</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_Sutures_DESCRIPTION">
-			<Text>Renaissance unique heavy cavalry unit, unlocked by Tech Astronomy, in place of cuirassiers (Industrial Age). 2 [ICON_Movement] Movement power, which can be moved if there is movement force left after the battle. If the damage output is higher than that of the enemy unit, the enemy unit will be bounced into the rear cell, and if the defending unit cannot retreat, it will take more damage.</Text>
+			<Text>Renaissance unique heavy cavalry unit, unlocked by Tech Astronomy, in place of cuirassiers (Industrial Age). 2 [ICON_Movement] Movement power, which can be moved if there is movement force left after the battle. [NEWLINE][NEWLINE]If the damage output is higher than that of the enemy unit, the enemy unit will be bounced into the rear cell, and if the defending unit cannot retreat, it will take more damage.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TANK_Sutures_NAME">
 			<Text>Tanks in greenhouses</Text>
@@ -217,7 +217,7 @@
 			<Text>Wolf Warrior</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION">
-			<Text>Special military combat unit with very low production cost, but the city loses 5 population after production is completed. No maintenance costs or strategic resources are required, but there is no experience to be earned and cannot be combined into a corps or army. [ICON_Strength] Combat power is anchored to the [ICON_Strength] combat power of the strongest melee type unit you have ever produced, and has 6 base [ICON_Movement] movement and 3 base vision, ignores area control,After unlocking, you can go directly into the water,And can fight in water.{LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION}{LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION}starts with the "Enhanced Maneuver" upgrade.When unlocking technologies corresponding to {LOC_UNIT_UnfinishedHomeowners_NAME}, {LOC_UNIT_WhiteMAMLUK_NAME}, {LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}, {LOC_UNIT_TANK_Sutures_NAME}, etc., you will receive corresponding feature upgrades.When killed by a non-skill, it will lock blood and teleport to your city or capital with a monument nearby.</Text>
+			<Text>Special military combat unit with very low production cost, but the city loses 5 population after production is completed. No maintenance costs or strategic resources are required, but there is no experience to be earned and cannot be combined into a corps or army. [NEWLINE][NEWLINE][ICON_Strength] Combat power is anchored to the [ICON_Strength] combat power of the strongest melee type unit you have ever produced, and has 6 base [ICON_Movement] movement and 3 base vision, ignores area control,After unlocking, you can go directly into the water,And can fight in water.[NEWLINE][NEWLINE]{LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION}{LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION}starts with the "Enhanced Maneuver" upgrade.When unlocking technologies corresponding to {LOC_UNIT_UnfinishedHomeowners_NAME}, {LOC_UNIT_WhiteMAMLUK_NAME}, {LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}, {LOC_UNIT_TANK_Sutures_NAME}, etc., you will receive corresponding feature upgrades.When killed by a non-skill, it will lock blood and teleport to your city or capital with a monument nearby.</Text>
 		</Replace>
 	</BaseGameText>
 	<LocalizedText>
@@ -245,37 +245,37 @@
 			<Text>知识荒漠</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_WastelandOfKnowledge_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），+4 基础相邻 [ICON_Science]科技值，但是不产出 [ICON_GreatScientist]大科学家点数。每回合提供 +10 忠诚度。该区域建造完成后解锁特色项目“阿瓦隆协议”。</Text>
+			<Text>远古时代特色区域，代替学院。建造费用更低（-50%），+4 基础相邻 [ICON_Science]科技值，但是不产出 [ICON_GreatScientist]大科学家点数。[NEWLINE][NEWLINE]每回合提供 +10 忠诚度。该区域建造完成后解锁特色项目“阿瓦隆协议”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_NAME" Language="zh_Hans_CN">
 			<Text>大 A 赌场</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_TypeAcasino_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。该区域建造完成后解锁特色项目“{LOC_PROJECT_feast_Sutures_NAME}”。</Text>
+			<Text>古典时代特色区域，代替商业中心。建造费用更低（-50%）。使用 [ICON_GOLD]金币和 [ICON_FAITH]信仰值在此城市中购买区域、建筑、单位时，-20% 花费。[NEWLINE][NEWLINE]该区域建造完成后解锁特色项目“{LOC_PROJECT_feast_Sutures_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_NAME" Language="zh_Hans_CN">
 			<Text>烂尾楼</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_UnfinishedBuilding_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>中世纪特色区域，市政工会解锁，代替社区（工业时代）。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。每个该区域每回合 -6 忠诚度。</Text>
+			<Text>中世纪特色区域，市政工会解锁，代替社区（工业时代）。建造费用更低（-50%），无视单元格魅力值，每个固定提供 +6 [ICON_Housing]住房，+4 [ICON_FOOD]食物，+8 [ICON_GOLD]金币。[NEWLINE][NEWLINE]每个该区域每回合 -6 忠诚度。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_NAME" Language="zh_Hans_CN">
 			<Text>东点军校</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_EastPointMilitaryAcademy_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色区域，代替军营。建造费用更低（-50%），+1 [ICON_Housing] 住房，不需要人口支持。满足市政或科技先决条件后即可创建军团和军队，并降低其 25% 的花费。其内的建筑 +2 [ICON_GOLD] 金币、+1 [ICON_SCIENCE] 科技值。该区域建造完成后解锁特色项目“{LOC_PROJECT_SummonTheDead_NAME}”。</Text>
+			<Text>远古时代特色区域，代替军营。建造费用更低（-50%），+1 [ICON_Housing] 住房，不需要人口支持。[NEWLINE][NEWLINE]满足市政或科技先决条件后即可创建军团和军队，并降低其 25% 的花费。其内的建筑 +2 [ICON_GOLD] 金币、+1 [ICON_SCIENCE] 科技值。该区域建造完成后解锁特色项目“{LOC_PROJECT_SummonTheDead_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_NAME" Language="zh_Hans_CN">
 			<Text>支部工会</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。该区域建造免费，并且首次建成后立即解锁中世纪的“学徒”科技。该区域增加来自商业中心的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。每个该区域建成后获得如下效果：获得 1000 [ICON_GOLD]金币（标准速度下）、当前城市固定忠诚度为 100 且获得 1 个额外的可建造区域位，但是该城市的 [ICON_GOLD]金币产出降低 15%，[ICON_Amenities]宜居度 -2。该区域建造完成后解锁特色项目“{LOC_PROJECT_EatDumplings_NAME}”。</Text>
+			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。该区域建造免费，并且首次建成后立即解锁中世纪的“学徒”科技。[NEWLINE][NEWLINE]该区域增加来自商业中心的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。[NEWLINE][NEWLINE]每个该区域建成后获得如下效果：获得 1000 [ICON_GOLD]金币（标准速度下）、当前城市固定忠诚度为 100 且获得 1 个额外的可建造区域位，但是该城市的 [ICON_GOLD]金币产出降低 15%，[ICON_Amenities]宜居度 -2。该区域建造完成后解锁特色项目“{LOC_PROJECT_EatDumplings_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PublicityDesk_NAME" Language="zh_Hans_CN">
 			<Text>宣传台</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PublicityDesk_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代特色区域，代替圣地。建造费用更低（-50%），额外产出 2 点 [ICON_GreatProphet]大预言家点数，提供等于其相邻加成的 [ICON_CULTURE] 文化值和 [ICON_FOOD]食物。和农场相邻时，每个农场为其提供一个标准相邻加成，农场 +1 [ICON_FAITH]信仰值 。城市中存在多个宗教时，可以获得对应多个宗教（其须拥有至少 1 个信徒）的信徒信仰加成。城市从每个宗教（须有至少1个信徒）获得 1 点 [ICON_Amenities] 宜居度。传教士的传播次数 +2。来自 [ICON_TradeRoute] 贸易路线的宗教压力 +100%。该区域建造完成后解锁特色项目“{LOC_PROJECT_InternalPropaganda_NAME}”。</Text>
+			<Text>远古时代特色区域，代替圣地。建造费用更低（-50%），额外产出 2 点 [ICON_GreatProphet]大预言家点数，提供等于其相邻加成的 [ICON_CULTURE] 文化值和 [ICON_FOOD]食物。和农场相邻时，每个农场为其提供一个标准相邻加成，农场 +1 [ICON_FAITH]信仰值 。[NEWLINE][NEWLINE]城市中存在多个宗教时，可以获得对应多个宗教（其须拥有至少 1 个信徒）的信徒信仰加成。城市从每个宗教（须有至少1个信徒）获得 1 点 [ICON_Amenities] 宜居度。传教士的传播次数 +2。来自 [ICON_TradeRoute] 贸易路线的宗教压力 +100%。该区域建造完成后解锁特色项目“{LOC_PROJECT_InternalPropaganda_NAME}”。</Text>
 		</Replace>
 		<!--建筑-->
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME" Language="zh_Hans_CN">
@@ -288,13 +288,13 @@
 			<Text>工业大棚</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>工业时代特色建筑，代替工厂。建造费用更低（-50%），提供的基础和供电 [ICON_PRODUCTION]生产力加成翻倍。建成此建筑后，立即解锁内燃机科技（现代）。第一次建造此建筑及之后每修建一个工业区及其内建筑时，都会获得 1 个免资源维护的 “大棚的坦克”。在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_ViewBoundEdition_NAME}”。</Text>
+			<Text>工业时代特色建筑，代替工厂。建造费用更低（-50%），提供的基础和供电 [ICON_PRODUCTION]生产力加成翻倍。建成此建筑后，立即解锁内燃机科技（现代）。[NEWLINE][NEWLINE]第一次建造此建筑及之后每修建一个工业区及其内建筑时，都会获得 1 个免资源维护的 “大棚的坦克”。在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_ViewBoundEdition_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TelevisionStation_NAME" Language="zh_Hans_CN">
 			<Text>电视台</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_TelevisionStation_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色建筑，代替寺庙。建造费用更低（-50%），该城市内的每个人口额外 +1 [ICON_Faith]信仰值产出。首次建成后所有己方城市获得用 [ICON_Faith] 信仰值购买陆地单位的能力。在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_RefutingRumours_NAME}”。</Text>
+			<Text>古典时代特色建筑，代替寺庙。建造费用更低（-50%），该城市内的每个人口额外 +1 [ICON_Faith]信仰值产出。首次建成后所有己方城市获得用 [ICON_Faith] 信仰值购买陆地单位的能力。[NEWLINE][NEWLINE]在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_RefutingRumours_NAME}”。</Text>
 		</Replace>
 		<!--单位-->
 		<Replace Tag="LOC_UNIT_GuardOfHonour_NAME" Language="zh_Hans_CN">
@@ -334,7 +334,7 @@
 			<Text>米卫兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_POLISH_HUSSAR_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>文艺复兴时代特色重骑兵单位，由科技天文学解锁，代替胸甲骑兵（工业时代）。+2 [ICON_Movement]移动力，如果战斗后有剩余移动力，可以移动。如果输出伤害高于敌方单位，会将敌方单位弹到后方的单元格中，如果防守的单位无法后退，会受到更高的伤害。</Text>
+			<Text>文艺复兴时代特色重骑兵单位，由科技天文学解锁，代替胸甲骑兵（工业时代）。+2 [ICON_Movement]移动力，如果战斗后有剩余移动力，可以移动。[NEWLINE][NEWLINE]如果输出伤害高于敌方单位，会将敌方单位弹到后方的单元格中，如果防守的单位无法后退，会受到更高的伤害。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TANK_Sutures_NAME" Language="zh_Hans_CN">
 			<Text>大棚的坦克</Text>
@@ -439,7 +439,7 @@
 			<Text>战狼</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>特殊军事战斗单位，生产花费极低，但是生产完成后该城市会损失 5 人口。不需要维护费用和战略资源，但是也无法获取经验值，无法合成为兵团或者军队。[ICON_Strength] 战斗力锚定为己方生产过的最强近战类型单位的 [ICON_Strength]战斗力，拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野，无视区域控制，解锁后可以直接下水，并且可以在水域中战斗。{LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION}{LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION}初始就拥有“增强机动”升级。在解锁{LOC_UNIT_UnfinishedHomeowners_NAME}、{LOC_UNIT_WhiteMAMLUK_NAME}、{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}、{LOC_UNIT_TANK_Sutures_NAME}等兵种对应的科技时，会获得其对应的特性升级。被非技能击杀时会锁血，并且传送到附近有纪念碑的己方城市或者首都。</Text>
+			<Text>特殊军事战斗单位，生产花费极低，但是生产完成后该城市会损失 5 人口。不需要维护费用和战略资源，但是也无法获取经验值，无法合成为兵团或者军队。[NEWLINE][NEWLINE][ICON_Strength] 战斗力锚定为己方生产过的最强近战类型单位的 [ICON_Strength]战斗力，拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野，无视区域控制，解锁后可以直接下水，并且可以在水域中战斗。{LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION}{LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION}[NEWLINE][NEWLINE]初始就拥有“增强机动”升级。在解锁{LOC_UNIT_UnfinishedHomeowners_NAME}、{LOC_UNIT_WhiteMAMLUK_NAME}、{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}、{LOC_UNIT_TANK_Sutures_NAME}等兵种对应的科技时，会获得其对应的特性升级。被非技能击杀时会锁血，并且传送到附近有纪念碑的己方城市或者首都。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

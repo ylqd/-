@@ -611,7 +611,7 @@
 			<Text>咱妈咱妈咱妈</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWolfWarrior4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市创建时获得双倍数量的初始单元格。冻土、雪地、沙漠类型单元格额外 +2[ICON_FOOD]食物，并且可以修建农场(解锁土木工程市政后可以在对应的丘陵地形上修建农场)。水域类型单元格额外 +1 [ICON_FAITH]信仰值、+1[ICON_FOOD]食物，草原类型单元格 +2 [ICON_GOLD]金币，平原类型单元格 +1 [ICON_PRODUCTION]生产力。</Text>
+			<Text>城市创建时获得双倍数量的初始单元格。冻土、雪地、沙漠类型单元格额外 +2[ICON_FOOD]食物，并且可以修建农场(解锁土木工程市政后可以在对应的丘陵地形上修建农场)。[NEWLINE]水域类型单元格额外 +1 [ICON_FAITH]信仰值、+1[ICON_FOOD]食物，草原类型单元格 +2 [ICON_GOLD]金币，平原类型单元格 +1 [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<!--监护人-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators1_NAME" Language="zh_Hans_CN">
@@ -624,7 +624,7 @@
 			<Text>岁月静好</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>建造者额外获得 1 次使用次数。建造远古和古典奇观时，可以消耗建造者的使用次数加速奇观建造进程的 20%。解锁“砌砖”科技的同时也解锁“运河”。建造所有时代的奇观时，+35% [ICON_PRODUCTION]生产力。</Text>
+			<Text>建造者额外获得 1 次使用次数。建造远古和古典奇观时，可以消耗建造者的使用次数加速奇观建造进程的 20%。解锁“砌砖”科技的同时也解锁“运河”。[NEWLINE]建造所有时代的奇观时，+35% [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesRegulators3_NAME" Language="zh_Hans_CN">
 			<Text>都不拿怎么进步</Text>
@@ -686,7 +686,7 @@
 			<Text>没什么不能说的</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesWinner4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>解锁古典市政历史记录后，免费获得 1 个间谍（同时增加 1 个间谍容量），所有间谍初始就可以升级为探员。间谍进攻型的行动 +1 级执行效果。进攻性间谍任务成功时，获得目标城市该回合[ICON_Faith] 信仰值、[ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值的100%。可以使用信仰值购买间谍。</Text>
+			<Text>解锁古典市政历史记录后，免费获得 1 个间谍（同时增加 1 个间谍容量），所有间谍初始就可以升级为探员。间谍进攻型的行动 +1 级执行效果。[NEWLINE]进攻性间谍任务成功时，获得目标城市该回合[ICON_Faith] 信仰值、[ICON_Culture] 文化值和 [ICON_SCIENCE] 科技值的100%。可以使用信仰值购买间谍。</Text>
 		</Replace>
 		<!--反诈先锋-->
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters1_NAME" Language="zh_Hans_CN">
