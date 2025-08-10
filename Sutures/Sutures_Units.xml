@@ -445,6 +445,10 @@
 			<UnitAbilityType>ABILITY_Wolf_Warrior_Sutures</UnitAbilityType>
 			<ModifierId>ESCORT_MOBILITY_SHARED_MOVEMENT</ModifierId>
 		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_Wolf_Warrior_Sutures</UnitAbilityType>
+			<ModifierId>Sutures_MODIFIER_SINBAD_OCEAN_VALID_TERRAIN</ModifierId>
+		</Row>
 	</UnitAbilityModifiers>
 	<TraitModifiers>
 		<Row>
@@ -514,6 +518,7 @@
 			<ModifierId>Sutures_Wolf_Warrior_EARLY_EMBARK</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS_Suture</ModifierType>
 		</Row>
+		<Row ModifierID="Sutures_MODIFIER_SINBAD_OCEAN_VALID_TERRAIN" ModifierType="MODIFIER_PLAYER_UNIT_ADJUST_VALID_TERRAIN"/>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
@@ -581,6 +586,9 @@
 			<Name>UnitType</Name>
 			<Value>UNIT_Wolf_Warrior_Sutures</Value>
 		</Row>
+
+		<Row ModifierId="Sutures_MODIFIER_SINBAD_OCEAN_VALID_TERRAIN" Name="TerrainType" Value="TERRAIN_OCEAN"/>
+		<Row ModifierId="Sutures_MODIFIER_SINBAD_OCEAN_VALID_TERRAIN" Name="Valid" Value="true"/>
 	</ModifierArguments>
 
 	<RequirementSets>
