@@ -269,10 +269,10 @@
 			<Text>支部工会</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BranchUnion_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。该区域建造免费，并且首次建成后立即解锁中世纪的“学徒”科技。[NEWLINE][NEWLINE]该区域增加来自商业中心的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。[NEWLINE][NEWLINE]每个该区域建成后获得如下效果：获得 1000 [ICON_GOLD]金币（标准速度下）、当前城市固定忠诚度为 100 且获得 1 个额外的可建造区域位，但是该城市的 [ICON_GOLD]金币产出降低 15%，[ICON_Amenities]宜居度 -2。该区域建造完成后解锁特色项目“{LOC_PROJECT_EatDumplings_NAME}”。</Text>
+			<Text>古典时代特色区域，由科技炼铁术解锁，代替工业区（中世纪）。该区域建造免费，并且首次建成后立即解锁中世纪的“学徒”科技。[NEWLINE][NEWLINE]该区域增加来自{LOC_DISTRICT_TypeAcasino_NAME}的大量相邻加成、资源单元格的标准相邻加成，具有防御力且可执行远程攻击。[NEWLINE][NEWLINE]每个该区域建成后获得如下效果：获得 1000 [ICON_GOLD]金币（标准速度下）、当前城市固定忠诚度为 100 且获得 1 个额外的可建造区域位，但是该城市的 [ICON_GOLD]金币产出降低 15%，[ICON_Amenities]宜居度 -2。该区域建造完成后解锁特色项目“{LOC_PROJECT_EatDumplings_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PublicityDesk_NAME" Language="zh_Hans_CN">
-			<Text>宣传台</Text>
+			<Text>宣传部</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_PublicityDesk_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>远古时代特色区域，代替圣地。建造费用更低（-50%），额外产出 2 点 [ICON_GreatProphet]大预言家点数，提供等于其相邻加成的 [ICON_CULTURE] 文化值和 [ICON_FOOD]食物。和农场相邻时，每个农场为其提供一个标准相邻加成，农场 +1 [ICON_FAITH]信仰值 。[NEWLINE][NEWLINE]城市中存在多个宗教时，可以获得对应多个宗教（其须拥有至少 1 个信徒）的信徒信仰加成。城市从每个宗教（须有至少1个信徒）获得 1 点 [ICON_Amenities] 宜居度。传教士的传播次数 +2。来自 [ICON_TradeRoute] 贸易路线的宗教压力 +100%。该区域建造完成后解锁特色项目“{LOC_PROJECT_InternalPropaganda_NAME}”。</Text>
