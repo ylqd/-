@@ -391,7 +391,7 @@
 			<Text>{LOC_PROJECT_SummonTheDead_NAME}</Text>
 		</Replace>
 		<Replace Tag="LOC_PROJECT_SummonTheDead_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>特色项目，需要在有东点军校的城市进行研发。研发完成后，有{LOC_DISTRICT_EastPointMilitaryAcademy_NAME}的城市可以通过信仰值购买特色单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”。在解锁科技“学徒”和“内燃机”时也会分别赠送 1 个该单位。</Text>
+			<Text>特色项目，需要在有东点军校的城市进行研发。研发完成后，有{LOC_DISTRICT_EastPointMilitaryAcademy_NAME}的城市可以通过信仰值购买特色单位“{LOC_UNIT_Wolf_Warrior_Sutures_NAME}”。在解锁科技“学徒”和“内燃机”时也会分别赠送 1 个该单位。[NEWLINE][NEWLINE]{LOC_ABILITY_Sutures_SETTLER_ATTACH_OCEAN_NAME}：该项目同时会提前解锁开拓者、建造者单位提前上船以及进入海洋区域的能力。</Text>
 		</Replace>
 
 		<Replace Tag="LOC_PROJECT_EatDumplings_NAME" Language="zh_Hans_CN">

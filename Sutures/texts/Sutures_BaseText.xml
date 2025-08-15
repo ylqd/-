@@ -829,6 +829,12 @@
 		<Replace Tag="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每有一座圣城皈己方宗教，便 +3 [ICON_RELIGION] 宗教战斗力。</Text>
 		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_SETTLER_ATTACH_OCEAN_NAME" Language="zh_Hans_CN">
+			<Text>战狼福泽</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_Sutures_SETTLER_ATTACH_OCEAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以上船以及进入海洋区域。</Text>
+		</Replace>
 		
 		<!--ModifierStrings-->
 		<Replace Tag="LOC_Sutures_BONUS_VS_WOUNDED_UNITS" Language="zh_Hans_CN">

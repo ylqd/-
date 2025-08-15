@@ -12,7 +12,8 @@
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_COMBAT_UNITS" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_RELIGIOUS_UNITS" Kind="KIND_ABILITY"/>
-		
+		<Row Type="ABILITY_Sutures_SETTLER_ATTACH_OCEAN" Kind="KIND_ABILITY"/>
+
 		<Row Type="MODIFIER_PLAYER_CITIES_ADD_POPULATION_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_SINGLE_CITIE_ADJUST_TRAIT_AMENITY_Sutures" Kind="KIND_MODIFIER"/>
 		<Row Type="MODIFIER_PLAYER_UNIT_ADJUST_COMBAT_FOR_NUMBER_HOLY_CITIES_Sutures" Kind="KIND_MODIFIER"/>
@@ -52,11 +53,17 @@
 			Name="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_NAME" 
 			Description="LOC_ABILITY_Sutures_RELIGIOUS_UNITS_DESCRIPTION" 
 			Inactive="true"/>
+		<Row
+			UnitAbilityType="ABILITY_Sutures_SETTLER_ATTACH_OCEAN"
+			Name="LOC_ABILITY_Sutures_SETTLER_ATTACH_OCEAN_NAME"
+			Description="LOC_ABILITY_Sutures_SETTLER_ATTACH_OCEAN_DESCRIPTION"
+			Inactive="true"/>
 	</UnitAbilities>
 	<TypeTags>
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Tag="CLASS_ALL_UNITS"/>
 		<Row Type="ABILITY_Sutures_COMBAT_UNITS" Tag="CLASS_ALL_COMBAT_UNITS"/>
 		<Row Type="ABILITY_Sutures_RELIGIOUS_UNITS" Tag="CLASS_RELIGIOUS_ALL"/>
+		<Row Type="ABILITY_Sutures_SETTLER_ATTACH_OCEAN" Tag="CLASS_LANDCIVILIAN"/>
 	</TypeTags>
 
 	<UnitAbilityModifiers>
@@ -80,6 +87,10 @@
 		<Row>
 			<UnitAbilityType>ABILITY_Sutures_RELIGIOUS_UNITS</UnitAbilityType>
 			<ModifierId>Sutures_RELIGIOUS_COMBAT_HOLY_CITIES</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_Sutures_SETTLER_ATTACH_OCEAN</UnitAbilityType>
+			<ModifierId>Sutures_MODIFIER_SINBAD_OCEAN_VALID_TERRAIN</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	
@@ -192,7 +203,11 @@
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_TANK_UPGRADE_Sutures"/>
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Grant_Wolf_1_Sutures"/>
 		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Grant_Wolf_2_Sutures"/>
-
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Sutures_SETTLER_EARLY_EMBARK"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Sutures_BUILDER_EARLY_EMBARK"/>
+		<Row ProjectType="PROJECT_SummonTheDead" ModifierId="PROJECT_COMPLETION_Sutures_SETTLER_ATTACH_OCEAN"/>
+		
+		
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_CITYS_GET_AMENITY"/>
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_SINGLE_CITY_GET_AMENITY"/>
 		<Row ProjectType="PROJECT_EatDumplings" ModifierId="PROJECT_EatDumplings_Reduce_Gold"/>
@@ -305,6 +320,21 @@
 			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
 			<Permanent>true</Permanent>
 			<SubjectRequirementSetId>GDR_TANK_Grant_Wolf_REQUIREMENTS_Sutures</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Sutures_SETTLER_EARLY_EMBARK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Sutures_BUILDER_EARLY_EMBARK</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARK_UNIT_PASS</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Sutures_SETTLER_ATTACH_OCEAN</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 		
 
@@ -495,6 +525,22 @@
 			<Name>AllowUniqueOverride</Name>
 			<Value>false</Value>
 		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Sutures_SETTLER_EARLY_EMBARK</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Sutures_BUILDER_EARLY_EMBARK</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_COMPLETION_Sutures_SETTLER_ATTACH_OCEAN</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_Sutures_SETTLER_ATTACH_OCEAN</Value>
+		</Row>
+		
 
 		<Row>
 			<ModifierId>PROJECT_EatDumplings_CITYS_GET_AMENITY</ModifierId>
