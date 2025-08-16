@@ -356,12 +356,6 @@
 		</Replace>
 		
 		<!--特色改良设施-->
-		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME" Language="zh_Hans_CN">
-			<Text>虚空导弹发射井</Text>
-		</Replace>
-		<Replace Tag="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>可以投放核武器的导弹发射井，中世纪即可解锁，可以由建造者修建。</Text>
-		</Replace>
 
 		<!--项目-->
 		<Replace Tag="LOC_PROJECT_AWL_AGREEMENT_NAME" Language="zh_Hans_CN">

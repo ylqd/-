@@ -59,7 +59,5 @@
 		<Row Name="ICON_UNIT_BOMBER_Sutures_PORTRAIT"                       Atlas="ICON_ATLAS_UNIT_PORTRAITS_2" Index="15"/>
 		<Row Name="ICON_UNIT_BOMBER_Sutures"                   Atlas="ICON_ATLAS_UNITS" Index="81"/>
 		<Row Name="ICON_UNIT_BOMBER_Sutures_FOW"                   Atlas="ICON_ATLAS_UNITS_FOW" Index="81"/>
-
-		<Row Name="ICON_IMPROVEMENT_MISSILE_SILO_Sutures"             	Atlas="ICON_ATLAS_UNIT_ACTIONS"   Index="15"/>
 	</IconDefinitions>
 </GameData>

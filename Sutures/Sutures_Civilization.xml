@@ -25,7 +25,6 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_TANK_PRO_Sutures" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures" Kind="KIND_TRAIT"/>
 
-		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_MISSILE_SILO_Sutures" Kind="KIND_TRAIT"/>
 	</Types>
 	<Civilizations>
 		<Row
@@ -108,7 +107,6 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TANK_PRO_Sutures" Name="LOC_UNIT_TANK_PRO_Sutures_NAME"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures" Name="LOC_UNIT_DIGGER_Sutures_NAME"/>
 
-		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MISSILE_SILO_Sutures" Name="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME"/>
 	</Traits>
 
 	<CivilizationTraits>
@@ -135,7 +133,6 @@
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_TANK_PRO_Sutures"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_UNIT_DIGGER_Sutures"/>
 
-		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_MISSILE_SILO_Sutures"/>
 		<!--other exist-->
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_LEADER_PACHACUTI_IMPROVEMENT_MOUNTAIN_ROAD"/>
 		<Row CivilizationType="CIVILIZATION_Sutures" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SPHINX"/>

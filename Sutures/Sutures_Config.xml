@@ -107,15 +107,6 @@
 			 Domain="Players:Expansion2_Players"
 			 CivilizationType="CIVILIZATION_Sutures"
 			 LeaderType="LEADER_StitchingMonster"
-			 Type="IMPROVEMENT_MISSILE_SILO_Sutures"
-			 Icon="ICON_IMPROVEMENT_MISSILE_SILO_Sutures"
-			 Name="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_NAME"
-			 Description="LOC_IMPROVEMENT_MISSILE_SILO_Sutures_DESCRIPTION"
-			 SortIndex="34"/>
-		<Row
-			 Domain="Players:Expansion2_Players"
-			 CivilizationType="CIVILIZATION_Sutures"
-			 LeaderType="LEADER_StitchingMonster"
 			 Type="IMPROVEMENT_MOUNTAIN_ROAD"
 			 Icon="ICON_IMPROVEMENT_MOUNTAIN_ROAD"
 			 Name="LOC_IMPROVEMENT_MOUNTAIN_ROAD_NAME"
