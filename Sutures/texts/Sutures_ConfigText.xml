@@ -282,7 +282,7 @@
 			<Text>赝品博物馆</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_MUSEUM_FAKES_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>中世纪特色建筑，由市政行政部门解锁，代替历史博物馆（文艺复兴时代）。建造费用更低（-50%），第一次建造此建筑后，所有的三槽位博物馆都会自动获得主题效果。</Text>
+			<Text>中世纪特色建筑，由市政行政部门解锁，代替历史博物馆（文艺复兴时代）。建造费用更低（-50%），第一次建造此建筑后，所有的三槽位博物馆都会自动获得主题效果。[NEWLINE][NEWLINE]在修建了该建筑的城市可进行特色项目“{LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_NAME}”。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_Greenhouses_Sutures_NAME" Language="zh_Hans_CN">
 			<Text>工业大棚</Text>
@@ -433,13 +433,35 @@
 		<Replace Tag="LOC_PROJECT_RefutingRumours_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可重复的特色项目，需要在有{LOC_BUILDING_TelevisionStation_NAME}的城市进行。项目完成后，当前城市 -1% [ICON_GOLD]金币产出，获得 1 个使徒（前提是已经创建了宗教），为贸易路线 +1 [ICON_Faith]信仰值产出。</Text>
 		</Replace>
+		<Replace Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>八级钳工磨芯片</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>{LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_NAME}</Text>
+		</Replace>
+		<Replace Tag="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可重复的特色项目，需要在有{LOC_BUILDING_MUSEUM_FAKES_Sutures_NAME}的城市进行。项目完成后，获得 1 枚“{LOC_WMD_HAIL_MARY_Sutures_NAME}”，{LOC_WMD_HAIL_MARY_Sutures_DESCRIPTION}</Text>
+		</Replace>
+		
 		
 		<!--特殊单位-->
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_NAME" Language="zh_Hans_CN">
 			<Text>战狼</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_Wolf_Warrior_Sutures_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>特殊军事战斗单位，生产花费极低，但是生产完成后该城市会损失 5 人口。不需要维护费用和战略资源，但是也无法获取经验值，无法合成为兵团或者军队。[NEWLINE][NEWLINE][ICON_Strength] 战斗力锚定为己方生产过的最强近战类型单位的 [ICON_Strength]战斗力，拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野，无视区域控制，解锁后可以直接下水以及进入海洋区域，并且可以在水域中战斗。{LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION}{LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION}[NEWLINE][NEWLINE]初始就拥有“增强机动”升级。在解锁{LOC_UNIT_UnfinishedHomeowners_NAME}、{LOC_UNIT_WhiteMAMLUK_NAME}、{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}、{LOC_UNIT_TANK_Sutures_NAME}等兵种对应的科技时，会获得其对应的特性升级。被非技能击杀时会锁血，并且传送到附近有纪念碑的己方城市或者首都。[NEWLINE][NEWLINE]在解锁科技“{LOC_TECH_FLIGHT_NAME}”、“{LOC_TECH_ADVANCED_FLIGHT_NAME}”、“{LOC_TECH_STEALTH_TECHNOLOGY_NAME}”时会分别获得 1 个飞机槽位。</Text>
+			<Text>特殊军事战斗单位，生产花费极低，但是生产完成后该城市会损失 5 人口。不需要维护费用和战略资源，但是也无法获取经验值，无法合成为兵团或者军队。[NEWLINE][NEWLINE][ICON_Strength] 战斗力锚定为己方生产过的最强近战类型单位的 [ICON_Strength]战斗力，拥有 6 点基础 [ICON_Movement]移动力和 3 点基础视野，无视区域控制，解锁后可以直接下水以及进入海洋区域，并且可以在水域中战斗。{LOC_ABILITY_UNIT_WMD_RESISTANCE_DESCRIPTION}{LOC_AABILITY_Wolf_Warrior_Sutures_DESCRIPTION}[NEWLINE][NEWLINE]初始就拥有“增强机动”升级。在解锁{LOC_UNIT_UnfinishedHomeowners_NAME}、{LOC_UNIT_WhiteMAMLUK_NAME}、{LOC_UNIT_POLISH_HUSSAR_Sutures_NAME}、{LOC_UNIT_TANK_Sutures_NAME}等兵种对应的科技时，会获得其对应的特性升级。被非技能击杀时会锁血，并且传送到附近有纪念碑的己方城市或者首都。[NEWLINE][NEWLINE]初始拥有 1 个飞机槽位，在解锁科技“{LOC_TECH_FLIGHT_NAME}”、“{LOC_TECH_ADVANCED_FLIGHT_NAME}”、“{LOC_TECH_STEALTH_TECHNOLOGY_NAME}”时会分别获得 1 个飞机槽位。</Text>
+		</Replace>
+		<Replace Tag="LOC_WMD_HAIL_MARY_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>手磨芯片</Text>
+		</Replace>
+		<Replace Tag="LOC_WMD_HAIL_MARY_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>这是一种可爆炸的核装置，不需要战略资源和维护费用。爆炸范围 3 单元格，辐射持续 5 回合。目前已知问题：该装置数量未在顶部栏显示，且无法通过发射井发射。</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBER_Sutures_NAME" Language="zh_Hans_CN">
+			<Text>六代机</Text>
+		</Replace>
+		<Replace Tag="LOC_UNIT_BOMBER_Sutures_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>一种特色轰炸机，无法通过正常方式获取。该单位拥有更高的视野，可以升级为轰炸机。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

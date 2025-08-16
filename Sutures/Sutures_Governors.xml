@@ -507,7 +507,7 @@
 			 Description="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_DESCRIPTION"
 			 Level="3"
 			 Column="1"
-			 BaseAbility="false"/>
+			 BaseAbility="true"/>
 	</GovernorPromotions>
 	
 	<GovernorPromotionPrereqs>
@@ -1214,10 +1214,10 @@
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
 			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 		</Row>
-		<!--<Row>
+		<Row>
 			<GovernorPromotionType>GOVERNOR_PROMOTION_SuturesAntiFraudsters4</GovernorPromotionType>
-			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
-		</Row>-->
+			<ModifierId>Sutures_UNIT_Wolf_Warrior_ATTACH_Modifierd</ModifierId>
+		</Row>
 	</GovernorPromotionModifiers>
 
 	<Modifiers>
@@ -1886,16 +1886,17 @@
 			<SubjectRequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
 		</Row>
-
 		<Row>
-			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_OF_ABILITY_WITH_MODIFIER_Suture</ModifierType>
-			<SubjectRequirementSetId>Sutures_Player_has_Tech_For_UNIT_JET</SubjectRequirementSetId>
+			<ModifierId>Sutures_UNIT_Wolf_Warrior_ATTACH_Modifierd</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>GDR_BONUS_MOVEMENT_UPGRADE_REQUIREMENTS_Sutures</SubjectRequirementSetId>
 			<Permanent>true</Permanent>
 		</Row>
+		
 		<Row>
-			<ModifierId>Sutures_GOODY_METEOR_UNIT_REFUND_COST</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_RESOURCE_MAINTENANCE</ModifierType>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -3316,28 +3317,33 @@
 		<Row>
 			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 			<Name>Type</Name>
-			<Value>WMD_THERMONUCLEAR_DEVICE</Value>
+			<Value>WMD_HAIL_MARY_Sutures</Value>
 		</Row>
 		<Row>
 			<ModifierId>Sutures_GRANT_WMD_Super_NUCLEAR_DEVICE_Sutures</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
-
 		<Row>
-			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
-			<Name>UnitPromotionClassType</Name>
-			<Value>PROMOTION_CLASS_GIANT_DEATH_ROBOT</Value>
-		</Row>
-		<Row>
-			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<ModifierId>Sutures_UNIT_Wolf_Warrior_ATTACH_Modifierd</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>Sutures_GOODY_METEOR_UNIT_REFUND_COST</Value>
+			<Value>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</Value>
+		</Row>
+		
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BOMBER_Sutures</Value>
 		</Row>
 		<Row>
-			<ModifierId>Sutures_GOODY_METEOR_UNIT_REFUND_COST</ModifierId>
-			<Name>Ignore</Name>
-			<Value>true</Value>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>Sutures_GOODY_METEOR_FREE_UNIT_Sutures</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
 		</Row>
 	</ModifierArguments>
 

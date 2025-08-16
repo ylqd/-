@@ -8,6 +8,7 @@
 		<Row Type="PROJECT_ViewBoundEdition" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_InternalPropaganda" Kind="KIND_PROJECT"/>
 		<Row Type="PROJECT_RefutingRumours" Kind="KIND_PROJECT"/>
+		<Row Type="PROJECT_BUILD_NUCLEAR_DEVICE_Sutures" Kind="KIND_PROJECT"/>
 		<!--技能-->
 		<Row Type="ABILITY_Sutures_AWL_AGREEMENT" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_Sutures_COMBAT_UNITS" Kind="KIND_ABILITY"/>
@@ -170,6 +171,14 @@
 			 AdvisorType="ADVISOR_GENERIC"
 			 CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS"
 			 CostProgressionParam1="1500"/>
+		<Row 
+			ProjectType="PROJECT_BUILD_NUCLEAR_DEVICE_Sutures" 
+			Name="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_NAME" 
+			ShortName="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_SHORT_NAME" 
+			Description="LOC_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_DESCRIPTION" 
+			Cost="250" 
+			AdvisorType="ADVISOR_CONQUEST" 
+			WMD="true"/>
 	</Projects>
 	<Project_YieldConversions>
 		<Row
@@ -186,7 +195,9 @@
 	<Projects_XP2>
 		<Row ProjectType="PROJECT_ViewBoundEdition" RequiredBuilding="BUILDING_Greenhouses_Sutures"/>
 		<Row ProjectType="PROJECT_RefutingRumours" RequiredBuilding="BUILDING_TelevisionStation"/>
+		<Row ProjectType="PROJECT_BUILD_NUCLEAR_DEVICE_Sutures" RequiredBuilding="BUILDING_MUSEUM_FAKES_Sutures"/>
 	</Projects_XP2>
+
 	<ProjectCompletionModifiers>
 		<Row ProjectType="PROJECT_AWL_AGREEMENT" ModifierId="PROJECT_COMPLETION_AWL_AGREEMENT"/>
 
@@ -222,6 +233,8 @@
 		<Row ProjectType="PROJECT_RefutingRumours" ModifierId="PROJECT_EatDumplings_Reduce_Gold"/>
 		<Row ProjectType="PROJECT_RefutingRumours" ModifierId="PROJECT_RefutingRumours_Grant_APOSTLE"/>
 		<Row ProjectType="PROJECT_RefutingRumours" ModifierId="PROJECT_RefutingRumours_TRADE_ROUTE_FAITH"/>
+
+		<Row ProjectType="PROJECT_BUILD_NUCLEAR_DEVICE_Sutures" ModifierId="PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_GRANT"/>
 	</ProjectCompletionModifiers>
 
 	<Modifiers>
@@ -404,6 +417,14 @@
 		<Row>
 			<ModifierId>PROJECT_RefutingRumours_TRADE_ROUTE_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_YIELD</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+
+		
+		<Row>
+			<ModifierID>PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_GRANT</ModifierID>
+			<ModifierType>MODIFIER_PLAYER_CREATE_WMD</ModifierType>
+			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
 		</Row>
 	</Modifiers>
@@ -634,6 +655,18 @@
 		</Row>
 		<Row>
 			<ModifierId>PROJECT_RefutingRumours_TRADE_ROUTE_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		
+		<Row>
+			<ModifierId>PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_GRANT</ModifierId>
+			<Name>Type</Name>
+			<Value>WMD_HAIL_MARY_Sutures</Value>
+		</Row>
+		<Row>
+			<ModifierId>PROJECT_BUILD_NUCLEAR_DEVICE_Sutures_GRANT</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>

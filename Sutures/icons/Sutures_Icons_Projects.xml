@@ -14,5 +14,7 @@
 		<Row Name="ICON_PROJECT_InternalPropaganda"   Atlas="ICON_ATLAS_PROJECTS" Index="15"/>
 
 		<Row Name="ICON_PROJECT_RefutingRumours"   Atlas="ICON_ATLAS_PROJECTS" Index="15"/>
+
+		<Row Name="ICON_PROJECT_BUILD_NUCLEAR_DEVICE_Sutures"  Atlas="ICON_ATLAS_PROJECTS" Index="8"/>
 	</IconDefinitions>
 </GameData>

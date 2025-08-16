@@ -708,10 +708,10 @@
 			<Text>修建水渠、堤坝、运河、拦洪坝时 +100% [ICON_PRODUCTION]生产力。修建市政广场内的建筑时 +200% [ICON_PRODUCTION]生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_NAME" Language="zh_Hans_CN">
-			<Text>抗战路上卖核弹</Text>
+			<Text>长征路上开超市</Text>
 		</Replace>
 		<Replace Tag="LOC_GOVERNOR_PROMOTION_SuturesAntiFraudsters4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>拥有学徒科技后，立即获得 5 枚热核武器（每枚需要 16 [ICON_GOLD]金币的回合维护费）。</Text>
+			<Text>拥有学徒科技后，立即获得 5 枚“{LOC_WMD_HAIL_MARY_Sutures_NAME}”。每获得 1 个”{LOC_UNIT_Wolf_Warrior_Sutures_NAME}“单位就会获得 1 个”{LOC_UNIT_BOMBER_Sutures_NAME}“单位。[NEWLINE][NEWLINE]{LOC_WMD_HAIL_MARY_Sutures_NAME}：{LOC_WMD_HAIL_MARY_Sutures_DESCRIPTION}[NEWLINE]{LOC_UNIT_BOMBER_Sutures_NAME}：{LOC_UNIT_BOMBER_Sutures_DESCRIPTION}</Text>
 		</Replace>
 		<!--ability-->
 		<Replace Tag="LOC_ABILITY_Sutures_GetExtraMovement_NAME" Language="zh_Hans_CN">

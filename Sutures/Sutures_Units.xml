@@ -11,6 +11,7 @@
 		<Row Type="UNIT_TANK_PRO_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_DIGGER_Sutures" Kind="KIND_UNIT"/>
 		<Row Type="UNIT_Wolf_Warrior_Sutures" Kind="KIND_UNIT"/>
+		<Row Type="UNIT_BOMBER_Sutures" Kind="KIND_UNIT"/>
 
 		<Row Type="ABILITY_GAESATAE_Sutures" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_SEE_THROUGH_FEATURES_Sutures" Kind="KIND_ABILITY"/>
@@ -79,6 +80,9 @@
 
 		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_ALL_ERAS"/>
 		<Row Type="UNIT_Wolf_Warrior_Sutures" Tag="CLASS_Wolf_Warrior"/>
+
+		<Row Type="UNIT_BOMBER_Sutures" Tag="CLASS_AIRCRAFT"/>
+		<Row Type="UNIT_BOMBER_Sutures" Tag="CLASS_AIR_BOMBER"/>
 	</TypeTags>
 	<UnitAiInfos>
 		<Row UnitType="UNIT_GuardOfHonour" AiType="UNITAI_EXPLORE"/>
@@ -127,6 +131,10 @@
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITAI_EXPLORE"/>
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITTYPE_MELEE"/>
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" AiType="UNITTYPE_LAND_COMBAT"/>
+
+		<Row UnitType="UNIT_BOMBER_Sutures" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BOMBER_Sutures" AiType="UNITTYPE_NUCLEAR"/>
+		<Row UnitType="UNIT_BOMBER_Sutures" AiType="UNITTYPE_AIR_SIEGE"/>
 	</UnitAiInfos>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_GAESATAE_Sutures" Name="LOC_ABILITY_GAESATAE_Sutures_NAME" Description="LOC_ABILITYGAESATAE_Sutures_DESCRIPTION"/>
@@ -304,6 +312,7 @@
 			PrereqPopulation="7"
 			ImmediatelyName="true"
 			MustPurchase="true"
+			AirSlots="1"
 			Combat="25"/>
 		<Row
 			UnitType="UNIT_TANK_PRO_Sutures"
@@ -324,6 +333,31 @@
 			PrereqTech="TECH_COMPOSITES"
 			TraitType="TRAIT_CIVILIZATION_UNIT_TANK_PRO_Sutures"
 			/>
+		<Row 
+			UnitType="UNIT_BOMBER_Sutures" 
+			Cost="5600000" 
+			Maintenance="1" 
+			BaseMoves="10" 
+			BaseSightRange="8" 
+			ZoneOfControl="false" 
+			Domain="DOMAIN_AIR" 
+			Combat="10" 
+			Bombard="10" 
+			Range="10" 
+			FormationClass="FORMATION_CLASS_AIR" 
+			PromotionClass="PROMOTION_CLASS_AIR_BOMBER" 
+			AdvisorType="ADVISOR_CONQUEST" 
+			Name="LOC_UNIT_BOMBER_Sutures_NAME" 
+			Description="LOC_UNIT_BOMBER_Sutures_DESCRIPTION" 
+			PurchaseYield="YIELD_GOLD" 
+			PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" 
+			IgnoreMoves="true" 
+			Stackable="TRUE" 
+			PrereqDistrict="DISTRICT_AERODROME" 
+			CanTargetAir="TRUE" 
+			CanTrain="false"
+			WMDCapable="true"
+			/>
 	</Units>
 
 	<Units_Presentation>
@@ -339,6 +373,7 @@
 		<Row Unit="UNIT_POLISH_HUSSAR_Sutures" UpgradeUnit="UNIT_TANK"/>
 		<Row Unit="UNIT_TANK_Sutures" UpgradeUnit="UNIT_MODERN_ARMOR"/>
 		<Row Unit="UNIT_DIGGER_Sutures" UpgradeUnit="UNIT_MECHANIZED_INFANTRY"/>
+		<Row Unit="UNIT_BOMBER_Sutures" UpgradeUnit="UNIT_BOMBER"/>
 	</UnitUpgrades>
 	<UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_GuardOfHonour" ReplacesUnitType="UNIT_SCOUT"/>
@@ -358,6 +393,11 @@
 		<Row UnitType="UNIT_TANK_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_TANK_PRO_Sutures" ResourceCost="1" ResourceMaintenanceType="RESOURCE_OIL" ResourceMaintenanceAmount="1"/>
 		<Row UnitType="UNIT_Wolf_Warrior_Sutures" CanFormMilitaryFormation="false"/>
+		<Row
+			 UnitType="UNIT_BOMBER_Sutures"
+			 CanEarnExperience="false"
+			 CanFormMilitaryFormation="false"
+			 MajorCivOnly="true"/>
 	</Units_XP2>
 
 	<UnitRetreats_XP1>
